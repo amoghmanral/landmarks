@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landmark Explorer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .score-bar { transition: width 0.3s ease; }
+        .tab-active { border-bottom: 2px solid #3b82f6; color: #3b82f6; }
+    </style>
+</head>
+<body class="bg-gray-100 min-h-screen">
+    <div class="container mx-auto px-4 py-8 max-w-4xl">
+        <h1 class="text-3xl font-bold text-center mb-8 text-gray-800">Landmark Explorer</h1>
+
+        <!-- Tabs -->
+        <div class="flex border-b mb-6">
+            <button id="tab-upload" onclick="switchTab('upload')" class="px-6 py-3 font-medium tab-active">
+                Upload Image
+            </button>
+            <button id="tab-search" onclick="switchTab('search')" class="px-6 py-3 font-medium text-gray-500">
+                Search by Description
+            </button>
+        </div>
+
+        <!-- Upload Tab -->
+        <div id="panel-upload" class="bg-white rounded-lg shadow p-6">
+            <div id="upload-area" class="border-2 border-dashed border-gray-300 rounded-lg p-8 text-center cursor-pointer hover:border-blue-400 transition">
+                <input type="file" id="file-input" accept="image/*" class="hidden" onchange="handleFileSelect(event)">
+                <div id="upload-placeholder">
+                    <svg class="mx-auto h-12 w-12 text-gray-400" stroke="currentColor" fill="none" viewBox="0 0 48 48">
+                        <path d="M28 8H12a4 4 0 00-4 4v20m32-12v8m0 0v8a4 4 0 01-4 4H12a4 4 0 01-4-4v-4m32-4l-3.172-3.172a4 4 0 00-5.656 0L28 28M8 32l9.172-9.172a4 4 0 015.656 0L28 28m0 0l4 4m4-24h8m-4-4v8m-12 4h.02" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <p class="mt-2 text-gray-600">Click or drag an image here</p>
+                </div>
+                <img id="preview-img" class="hidden max-h-64 mx-auto rounded" alt="Preview">
+            </div>
+            <button onclick="classifyImage()" class="mt-4 w-full bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-600 transition disabled:opacity-50" id="classify-btn" disabled>
+                Classify Landmark
+            </button>
+        </div>
+
+        <!-- Search Tab -->
+        <div id="panel-search" class="bg-white rounded-lg shadow p-6 hidden">
+            <div class="flex gap-2">
+                <input type="text" id="search-input" placeholder="Describe a landmark... (e.g., 'ancient temple with stone carvings')"
+                    class="flex-1 border rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400"
+                    onkeydown="if(event.key==='Enter') searchLandmarks()">
+                <button onclick="searchLandmarks()" class="bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-600 transition">
+                    Search
+                </button>
+            </div>
+        </div>
+
+        <!-- Results -->
+        <div id="results" class="mt-6 space-y-3"></div>
+
+        <!-- Loading -->
+        <div id="loading" class="hidden mt-6 text-center">
+            <div class="inline-block animate-spin rounded-full h-8 w-8 border-4 border-blue-500 border-t-transparent"></div>
+            <p class="mt-2 text-gray-600">Processing...</p>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div id="modal" class="fixed inset-0 bg-black bg-opacity-50 hidden items-center justify-center z-50" onclick="closeModal(event)">
+        <div class="bg-white rounded-lg max-w-4xl max-h-[90vh] overflow-hidden m-4" onclick="event.stopPropagation()">
+            <div class="p-4 border-b flex justify-between items-center">
+                <h2 id="modal-title" class="text-xl font-bold"></h2>
+                <button onclick="closeModal()" class="text-gray-500 hover:text-gray-700 text-2xl">&times;</button>
+            </div>
+            <div class="p-4 overflow-y-auto max-h-[calc(90vh-120px)]">
+                <div id="modal-images" class="grid grid-cols-2 md:grid-cols-3 gap-3"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let selectedFile = null;
+
+        function switchTab(tab) {
+            document.getElementById('panel-upload').classList.toggle('hidden', tab !== 'upload');
+            document.getElementById('panel-search').classList.toggle('hidden', tab !== 'search');
+            document.getElementById('tab-upload').classList.toggle('tab-active', tab === 'upload');
+            document.getElementById('tab-search').classList.toggle('tab-active', tab === 'search');
+            document.getElementById('tab-upload').classList.toggle('text-gray-500', tab !== 'upload');
+            document.getElementById('tab-search').classList.toggle('text-gray-500', tab !== 'search');
+            document.getElementById('results').innerHTML = '';
+        }
+
+        // File upload handling
+        const uploadArea = document.getElementById('upload-area');
+        const fileInput = document.getElementById('file-input');
+
+        uploadArea.onclick = () => fileInput.click();
+        uploadArea.ondragover = (e) => { e.preventDefault(); uploadArea.classList.add('border-blue-400'); };
+        uploadArea.ondragleave = () => uploadArea.classList.remove('border-blue-400');
+        uploadArea.ondrop = (e) => {
+            e.preventDefault();
+            uploadArea.classList.remove('border-blue-400');
+            if (e.dataTransfer.files.length) handleFile(e.dataTransfer.files[0]);
+        };
+
+        function handleFileSelect(e) {
+            if (e.target.files.length) handleFile(e.target.files[0]);
+        }
+
+        function handleFile(file) {
+            if (!file.type.startsWith('image/')) return alert('Please select an image file');
+            selectedFile = file;
+            const reader = new FileReader();
+            reader.onload = (e) => {
+                document.getElementById('preview-img').src = e.target.result;
+                document.getElementById('preview-img').classList.remove('hidden');
+                document.getElementById('upload-placeholder').classList.add('hidden');
+                document.getElementById('classify-btn').disabled = false;
+            };
+            reader.readAsDataURL(file);
+        }
+
+        async function classifyImage() {
+            if (!selectedFile) return;
+            showLoading(true);
+            const formData = new FormData();
+            formData.append('file', selectedFile);
+
+            try {
+                const res = await fetch('/api/classify?top_k=5', { method: 'POST', body: formData });
+                const data = await res.json();
+                displayClassifyResults(data.results, data.similar);
+            } catch (err) {
+                alert('Error: ' + err.message);
+            }
+            showLoading(false);
+        }
+
+        async function searchLandmarks() {
+            const query = document.getElementById('search-input').value.trim();
+            if (!query) return;
+            showLoading(true);
+
+            try {
+                const res = await fetch('/api/search', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ query, top_k: 5 })
+                });
+                const data = await res.json();
+                displayResults(data.results, 'score');
+            } catch (err) {
+                alert('Error: ' + err.message);
+            }
+            showLoading(false);
+        }
+
+        function displayResults(results, scoreKey) {
+            const container = document.getElementById('results');
+            if (!results.length) {
+                container.innerHTML = '<p class="text-center text-gray-500">No results found</p>';
+                return;
+            }
+
+            const maxScore = Math.max(...results.map(r => r[scoreKey]));
+            container.innerHTML = results.map((r, i) => `
+                <div class="bg-white rounded-lg shadow p-4 cursor-pointer hover:shadow-md transition" onclick="openModal('${r.landmark.replace(/'/g, "\\'")}')">
+                    <div class="flex justify-between items-center mb-2">
+                        <span class="font-medium text-gray-800">${i + 1}. ${r.landmark}</span>
+                        <span class="text-sm text-gray-500">${(r[scoreKey] * 100).toFixed(1)}%</span>
+                    </div>
+                    <div class="h-2 bg-gray-200 rounded-full overflow-hidden">
+                        <div class="h-full bg-blue-500 score-bar" style="width: ${(r[scoreKey] / maxScore) * 100}%"></div>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function displayClassifyResults(results, similar) {
+            const container = document.getElementById('results');
+            if (!results.length) {
+                container.innerHTML = '<p class="text-center text-gray-500">No results found</p>';
+                return;
+            }
+
+            const top = results[0];
+            let html = `
+                <div class="bg-white rounded-lg shadow p-5 cursor-pointer hover:shadow-md transition" onclick="openModal('${top.landmark.replace(/'/g, "\\'")}')">
+                    <p class="text-sm text-gray-500 mb-1">Best Match</p>
+                    <h2 class="text-xl font-bold text-gray-800">${top.landmark}</h2>
+                    <p class="text-sm text-blue-600 mt-1">${(top.confidence * 100).toFixed(1)}% confidence</p>
+                </div>
+            `;
+
+            if (similar && similar.length) {
+                html += '<h3 class="text-lg font-semibold text-gray-700 mt-6 mb-3">Similar Landmarks</h3>';
+                html += similar.map((r) => `
+                    <div class="bg-gray-50 rounded-lg shadow-sm p-3 cursor-pointer hover:shadow transition" onclick="openModal('${r.landmark.replace(/'/g, "\\'")}')">
+                        <div class="flex justify-between items-center">
+                            <span class="text-gray-700">${r.landmark}</span>
+                            <span class="text-xs text-gray-400">${(r.score * 100).toFixed(1)}% similar</span>
+                        </div>
+                    </div>
+                `).join('');
+            }
+
+            container.innerHTML = html;
+        }
+
+        async function openModal(landmark) {
+            document.getElementById('modal-title').textContent = landmark;
+            document.getElementById('modal-images').innerHTML = '<p class="col-span-3 text-center text-gray-500">Loading images...</p>';
+            document.getElementById('modal').classList.remove('hidden');
+            document.getElementById('modal').classList.add('flex');
+
+            try {
+                const res = await fetch(`/api/landmark/${encodeURIComponent(landmark)}/images`);
+                const data = await res.json();
+
+                document.getElementById('modal-images').innerHTML = data.images.slice(0, 12).map(img => `
+                    <img src="/${img}" class="w-full h-32 object-cover rounded cursor-pointer hover:opacity-80"
+                         onclick="window.open('/${img}', '_blank')" alt="${landmark}">
+                `).join('') || '<p class="col-span-3 text-center text-gray-500">No images available</p>';
+            } catch (err) {
+                document.getElementById('modal-images').innerHTML = '<p class="col-span-3 text-center text-red-500">Error loading data</p>';
+            }
+        }
+
+        function closeModal(event) {
+            if (!event || event.target === document.getElementById('modal')) {
+                document.getElementById('modal').classList.add('hidden');
+                document.getElementById('modal').classList.remove('flex');
+            }
+        }
+
+        function showLoading(show) {
+            document.getElementById('loading').classList.toggle('hidden', !show);
+            document.getElementById('results').classList.toggle('hidden', show);
+        }
+
+        // Close modal on Escape
+        document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeModal(); });
+    </script>
+</body>
+</html>

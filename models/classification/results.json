@@ -1,0 +1,19 @@
+{
+  "best_val_acc": 0.8237071263550737,
+  "test_acc": 0.832089552238806,
+  "test_loss": 1.0555598642610877,
+  "epochs_trained": 44,
+  "config": {
+    "clip_model": "openai/clip-vit-base-patch32",
+    "embedding_dim": 512,
+    "hidden_dims": [
+      1024,
+      512
+    ],
+    "num_classes": 938,
+    "dropout": 0.3,
+    "learning_rate": 0.001,
+    "batch_size": 256,
+    "num_augmentations": 3
+  }
+}

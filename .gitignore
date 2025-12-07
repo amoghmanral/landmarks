@@ -1,0 +1,19 @@
+# Data
+data/landmark_images/
+data/wikipedia_context/
+
+# Cache
+cache/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/

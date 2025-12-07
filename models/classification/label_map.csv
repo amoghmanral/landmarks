@@ -1,0 +1,939 @@
+landmark_idx,landmark_name
+0,Minaret of Jam
+1,Old City of Kabul
+2,M'Zab Valley
+3,Djémila
+4,Al Qal'a of Beni Hammad
+5,Casbah of Algiers
+6,Tassili n'Ajjer
+7,Ofu and Olosega
+8,Los Glaciares National Park
+9,La Boca District
+10,Christ of the Andes
+11,Road of the Seven Lakes
+12,Beagle Channel
+13,Fortress of Amberd
+14,Great Barrier Reef
+15,Ayers Rock/ Uluru
+16,Sydney Opera House
+17,Kakadu National Park
+18,Whitehaven Beach / Island
+19,Lord Howe Island Group
+20,Bungle Bungle Range
+21,Great Ocean Road
+22,Indian Pacific Railroad
+23,Kings Canyon
+24,Sydney Harbour
+25,Olgas / Kata Tjuta
+26,Red crabs migration
+27,Norfolk Island
+28,Palace and Gardens of Schönbrunn
+29,Historic Centre of the City of Salzburg
+30,Belvedere Palace
+31,Hofburg Palace
+32,Kunsthistorisches Museum
+33,Spanish Riding School
+34,"St Stephen's Cathedral, Vienna"
+35,Vienna State Opera House
+36,Eisriesenwelt Caves
+37,Grossglockner Alpine Road
+38,Melk Abbey Church
+39,Danube Cruise
+40,Palace of the Shirvanshahs
+41,Gobustan Rock Art Cultural Landscape
+42,Paradise Island
+43,Historic Bridgetown and its Garrison
+44,Grand Place
+45,Brugge
+46,Ghent
+47,Notre-Dame Cathedral in Tournai
+48,Ardennes
+49,Royal Museums of Fine Arts of Belgium
+50,Belize Barrier Reef Reserve
+51,Great Blue Hole
+52,Caracol
+53,Xunantunich
+54,Ganvie Stilt Village
+55,Horseshoe Bay Beach
+56,Taktsang Monastery / Tiger's Nest
+57,Bhutan Mountain Treks
+58,Punakha Dzong
+59,Trongsa Dzong
+60,Tiwanaku
+61,Salar de Uyuni
+62,Lake Titicaca
+63,Okavango Delta and Moremi Wildlife Reserve
+64,Chobe National Park
+65,Rio de Janeiro
+66,Rio Carnival
+67,Salvador de Bahia
+68,Brasilia
+69,Fernando de Noronha
+70,Christ the Redeemer Statue
+71,Copacabana Beach
+72,Ipanema Beach
+73,Niterói Contemporary Art Museum
+74,Sugarloaf Mountain
+75,Amazon Theatre
+76,Iguazu Falls
+77,Amazon Rainforest
+78,The Baths
+79,Rock-Hewn Churches of Ivanovo
+80,Rila Monastery
+81,Angkor Wat
+82,Angkor Thom
+83,"Silver Pagoda, Phnom Penh"
+84,Phnom Bakheng
+85,Ta Prohm
+86,Waza National Park
+87,Banff National Park
+88,CN Tower
+89,Old Québec
+90,Lunenburg
+91,Canadian Rocky Mountain Parks
+92,Baffin Island
+93,Bay of Fundy
+94,Cabot Trail
+95,Louisbourg Fortress
+96,Perce Rock
+97,Niagara Falls
+98,Stingray City
+99,Easter Island
+100,Torres del Paine National Park
+101,Osorno Volcano
+102,Portillo
+103,Great Wall of China
+104,Mausoleum of the First Qin Emperor & Terra Cotta Warriors
+105,"Potala Palace, Lhasa"
+106,Old Town of Lijiang
+107,Hong Kong (Victoria) Harbour
+108,Hong Kong City
+109,Yangtze River Cruise
+110,Li River Cruise
+111,Shenyang Imperial Palace
+112,Forbidden City
+113,Classical Gardens of Suzhou
+114,Canals of Suzhou
+115,"Summer Palace, an Imperial Garden"
+116,Temple of Heaven
+117,Dazu Rock Carvings
+118,Honghe Hani Rice Terraces
+119,Yonghe - Lama Temple
+120,Pudong Skylines
+121,Shanghai Museum
+122,Leshan Giant Buddha
+123,Shibaozhai Pagoda
+124,Jokhang Tample
+125,Hanging Monastery
+126,Longsheng Rice Terrace
+127,Three Gorges Dam
+128,Mount Tai
+129,Mogao Caves
+130,Mount Huangshan
+131,Jiuzhaigou Valley
+132,Huanglong Valley
+133,Wulingyuan
+134,Chengde Mountain Resort
+135,Wudang Ancient Complex
+136,Ancient City of Pingyao
+137,Longmen Grottoes
+138,Yungang Grottoes
+139,South China Karst (Stone Forest)
+140,Tiananmen Square
+141,Tian Tan Buddha
+142,The Bund
+143,Jade Buddha Temple
+144,Old City of Shanghai
+145,Giant Wild Goose Pagoda
+146,Fortifications of Xi'an
+147,Ganden Monastery
+148,Sera Monastery
+149,Three Pagodas of Chongsheng Temple (Dali)
+150,Tiger Leaping Gorge
+151,Xishuangbanna Dai Villages
+152,Jiayuguan Fort
+153,Kaifeng
+154,Labrang Monastery
+155,Reed Flute Cave
+156,Chengyang Bridge
+157,Slender West Lake
+158,Yangshuo County
+159,Tashi Lhunpo Monastery
+160,Baishuitai Terraces
+161,Silk Road
+162,Mount Everest
+163,San Agustín Archaeological Park
+164,Cartagena
+165,Salt Cathedral of Zipaquirá
+166,Aitutaki Island
+167,Arenal Volcano National Park
+168,Corcovado National Park
+169,Monteverde Cloud Forest
+170,Manuel Antonio National Park
+171,Old City of Dubrovnik
+172,Palace of Diocletian
+173,Plitvice Lakes National Park
+174,Trogir
+175,"Stari Grad, Hvar"
+176,Castillo de San Pedro de la Roca
+177,Old Havana
+178,Paphos
+179,Old Town Prague
+180,Cesky Krumlov
+181,Kutná Hora
+182,Holy Trinity Column in Olomouc
+183,Charles Bridge
+184,Karlovy Vary
+185,Marienbad
+186,Virunga National Park
+187,Garamba National Park
+188,Kahuzi-Biega National Park
+189,Okapi Wildlife Reserve
+190,The Old Town in Aarhus
+191,Egeskov Castle
+192,Frederiksborg Castle
+193,Little Mermaid Statue
+194,Møns Klint
+195,Nyhavn
+196,Tivoli Gardens
+197,Galápagos Islands
+198,The Church of the Society of Jesus
+199,Otavalo Market
+200,Giza pyramid complex
+201,Valley of the Kings - Theban Necropolis
+202,Karnak
+203,Abu Simbel
+204,Egyptian Museum
+205,Nile River Cruise
+206,Mortuary Temple of Hatshepsut
+207,Luxor Temple
+208,Great Sphinx of Giza
+209,Edfu Temple
+210,Kom Ombo Temple
+211,Suez Canal
+212,Colossi of Memnon
+213,Saint Catherine's Monastery
+214,Saladin Citadel of Cairo
+215,City of the Dead
+216,Step Pyramid of Djoser
+217,Philae Temple Complex
+218,Ras Muhammad National Park
+219,Siwa Oasis
+220,Farafra - White Desert
+221,Tallinn Old Town
+222,Fasil Ghebbi
+223,Blue Nile Falls
+224,Yasawa Islands
+225,Lapland
+226,Karelia's Lakes
+227,Mont Saint-Michel
+228,Chartres Cathedral
+229,Palace and Park of Versailles
+230,Eiffel Tower
+231,Louvre
+232,Château de Chambord
+233,Palace of Fontainebleau
+234,Amiens Cathedral
+235,Historic Centre of Avignon
+236,Pont du Gard
+237,Reims Cathedral
+238,The Loire Valley between Sully-sur-Loire and Chalonnes
+239,Musée d'Orsay
+240,Notre Dame de Paris
+241,Opéra Garnier
+242,Sainte-Chapelle
+243,Château de Chenonceau
+244,Millau Bridge
+245,Roman Theatre of Orange
+246,Grande île (Strasbourg)
+247,New Caledonian Barrier Reef
+248,Arc de Triomphe
+249,Centre Pompidou
+250,Château du Haut-Koenigsbourg
+251,Strasbourg Old Town
+252,Riquewihr
+253,"Bonifacio, Corse-du-Sud"
+254,Dordogne - Black Périgord
+255,Maison Carrée
+256,Arena of Nîmes
+257,Honfleur Harbor
+258,Verdon Gorge
+259,Le Puy-en-Velay
+260,Lourdes
+261,Bora Bora
+262,Moorea
+263,Fatu Hiva
+264,Upper Svaneti
+265,Gelati Monastery
+266,Neuschwanstein Castle
+267,Cologne Cathedral
+268,Upper Middle Rhine Valley
+269,Kunstareal
+270,Maulbronn Monastery
+271,Goslar Old Town
+272,Town of Bamberg
+273,Museum Island
+274,Deutsches Museum
+275,Staatliches Hofbräuhaus
+276,Nymphenburg Palace
+277,Oktoberfest
+278,Munich Residenz
+279,Berchtesgaden
+280,Garmisch-Partenkirchen
+281,Romantic Road
+282,Rothenburg ob der Tauber
+283,Reichstag
+284,Heidelberg Castle
+285,Mosel Valley
+286,Zwinger of Dresden
+287,Munich Frauenkirche
+288,Delphi
+289,Acropolis of Athens
+290,Santorini
+291,Meteora Monasteries
+292,Epidaurus
+293,Olympia
+294,Acropolis Museum
+295,"National Archaeological Museum, Athens"
+296,Mount Athos
+297,Rhodes Old Town
+298,Delos
+299,Mycenae
+300,Old Town of Corfu
+301,Temple of Hephaestus
+302,Theatre of Dionysus
+303,Knossos Palace
+304,Lindos Acropolis
+305,The Caves of Matala
+306,Mykonos
+307,Paros
+308,Samariá Gorge
+309,Temple of Poseidon at Cape Sounion
+310,Tikal National Park
+311,Antigua Guatemala
+312,Chichicastenango
+313,Lake Atitlán
+314,Semuc Champey
+315,Devil's Island
+316,Kaieteur Falls
+317,Citadelle Laferrière
+318,Copan
+319,Budapest Old Town
+320,Gullfoss
+321,Thingvellir National Park
+322,Blue Lagoon
+323,Geysir
+324,Jökulsárlón
+325,Mývatn
+326,Vatnajokull
+327,Taj Mahal
+328,Harmandir Sahib
+329,Kashmir Valley
+330,Ladakh
+331,Meenakshi Amman Temple
+332,Dashashwamedh Ghat
+333,Red Fort Complex
+334,Qutb Minar
+335,Khajuraho
+336,Ajanta Caves
+337,Ellora Caves
+338,Agra Fort
+339,Fatehpur Sikri
+340,Amer Fort
+341,"City Palace, Udaipur"
+342,Darjeeling
+343,Jama Masjid in Delhi
+344,Ekambareswarar Temple
+345,Kerala Backwaters
+346,Lake Palace
+347,Lotus Temple
+348,Thalay Sagar
+349,Humayun's Tomb
+350,Old Goa
+351,Hampi
+352,Elephanta Caves
+353,Mahabodhi Temple
+354,"Jantar Mantar, Jaipur"
+355,Andaman Islands
+356,Brihadeeswarar Temple
+357,Chand Baori
+358,Gateway To India
+359,Girnar Jain temples
+360,Gommateshwara Statue
+361,Gwalior Fort
+362,Indian Museum
+363,Jantar Mantar Observatory
+364,Lakshadweep Islands
+365,Mehrangarh Fort
+366,Mysore Palace
+367,Palace of the Winds
+368,Calcutta Jain Temple
+369,Ramanathaswamy Temple
+370,Sikkim
+371,"Venkateswara Temple, Tirumala"
+372,Hill Forts of Rajasthan
+373,Mahabalipuram
+374,Borobudur
+375,Bali
+376,Prambanan Temple
+377,Komodo National Park
+378,Raja Ampat Islands
+379,Krakatau Island
+380,Lombok
+381,"Manado Marine Park, Sulawesi"
+382,Samosir Island
+383,Taman Mini Indonesia Indah
+384,Tanah Lot Temple
+385,Pura Ulun Danu Bratan
+386,Uluwatu Temple
+387,Toraja villages
+388,Jameh Mosque and Square of Isfahan
+389,Persepolis
+390,Iranian Crown Jewels
+391,Hatra
+392,Babylon
+393,Shorja
+394,National Museum of Iraq
+395,Wadi-us-Salaam
+396,Ziggurat of Ur
+397,Cliffs of Moher
+398,Newgrange
+399,Skellig Michael
+400,Aran Islands
+401,Blarney Castle
+402,Dingle Peninsula
+403,Ring of Kerry
+404,Rock of Cashel
+405,Trinity College Library
+406,Old City of Jerusalem
+407,Masada
+408,Dead Sea
+409,Temple Mount
+410,Church of the Holy Sepulchre
+411,Colosseum
+412,Historic Centre of Florence
+413,Venice
+414,Piazza dei Miracoli & Tower of Pisa
+415,Pompei
+416,Amalfi Coast
+417,Portofino
+418,St Mark's Basilica
+419,Uffizi
+420,Medici Villas and Gardens in Tuscany
+421,San Gimignano
+422,Historic Centre of Siena
+423,Cinque Terre
+424,Borghese Gallery
+425,Catacomb of Callixtus
+426,Italian Lake District
+427,"Pantheon, Rome"
+428,Palazzo Pitti
+429,Roman Forum
+430,Santa Maria delle Grazie (Milan)
+431,Alberobello's Trulli
+432,Herculaneum
+433,Valle dei Templi
+434,Paestum
+435,Assisi
+436,Villa d'Este
+437,Ancient Syracuse
+438,Mount Etna
+439,Gallery of the Academy of Florence
+440,Bargello
+441,Bergamo Upper Town
+442,Capri
+443,Castel Sant'Angelo
+444,Doges' Palace
+445,La Scala
+446,Medici Chapels
+447,Milan Cathedral
+448,Mount Vesuvius
+449,"San Marco, Florence"
+450,Orvieto
+451,Ostia Antica
+452,Piazza della Signoria
+453,Ponte Vecchio
+454,Positano
+455,Basilica of Sts. Vitalis
+456,Spanish Steps
+457,Piazza San Marco
+458,Taormina
+459,Trevi Fountain
+460,Basilica of Our Lady of Peace
+461,Dunn's River Falls
+462,Kinkaku-ji - Golden Pavilion
+463,Himeji-jo
+464,Kyoto
+465,Nara
+466,Shrines and Temples of Nikko
+467,Mount Fuji
+468,The Great Buddha of Kamakura
+469,Horyu-ji Temple
+470,Asakusa Shrine
+471,Byodo-in
+472,Chion-in Temple
+473,Fushimi Inari-taisha
+474,Kasuga-taisha
+475,Kiyomizu-dera
+476,Kyoto National Museum
+477,Nijo Castle
+478,Nishi Honganji
+479,Osaka Castle
+480,Ryoan-ji
+481,Sanjusangen-do
+482,Shibuya at night
+483,Todai-ji
+484,Tsukiji fish market
+485,Tokyo National Museum
+486,Ushiku Great Buddha
+487,Arashiyama Bamboo Forest
+488,Petra
+489,Quseir Amra
+490,Wadi Rum
+491,Jerash
+492,Madaba Mosaics
+493,Mount Kenya National Park
+494,Lamu Old Town
+495,Great Rift Valley
+496,Amboseli National Park
+497,Meru National Park
+498,Nairobi National Park
+499,Thompson's Falls
+500,Treetops Hotel
+501,Tsavo National Park
+502,Issyk Kul Lake
+503,Luang Prabang
+504,Plain of Jars
+505,That Luang
+506,Baalbek
+507,Byblos
+508,Tyre
+509,Corniche Beirut
+510,Jeita Grotto
+511,Sidon Old Town
+512,Leptis Magna
+513,Sabratha
+514,Cyrene
+515,Rock-Art Sites of Tadrart Acacus
+516,Old Town of Ghadamès
+517,Red Castle Museum
+518,Tripoli Medina Quarter
+519,Vilnius Old Town
+520,Luxembourg Old Town
+521,Ohrid
+522,Masoala National Park
+523,Ranomafana National Park
+524,Lake Malawi National Park
+525,Petronas Towers
+526,Sipadan Island
+527,George Town
+528,Batu Caves
+529,Djenné Old Town
+530,Timbuktu
+531,Bandiagara Escarpment
+532,Mount Hombori
+533,Grand Mosque of Mopti
+534,Valletta
+535,Hagar Qim
+536,Mdina
+537,"Victoria, Gozo"
+538,Ancient Chinguetti
+539,Chichen Itza
+540,Teotihuacan
+541,Palenque
+542,Monte Albán
+543,Uxmal
+544,Calakmul
+545,San Miguel de Allende
+546,Mitla
+547,Acapulco
+548,Copper Canyon
+549,National Museum of Anthropology
+550,Parque-Museo La Venta
+551,Taxco
+552,Nan Madol
+553,Monaco Grand Prix
+554,Monte Carlo Casino
+555,Khövsgöl Nuur
+556,Kotor
+557,Marrakesh Medina
+558,Fez Medina
+559,Meknes
+560,Medina of Tétouan
+561,Tangiers Medina
+562,Ouarzazate
+563,Island of Mozambique
+564,Bagan
+565,Shwedagon Pagoda
+566,Kuthodaw Pagoda
+567,Mount Popa
+568,Inle Lake
+569,Mandalay Palace
+570,Monywa
+571,Mergui Archipelago
+572,Shwenandaw Monastery
+573,Namib Desert
+574,Etosha National Park
+575,Fish River Canyon
+576,Skeleton Coast
+577,Kathmandu Valley
+578,Lumbini
+579,Sagarmatha National Park
+580,Canals of Amsterdam
+581,Aalsmeer Flower Auction
+582,Keukenhof Gardens
+583,Rijksmuseum
+584,Madurodam Miniature Park
+585,Royal Palace of Amsterdam
+586,Alkmaar Cheese Market
+587,New Caledonia Island
+588,Fiordland National Park
+589,Poor Knights Islands
+590,Rotorua Geothermal Area
+591,Waitomo Caves
+592,Kaesong Old Town
+593,Mount Kumgang
+594,West Norwegian Fjords - Geirangerfjord and Nærøyfjord
+595,Spitsbergen / Svalbard
+596,Urnes Stave Church
+597,Bryggen
+598,Akershus Fortress
+599,National Gallery of Norway
+600,Bahla Fort
+601,Musandam fjord cruise
+602,Sultan Qaboos Grand Mosque
+603,Archaeological Ruins at Moenjodaro
+604,Taxila
+605,Fort and Shalamar Gardens in Lahore
+606,Rohtas Fort
+607,Badshahi Mosque
+608,Tomb of Jahangir
+609,Hunza Valley
+610,K2 Mountain
+611,Khyber Pass
+612,Panama Canal
+613,Sepik River
+614,Wuvulu Island
+615,Machu Picchu
+616,City of Cuzco
+617,Nazca Lines
+618,Chavin de Huantar
+619,Chan Chan
+620,Banaue Rice Terraces
+621,Puerto Princesa Undeground River
+622,Tubbataha Reefs Natural Park
+623,Chocolate Hills
+624,Mayon Volcano
+625,Pamalican Island
+626,Taal Volcano
+627,Wieliczka Salt Mine
+628,Kraków Old Town
+629,Warsaw Old Town
+630,Old City of Zamosc
+631,Malbork Castle
+632,Gdansk Old Town
+633,Lublin Old Town
+634,Wawel Castle
+635,Sintra
+636,Angra do Heroismo in the Azores
+637,Belém Tower
+638,Jerónimos Monastery
+639,Historic Centre of Évora
+640,Alcobaça Monastery
+641,Historic Centre of Porto
+642,Douro Valley
+643,Landscape of the Pico Island Vineyard Culture
+644,Alfama
+645,Algarve Coast
+646,Madeira Islands
+647,Obidos Castle & Village
+648,Palace of Queluz
+649,São Jorge Castle
+650,Bulguksa
+651,Seokguram
+652,Haeinsa Temple
+653,Jongmyo Shrine
+654,Changdeokgung Palace
+655,Gyeongbokgung
+656,Seoraksan
+657,Beopjusa
+658,Maldive Islands
+659,Villages with Fortified Churches in Transylvania
+660,Southern Carpathians - Transylvanian Alps
+661,Hermitage Museum
+662,Moscow Kremlin
+663,St Basil's Cathedral
+664,Catherine Palace
+665,Church of the Savior on Blood
+666,Peterhof Palace
+667,Saint Petersburg Center
+668,Kizhi Pogost
+669,Veliky Novgorod
+670,White Monuments of Vladimir and Suzdal
+671,Trinity Lavra of St. Sergius
+672,Lake Baikal
+673,Volcanoes of Kamchatka
+674,Valley of Geysers
+675,Historical Centre of the City of Yaroslavl
+676,Mayakovskaya Metro Station
+677,Peter and Paul Fortress
+678,Trans-Siberian Railroad Trip
+679,Volga River Cruise
+680,Volcanoes National Park
+681,Saba Airport
+682,Gustavia
+683,Pitons
+684,Upolu
+685,San Marino
+686,Mecca
+687,Mada'in Saleh
+688,Jeddah Old Town
+689,Hejaz Railway
+690,Medina
+691,Island of Gorée
+692,African Renaissance Monument
+693,Aldabra Atoll
+694,Vallée de Mai Nature Reserve
+695,Marina Bay Sands
+696,Vlkolínec
+697,Skocjan Caves
+698,Lake Bled
+699,Kruger National Park
+700,Table Mountain National Park
+701,Cape Town
+702,Drakensberg
+703,Kimberley Hole
+704,Panoramic Route
+705,Phinda Private Game Reserve
+706,The Mosque-Cathedral of Córdoba
+707,Alhambra
+708,El Escorial
+709,Guggenheim Museum Bilbao
+710,Museo del Prado
+711,Aqueduct of Segovia
+712,Alcázar of Segovia
+713,Burgos Cathedral
+714,Sagrada Família
+715,Old Town of Santiago de Compostela
+716,The Walls of Ávila
+717,Old Town of Toledo
+718,Old City of Salamanca
+719,Seville Cathedral & Giralda Tower
+720,Alcázar of Seville
+721,Ibiza
+722,Town of Cuenca
+723,Ronda
+724,Canary Islands
+725,Costa del Sol
+726,Barcelona Gothic Quarter
+727,Plaza Mayor of Madrid
+728,Pamplona
+729,Royal Palace of Madrid
+730,Sigiriya
+731,Anuradhapura
+732,Kandy
+733,Dambulla Cave Temple
+734,Jebel Barkal
+735,Archaeological Sites of the Island of Meroe
+736,Old Town of Khartoum
+737,Drottningholm Palace
+738,Hanseatic Town of Visby
+739,Laponian Area
+740,Kalmar Castle
+741,Swedish History Museum
+742,Skansen
+743,Stockholm Archipelago
+744,Gamla stan
+745,Matterhorn
+746,Old City of Berne
+747,Chillon Castle
+748,Fribourg Old Town
+749,Gstaad
+750,Jungfrau Railway
+751,Lucerne Covered Bridges
+752,Palace of Nations
+753,Thun Castle
+754,Altstadt (Zürich)
+755,Damascus Old City
+756,Palmyra
+757,Ancient City of Aleppo
+758,Bosra Amphitheatre
+759,Krak des Chevaliers
+760,Apamea
+761,Norias of Hama
+762,Ma'loula
+763,Qanawat Roman Ruins
+764,Serengeti National Park
+765,Ngorongoro Conservation Area
+766,Stone Town
+767,Kilimanjaro National Park
+768,Selous Game Reserve
+769,Arusha National Park
+770,Dar Es Salaam Village Museum
+771,Lake Manyara National Park
+772,Tarangire National Park
+773,Zanzibar Coral Reefs
+774,Temple of the Emerald Buddha
+775,Chiang Mai
+776,Phi Phi Islands
+777,Grand Palace
+778,Wat Arun
+779,Sukhothai Historical Park
+780,Historic City of Ayutthaya
+781,Bangkok Floating Markets
+782,Golden Buddha Statue
+783,Phang Nga Bay
+784,Phuket
+785,Phanom Rung Historical Park
+786,Phimai Historical Park
+787,Temple of the Reclining Buddha
+788,Koutammakou
+789,Vava'u
+790,Trinidad and Tobago Carnival
+791,Medina of Tunis
+792,Carthage
+793,Kerkuane
+794,Medina of Sousse
+795,Kairouan
+796,Dougga / Thugga
+797,Matmata Underground Structures
+798,Medenine Ksars
+799,Hagia Sophia
+800,Topkapi Palace
+801,Cappadocia
+802,Pamukkale
+803,Ephesus
+804,Blue Mosque
+805,Grand Bazaar
+806,Divrigi
+807,Nemrut Dag
+808,Troy
+809,Pergamon
+810,Basilica Cistern
+811,Dolmabahce Palace
+812,Antalya
+813,Bodrum
+814,Hierapolis
+815,Mount Ararat
+816,Merv
+817,Darvaza Gas Crater
+818,Bwindi Impenetrable National Park
+819,Rwenzori Mountains National Park
+820,Murchison Falls
+821,Saint-Sophia Cathedral
+822,Lviv's Old Town
+823,Burj Al Arab
+824,Burj Khalifa
+825,Sheikh Zayed Mosque
+826,Palm Islands
+827,Ski Dubai
+828,World Islands
+829,Aldar Headquarters
+830,Emirates Palace
+831,Stonehenge and Avebury
+832,British Museum
+833,Giant's Causeway
+834,Tower of London
+835,Edinburgh Castle
+836,Rock of Gibraltar
+837,Big Ben
+838,St Paul's Cathedral
+839,Tower Bridge
+840,White Cliffs of Dover
+841,Caernarfon Castle
+842,Conwy Castle
+843,Westminster Palace & Abbey
+844,Canterbury Cathedral
+845,Heart of Neolithic Orkney
+846,Eilean Donan Castle
+847,Holyrood Palace
+848,Isle of Skye
+849,Scottish National Gallery
+850,Outer Hebrides Islands
+851,Shetland Islands
+852,Old Course at St Andrews
+853,Falkland Islands
+854,Channel Islands
+855,South Georgia and the South Sandwich Islands
+856,Buckingham Palace
+857,Land's End
+858,Lake District
+859,Imperial War Museum
+860,National Gallery
+861,Salisbury Cathedral
+862,Stratford-upon-Avon
+863,Tate Modern
+864,Windsor Castle
+865,York Minster
+866,Cardiff Castle
+867,Snowdonia National Park
+868,Grand Canyon
+869,Yellowstone National Park
+870,Yosemite National Park
+871,Carlsbad Caverns National Park
+872,Metropolitan Museum of Art
+873,New York Skyline
+874,San Francisco
+875,Mesa Verde National Park
+876,Redwood National and State Parks
+877,Statue of Liberty
+878,Hawaii Volcanoes National Park
+879,Alaska Cruise
+880,Bryce Canyon
+881,Denali National Park
+882,Devils Tower
+883,Kennedy Space Center
+884,Las Vegas Strip at Night
+885,Monument Valley
+886,Mt Rushmore
+887,Museum of Modern Art
+888,Na Pali Coast State Park
+889,Sedona's Red Rocks
+890,Sequoia National Park
+891,Smithsonian
+892,Times Square
+893,Headquarters of the United Nations
+894,Walt Disney World
+895,Mammoth Cave National Park
+896,Alcatraz Island
+897,American Museum of Natural History
+898,Bayou Bartholomew
+899,Grand Teton
+900,Solomon R. Guggenheim Museum
+901,Meteor Crater
+902,Monterey Bay Aquarium
+903,National Gallery of Art
+904,San Diego Zoo
+905,San Francisco Cable Car System
+906,17-Mile-Drive
+907,Waimea Canyon
+908,Zion National Park
+909,Bukhara Old Town
+910,Samarkand
+911,Old Town of Tashkent
+912,Mount Yasur
+913,Sistine Chapel
+914,St Peter's Basilica
+915,Vatican Museums
+916,St Peter's Square
+917,Angel Falls
+918,Canaima National Park (Gran Sabana)
+919,Stilt Houses of Maracaibo
+920,Mérida cable car
+921,Ha Long Bay
+922,"Imperial City, Hue"
+923,Hoi An Ancient Town
+924,Phong Nha-Ke Bang National Park
+925,Hang Son Doong
+926,Cu Chi Tunnels
+927,Rice Terraces of Sa Pa
+928,Pagoda of the Celestial Lady
+929,Old City of Sana'a
+930,Shibam
+931,Baraqish
+932,Dar al-Hajar
+933,South Luangwa National Park
+934,Victoria Falls
+935,Mana Pools National Park
+936,Great Zimbabwe
+937,Hwange National Park

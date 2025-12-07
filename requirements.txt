@@ -1,0 +1,8 @@
+torch
+transformers
+peft
+fastapi
+uvicorn
+python-multipart
+Pillow
+pandas
