@@ -38,6 +38,6 @@ for idx, row in df.iterrows():
             'landmark_idx': idx
         })
 
-pd.DataFrame(train_data).to_csv('../../data/train.csv', index=False)
-pd.DataFrame(val_data).to_csv('../../data/val.csv', index=False)
-pd.DataFrame(test_data).to_csv('../../data/test.csv', index=False)
+pd.DataFrame(train_data).to_csv('/final_data/train.csv', index=False)
+pd.DataFrame(val_data).to_csv('/final_data/val.csv', index=False)
+pd.DataFrame(test_data).to_csv('/final_data/test.csv', index=False)

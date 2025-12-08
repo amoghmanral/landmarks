@@ -166,9 +166,9 @@ def validate_descriptions(data):
 
 def main():
 
-    train_df = pd.read_csv("../../data/train.csv")
-    val_df = pd.read_csv("../../data/train.csv")
-    test_df = pd.read_csv("../../data/train.csv")
+    train_df = pd.read_csv("/final_data/train.csv")
+    val_df = pd.read_csv("/final_data/train.csv")
+    test_df = pd.read_csv("/final_data/train.csv")
     list_df = pd.read_csv("landmark_list.csv")
     
     list_df['Name'] = list_df['Name'].str.replace('\xa0', ' ')
@@ -202,9 +202,9 @@ def main():
                     rows.append({**row, 'description': desc})
         return pd.DataFrame(rows)
     
-    pair(train_df, "train").to_csv("train.csv", index=False)
-    pair(val_df, "validation").to_csv("val.csv", index=False)
-    pair(test_df, "test").to_csv("test.csv", index=False)
+    pair(train_df, "train").to_csv("/final_data/train.csv", index=False)
+    pair(val_df, "validation").to_csv("/final_data/train.csv", index=False)
+    pair(test_df, "test").to_csv("/final_data/train.csv", index=False)
     
 
 if __name__ == "__main__":
