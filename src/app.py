@@ -212,7 +212,7 @@ def load_wiki_context():
 def load_rag_data():
     global chunks, chunk_embeddings, embedding_model, embedding_tokenizer, gen_model, gen_tokenizer
 
-    rag_dir = Path(__file__).parent / "rag"
+    rag_dir = DATA_DIR / "rag"
     with open(rag_dir / "landmark_chunks.json") as f:
         chunks = json.load(f)
     chunk_embeddings = torch.from_numpy(np.load(rag_dir / "chunk_embeddings.npy"))
