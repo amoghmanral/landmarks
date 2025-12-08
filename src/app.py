@@ -2,7 +2,9 @@
 
 import io
 import json
+import numpy as np
 import torch
+from transformers import AutoTokenizer, AutoModel, AutoModelForCausalLM
 from pathlib import Path
 from contextlib import asynccontextmanager
 
@@ -35,6 +37,12 @@ image_paths = []
 image_landmarks = []
 landmark_to_images = {}
 wiki_context = {}
+chunks = []
+chunk_embeddings = None
+embedding_model = None
+embedding_tokenizer = None
+gen_model = None
+gen_tokenizer = None
 
 
 class ClassifierHead(nn.Module):
@@ -201,6 +209,70 @@ def load_wiki_context():
         print(f"Loaded wiki context for {len(wiki_context)} landmarks")
 
 
+def load_rag_data():
+    global chunks, chunk_embeddings, embedding_model, embedding_tokenizer, gen_model, gen_tokenizer
+    
+    with open("../rag/landmark_chunks.json") as f:
+        chunks = json.load(f)
+    chunk_embeddings = torch.from_numpy(np.load("../rag/chunk_embeddings.npy"))
+    
+    embedding_tokenizer = AutoTokenizer.from_pretrained("sentence-transformers/all-MiniLM-L6-v2")
+    embedding_model = AutoModel.from_pretrained("sentence-transformers/all-MiniLM-L6-v2").to(DEVICE).eval()
+    
+    gen_tokenizer = AutoTokenizer.from_pretrained("Qwen/Qwen2.5-3B-Instruct")
+    gen_model = AutoModelForCausalLM.from_pretrained(
+        "Qwen/Qwen2.5-3B-Instruct",
+        torch_dtype=torch.float16,
+        device_map=DEVICE
+    )
+
+
+def retrieve_chunks(query, landmark_name, top_k=3):
+    indices = []
+    for i, c in enumerate(chunks):
+        if c['landmark_name'] == landmark_name:
+            indices.append(i)
+    
+    if not indices:
+        return []
+    
+    inputs = embedding_tokenizer(query, return_tensors="pt", truncation=True, max_length=512).to(DEVICE)
+    with torch.no_grad():
+        query_emb = embedding_model(**inputs).last_hidden_state.mean(dim=1)
+        query_emb = query_emb / query_emb.norm(dim=-1, keepdim=True)
+    
+    landmark_embs = chunk_embeddings[indices].to(DEVICE)
+    sims = (query_emb @ landmark_embs.T).squeeze().cpu()
+    
+    if len(indices) == 1:
+        top_idx = [0]
+    else:
+        top_idx = sims.argsort(descending=True)[:top_k].tolist()
+    
+    return [(chunks[indices[i]], sims[i].item()) for i in top_idx]
+    
+
+def generate_answer(question, landmark_name, top_k=3):
+    results = retrieve_chunks(question, landmark_name, top_k)
+    if not results:
+        return "No information found for this landmark."
+    
+    context = "\n\n".join(c['text'] for c, _ in results)
+    
+    messages = [
+        {"role": "system", "content": "Answer in 1-2 sentences using only the provided context."},
+        {"role": "user", "content": f"Context: {context}\n\nQuestion: {question}"}
+    ]
+    
+    prompt = gen_tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
+    inputs = gen_tokenizer(prompt, return_tensors="pt").to(DEVICE)
+    
+    with torch.no_grad():
+        outputs = gen_model.generate(**inputs, max_new_tokens=100, pad_token_id=gen_tokenizer.eos_token_id)
+    
+    return gen_tokenizer.decode(outputs[0, inputs['input_ids'].shape[-1]:], skip_special_tokens=True).strip()
+
+
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     load_models()
@@ -289,6 +361,16 @@ async def classify_image(file: UploadFile = File(...), top_k: int = 5):
         "results": results,
         "similar": [{"landmark": name, "score": round(score, 4)} for name, score in similar]
     }
+
+
+class QuestionRequest(BaseModel):
+    question: str
+    landmark: str
+
+@app.post("/api/ask")
+async def ask_question(req: QuestionRequest):
+    answer = generate_answer(req.question, req.landmark)
+    return {"answer": answer, "landmark": req.landmark}
 
 
 @app.get("/api/landmark/{name}/images")
