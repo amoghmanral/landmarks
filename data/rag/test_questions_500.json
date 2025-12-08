@@ -1,0 +1,3811 @@
+{
+  "test_questions": [
+    {
+      "landmark_name": "Angkor Wat",
+      "question": "Who built Angkor Wat?",
+      "keywords": [
+        "Suryavarman",
+        "Khmer"
+      ]
+    },
+    {
+      "landmark_name": "Angkor Wat",
+      "question": "What religion was Angkor Wat originally dedicated to?",
+      "keywords": [
+        "Hindu",
+        "Vishnu"
+      ]
+    },
+    {
+      "landmark_name": "Sydney Opera House",
+      "question": "Who designed the Sydney Opera House?",
+      "keywords": [
+        "Utzon",
+        "J\u00f8rn"
+      ]
+    },
+    {
+      "landmark_name": "Sydney Opera House",
+      "question": "When was the Sydney Opera House opened?",
+      "keywords": [
+        "1973"
+      ]
+    },
+    {
+      "landmark_name": "Great Wall of China",
+      "question": "Which dynasty built most of the Great Wall?",
+      "keywords": [
+        "Ming",
+        "Qin"
+      ]
+    },
+    {
+      "landmark_name": "Great Wall of China",
+      "question": "What was the purpose of the Great Wall?",
+      "keywords": [
+        "defense",
+        "protect",
+        "invasion"
+      ]
+    },
+    {
+      "landmark_name": "Great Barrier Reef",
+      "question": "Where is the Great Barrier Reef located?",
+      "keywords": [
+        "Australia",
+        "Queensland"
+      ]
+    },
+    {
+      "landmark_name": "Great Barrier Reef",
+      "question": "What is the Great Barrier Reef made of?",
+      "keywords": [
+        "coral"
+      ]
+    },
+    {
+      "landmark_name": "Ayers Rock/ Uluru",
+      "question": "What is Uluru also known as?",
+      "keywords": [
+        "Ayers Rock"
+      ]
+    },
+    {
+      "landmark_name": "Ayers Rock/ Uluru",
+      "question": "Who are the traditional owners of Uluru?",
+      "keywords": [
+        "Anangu",
+        "Aboriginal"
+      ]
+    },
+    {
+      "landmark_name": "Forbidden City",
+      "question": "Which dynasty built the Forbidden City?",
+      "keywords": [
+        "Ming",
+        "Yongle"
+      ]
+    },
+    {
+      "landmark_name": "Forbidden City",
+      "question": "How many rooms are in the Forbidden City?",
+      "keywords": [
+        "9999",
+        "9000"
+      ]
+    },
+    {
+      "landmark_name": "Potala Palace, Lhasa",
+      "question": "Who lived in the Potala Palace?",
+      "keywords": [
+        "Dalai Lama"
+      ]
+    },
+    {
+      "landmark_name": "Potala Palace, Lhasa",
+      "question": "What religion is associated with the Potala Palace?",
+      "keywords": [
+        "Buddhist",
+        "Buddhism"
+      ]
+    },
+    {
+      "landmark_name": "Mausoleum of the First Qin Emperor & Terra Cotta Warriors",
+      "question": "When was the Terracotta Army discovered?",
+      "keywords": [
+        "1974"
+      ]
+    },
+    {
+      "landmark_name": "Mausoleum of the First Qin Emperor & Terra Cotta Warriors",
+      "question": "How many soldiers are in the Terracotta Army?",
+      "keywords": [
+        "8000",
+        "thousand"
+      ]
+    },
+    {
+      "landmark_name": "Temple of Heaven",
+      "question": "In which city is the Temple of Heaven?",
+      "keywords": [
+        "Beijing"
+      ]
+    },
+    {
+      "landmark_name": "Temple of Heaven",
+      "question": "What was the Temple of Heaven used for?",
+      "keywords": [
+        "prayer",
+        "harvest",
+        "ceremony"
+      ]
+    },
+    {
+      "landmark_name": "Easter Island",
+      "question": "What are the statues on Easter Island called?",
+      "keywords": [
+        "moai"
+      ]
+    },
+    {
+      "landmark_name": "Easter Island",
+      "question": "Who created the moai statues?",
+      "keywords": [
+        "Rapa Nui",
+        "Polynesian"
+      ]
+    },
+    {
+      "landmark_name": "Torres del Paine National Park",
+      "question": "In which country is Torres del Paine?",
+      "keywords": [
+        "Chile"
+      ]
+    },
+    {
+      "landmark_name": "Torres del Paine National Park",
+      "question": "What type of landscape is Torres del Paine?",
+      "keywords": [
+        "mountain",
+        "glacier",
+        "Patagonia"
+      ]
+    },
+    {
+      "landmark_name": "Machu Picchu",
+      "question": "Who built Machu Picchu?",
+      "keywords": [
+        "Inca",
+        "Pachacuti"
+      ]
+    },
+    {
+      "landmark_name": "Machu Picchu",
+      "question": "When was Machu Picchu built?",
+      "keywords": [
+        "15th century",
+        "1450"
+      ]
+    },
+    {
+      "landmark_name": "Machu Picchu",
+      "question": "Who discovered Machu Picchu in modern times?",
+      "keywords": [
+        "Hiram Bingham",
+        "1911"
+      ]
+    },
+    {
+      "landmark_name": "Colosseum",
+      "question": "When was the Colosseum built?",
+      "keywords": [
+        "70",
+        "80",
+        "AD",
+        "Vespasian"
+      ]
+    },
+    {
+      "landmark_name": "Colosseum",
+      "question": "What was the Colosseum used for?",
+      "keywords": [
+        "gladiator",
+        "games",
+        "entertainment"
+      ]
+    },
+    {
+      "landmark_name": "Colosseum",
+      "question": "What is the Colosseum also known as?",
+      "keywords": [
+        "Flavian",
+        "Amphitheatre"
+      ]
+    },
+    {
+      "landmark_name": "Leaning Tower of Pisa",
+      "question": "Why does the Tower of Pisa lean?",
+      "keywords": [
+        "soil",
+        "foundation",
+        "soft"
+      ]
+    },
+    {
+      "landmark_name": "Leaning Tower of Pisa",
+      "question": "When was the Leaning Tower of Pisa built?",
+      "keywords": [
+        "1173",
+        "12th century"
+      ]
+    },
+    {
+      "landmark_name": "Pompeii",
+      "question": "What volcano destroyed Pompeii?",
+      "keywords": [
+        "Vesuvius"
+      ]
+    },
+    {
+      "landmark_name": "Pompeii",
+      "question": "When was Pompeii destroyed?",
+      "keywords": [
+        "79",
+        "AD"
+      ]
+    },
+    {
+      "landmark_name": "Stonehenge and Avebury",
+      "question": "Where is Stonehenge located?",
+      "keywords": [
+        "England",
+        "Wiltshire",
+        "Salisbury"
+      ]
+    },
+    {
+      "landmark_name": "Stonehenge and Avebury",
+      "question": "What type of stones make up Stonehenge?",
+      "keywords": [
+        "sarsen",
+        "bluestone"
+      ]
+    },
+    {
+      "landmark_name": "Tower of London",
+      "question": "Who built the Tower of London?",
+      "keywords": [
+        "William",
+        "Conqueror",
+        "Norman"
+      ]
+    },
+    {
+      "landmark_name": "Tower of London",
+      "question": "What birds are kept at the Tower of London?",
+      "keywords": [
+        "ravens"
+      ]
+    },
+    {
+      "landmark_name": "Tower of London",
+      "question": "What is housed in the Tower of London?",
+      "keywords": [
+        "Crown Jewels"
+      ]
+    },
+    {
+      "landmark_name": "Big Ben",
+      "question": "What is the official name of the Big Ben tower?",
+      "keywords": [
+        "Elizabeth Tower"
+      ]
+    },
+    {
+      "landmark_name": "Big Ben",
+      "question": "When was Big Ben completed?",
+      "keywords": [
+        "1859"
+      ]
+    },
+    {
+      "landmark_name": "Edinburgh Castle",
+      "question": "What rock is Edinburgh Castle built on?",
+      "keywords": [
+        "volcanic",
+        "Castle Rock"
+      ]
+    },
+    {
+      "landmark_name": "Buckingham Palace",
+      "question": "Who lives in Buckingham Palace?",
+      "keywords": [
+        "monarch",
+        "King",
+        "Queen",
+        "Royal"
+      ]
+    },
+    {
+      "landmark_name": "Buckingham Palace",
+      "question": "How many rooms are in Buckingham Palace?",
+      "keywords": [
+        "775"
+      ]
+    },
+    {
+      "landmark_name": "Westminster Palace & Abbey",
+      "question": "What ceremonies take place at Westminster Abbey?",
+      "keywords": [
+        "coronation",
+        "royal"
+      ]
+    },
+    {
+      "landmark_name": "Canterbury Cathedral",
+      "question": "Who was murdered at Canterbury Cathedral?",
+      "keywords": [
+        "Thomas Becket",
+        "Becket"
+      ]
+    },
+    {
+      "landmark_name": "British Museum",
+      "question": "What famous stone is in the British Museum?",
+      "keywords": [
+        "Rosetta"
+      ]
+    },
+    {
+      "landmark_name": "Giant's Causeway",
+      "question": "What shape are the columns at the Giant's Causeway?",
+      "keywords": [
+        "hexagonal",
+        "six"
+      ]
+    },
+    {
+      "landmark_name": "Eiffel Tower",
+      "question": "Who designed the Eiffel Tower?",
+      "keywords": [
+        "Gustave Eiffel",
+        "Eiffel"
+      ]
+    },
+    {
+      "landmark_name": "Eiffel Tower",
+      "question": "When was the Eiffel Tower built?",
+      "keywords": [
+        "1889"
+      ]
+    },
+    {
+      "landmark_name": "Palace of Versailles",
+      "question": "Who built the Palace of Versailles?",
+      "keywords": [
+        "Louis XIV",
+        "Louis"
+      ]
+    },
+    {
+      "landmark_name": "Palace of Versailles",
+      "question": "What is the famous room in Versailles?",
+      "keywords": [
+        "Hall of Mirrors"
+      ]
+    },
+    {
+      "landmark_name": "Mont Saint Michel",
+      "question": "What building is at the top of Mont Saint-Michel?",
+      "keywords": [
+        "abbey",
+        "monastery"
+      ]
+    },
+    {
+      "landmark_name": "Louvre",
+      "question": "What famous painting is in the Louvre?",
+      "keywords": [
+        "Mona Lisa"
+      ]
+    },
+    {
+      "landmark_name": "Hagia Sophia",
+      "question": "Who built the Hagia Sophia?",
+      "keywords": [
+        "Justinian",
+        "Byzantine"
+      ]
+    },
+    {
+      "landmark_name": "Blue Mosque",
+      "question": "How many minarets does the Blue Mosque have?",
+      "keywords": [
+        "six",
+        "6"
+      ]
+    },
+    {
+      "landmark_name": "Cappadocia",
+      "question": "What is Cappadocia famous for?",
+      "keywords": [
+        "cave",
+        "fairy chimney",
+        "balloon"
+      ]
+    },
+    {
+      "landmark_name": "Ephesus",
+      "question": "What famous library was in Ephesus?",
+      "keywords": [
+        "Celsus"
+      ]
+    },
+    {
+      "landmark_name": "Alhambra",
+      "question": "In which city is the Alhambra?",
+      "keywords": [
+        "Granada"
+      ]
+    },
+    {
+      "landmark_name": "Sagrada Familia",
+      "question": "Who designed the Sagrada Familia?",
+      "keywords": [
+        "Gaud\u00ed",
+        "Antoni"
+      ]
+    },
+    {
+      "landmark_name": "Neuschwanstein Castle",
+      "question": "Who commissioned Neuschwanstein Castle?",
+      "keywords": [
+        "Ludwig II",
+        "Ludwig"
+      ]
+    },
+    {
+      "landmark_name": "Prague Old Town",
+      "question": "What famous clock is in Prague Old Town?",
+      "keywords": [
+        "Astronomical Clock",
+        "Orloj"
+      ]
+    },
+    {
+      "landmark_name": "Auschwitz Concentration Camp",
+      "question": "In which country is Auschwitz?",
+      "keywords": [
+        "Poland"
+      ]
+    },
+    {
+      "landmark_name": "Grand Canal of Venice",
+      "question": "What are the boats in Venice called?",
+      "keywords": [
+        "gondola"
+      ]
+    },
+    {
+      "landmark_name": "Vatican Museums",
+      "question": "Who painted the Sistine Chapel ceiling?",
+      "keywords": [
+        "Michelangelo"
+      ]
+    },
+    {
+      "landmark_name": "St Peter's Basilica",
+      "question": "Who designed the dome of St. Peter's?",
+      "keywords": [
+        "Michelangelo"
+      ]
+    },
+    {
+      "landmark_name": "Sistine Chapel",
+      "question": "What famous scene is on the Sistine Chapel ceiling?",
+      "keywords": [
+        "Creation of Adam",
+        "Adam"
+      ]
+    },
+    {
+      "landmark_name": "Acropolis of Athens",
+      "question": "What is the main temple on the Acropolis?",
+      "keywords": [
+        "Parthenon"
+      ]
+    },
+    {
+      "landmark_name": "Delphi",
+      "question": "What was Delphi famous for in ancient Greece?",
+      "keywords": [
+        "oracle",
+        "prophecy"
+      ]
+    },
+    {
+      "landmark_name": "Meteora",
+      "question": "What are the Meteora monasteries built on?",
+      "keywords": [
+        "rock",
+        "pillar",
+        "cliff"
+      ]
+    },
+    {
+      "landmark_name": "Santorini",
+      "question": "What caused Santorini's shape?",
+      "keywords": [
+        "volcanic",
+        "eruption",
+        "caldera"
+      ]
+    },
+    {
+      "landmark_name": "Petra",
+      "question": "Who built Petra?",
+      "keywords": [
+        "Nabataean",
+        "Nabatean"
+      ]
+    },
+    {
+      "landmark_name": "Petra",
+      "question": "What is the most famous structure in Petra?",
+      "keywords": [
+        "Treasury",
+        "Al-Khazneh"
+      ]
+    },
+    {
+      "landmark_name": "Pyramids of Giza",
+      "question": "Who built the Great Pyramid of Giza?",
+      "keywords": [
+        "Khufu",
+        "Cheops"
+      ]
+    },
+    {
+      "landmark_name": "Great Sphinx of Giza",
+      "question": "What is the body of the Great Sphinx?",
+      "keywords": [
+        "lion"
+      ]
+    },
+    {
+      "landmark_name": "Valley of the Kings",
+      "question": "Whose tomb was found in 1922?",
+      "keywords": [
+        "Tutankhamun",
+        "King Tut"
+      ]
+    },
+    {
+      "landmark_name": "Abu Simbel",
+      "question": "Who built Abu Simbel?",
+      "keywords": [
+        "Ramesses II",
+        "Ramses"
+      ]
+    },
+    {
+      "landmark_name": "Victoria Falls",
+      "question": "What countries border Victoria Falls?",
+      "keywords": [
+        "Zambia",
+        "Zimbabwe"
+      ]
+    },
+    {
+      "landmark_name": "Taj Mahal",
+      "question": "Who commissioned the Taj Mahal?",
+      "keywords": [
+        "Shah Jahan",
+        "Mughal"
+      ]
+    },
+    {
+      "landmark_name": "Taj Mahal",
+      "question": "What material is the Taj Mahal made of?",
+      "keywords": [
+        "marble",
+        "white"
+      ]
+    },
+    {
+      "landmark_name": "Hampi",
+      "question": "Which empire was Hampi the capital of?",
+      "keywords": [
+        "Vijayanagara"
+      ]
+    },
+    {
+      "landmark_name": "Hampi",
+      "question": "Which Italian merchant visited Hampi in 1420?",
+      "keywords": [
+        "Niccol\u00f2",
+        "Conti"
+      ]
+    },
+    {
+      "landmark_name": "Mount Fuji",
+      "question": "When did Mount Fuji last erupt?",
+      "keywords": [
+        "1707"
+      ]
+    },
+    {
+      "landmark_name": "Himeji Castle",
+      "question": "What is Himeji Castle also called?",
+      "keywords": [
+        "White Heron",
+        "Shirasagi"
+      ]
+    },
+    {
+      "landmark_name": "Borobudur Temple Compounds",
+      "question": "What religion is Borobudur associated with?",
+      "keywords": [
+        "Buddhist",
+        "Buddhism"
+      ]
+    },
+    {
+      "landmark_name": "Ha Long Bay",
+      "question": "What does Ha Long mean?",
+      "keywords": [
+        "descending dragon",
+        "dragon"
+      ]
+    },
+    {
+      "landmark_name": "Chichen Itza",
+      "question": "What is the main pyramid called?",
+      "keywords": [
+        "El Castillo",
+        "Kukulcan"
+      ]
+    },
+    {
+      "landmark_name": "Teotihuacan",
+      "question": "What are the main pyramids at Teotihuacan?",
+      "keywords": [
+        "Sun",
+        "Moon"
+      ]
+    },
+    {
+      "landmark_name": "Iguazu Falls",
+      "question": "What is the largest waterfall at Iguazu called?",
+      "keywords": [
+        "Devil's Throat",
+        "Garganta"
+      ]
+    },
+    {
+      "landmark_name": "Christ the Redeemer Statue",
+      "question": "In which city is Christ the Redeemer?",
+      "keywords": [
+        "Rio de Janeiro",
+        "Rio"
+      ]
+    },
+    {
+      "landmark_name": "Grand Canyon",
+      "question": "What river carved the Grand Canyon?",
+      "keywords": [
+        "Colorado"
+      ]
+    },
+    {
+      "landmark_name": "Yellowstone National Park",
+      "question": "What is the famous geyser in Yellowstone?",
+      "keywords": [
+        "Old Faithful"
+      ]
+    },
+    {
+      "landmark_name": "Statue of Liberty",
+      "question": "Which country gave the Statue of Liberty to the USA?",
+      "keywords": [
+        "France",
+        "French"
+      ]
+    },
+    {
+      "landmark_name": "Niagara Falls",
+      "question": "What countries border Niagara Falls?",
+      "keywords": [
+        "Canada",
+        "United States"
+      ]
+    },
+    {
+      "landmark_name": "CN Tower",
+      "question": "In which city is the CN Tower?",
+      "keywords": [
+        "Toronto"
+      ]
+    },
+    {
+      "landmark_name": "Kremlin and Red Square",
+      "question": "What famous church is in Red Square?",
+      "keywords": [
+        "St. Basil",
+        "Basil"
+      ]
+    },
+    {
+      "landmark_name": "Burj Khalifa",
+      "question": "In which city is the Burj Khalifa?",
+      "keywords": [
+        "Dubai"
+      ]
+    },
+    {
+      "landmark_name": "Old City of Dubrovnik",
+      "question": "What TV show was filmed in Dubrovnik?",
+      "keywords": [
+        "Game of Thrones"
+      ]
+    },
+    {
+      "landmark_name": "Samarkand",
+      "question": "What trade route was Samarkand on?",
+      "keywords": [
+        "Silk Road",
+        "Silk"
+      ]
+    },
+    {
+      "landmark_name": "Old City of Jerusalem",
+      "question": "What is the golden dome building in Jerusalem?",
+      "keywords": [
+        "Dome of the Rock"
+      ]
+    },
+    {
+      "landmark_name": "Dead Sea",
+      "question": "Why is the Dead Sea called dead?",
+      "keywords": [
+        "salt",
+        "salty"
+      ]
+    },
+    {
+      "landmark_name": "Alberobello's Trulli",
+      "question": "What shape are trulli roofs?",
+      "keywords": [
+        "cone",
+        "conical"
+      ]
+    },
+    {
+      "landmark_name": "17-Mile-Drive",
+      "question": "What is the Lone Cypress?",
+      "keywords": [
+        "tree",
+        "cypress"
+      ]
+    },
+    {
+      "landmark_name": "Lake Titicaca",
+      "question": "What floating islands are on Lake Titicaca?",
+      "keywords": [
+        "Uros",
+        "reed"
+      ]
+    },
+    {
+      "landmark_name": "Taktsang Monastery / Tiger's Nest",
+      "question": "In which country is Tiger's Nest?",
+      "keywords": [
+        "Bhutan"
+      ]
+    },
+    {
+      "landmark_name": "Minaret of Jam",
+      "question": "In which country is the Minaret of Jam?",
+      "keywords": [
+        "Afghanistan"
+      ]
+    },
+    {
+      "landmark_name": "Bwindi Impenetrable National Park",
+      "question": "What endangered animals live in Bwindi?",
+      "keywords": [
+        "gorilla"
+      ]
+    },
+    {
+      "landmark_name": "Great Zimbabwe",
+      "question": "What does Zimbabwe mean?",
+      "keywords": [
+        "stone",
+        "houses"
+      ]
+    },
+    {
+      "landmark_name": "Timbuktu",
+      "question": "What desert is Timbuktu near?",
+      "keywords": [
+        "Sahara"
+      ]
+    },
+    {
+      "landmark_name": "Lalibela",
+      "question": "What is Lalibela famous for?",
+      "keywords": [
+        "rock-hewn",
+        "churches",
+        "carved"
+      ]
+    },
+    {
+      "landmark_name": "Blue Lagoon",
+      "question": "In which country is the Blue Lagoon?",
+      "keywords": [
+        "Iceland"
+      ]
+    },
+    {
+      "landmark_name": "Thingvellir",
+      "question": "What tectonic plates meet at Thingvellir?",
+      "keywords": [
+        "North American",
+        "Eurasian"
+      ]
+    },
+    {
+      "landmark_name": "Leshan Giant Buddha",
+      "question": "How tall is the Leshan Giant Buddha?",
+      "keywords": [
+        "71",
+        "meters"
+      ]
+    },
+    {
+      "landmark_name": "Mogao Caves",
+      "question": "What are the Mogao Caves famous for?",
+      "keywords": [
+        "Buddhist",
+        "murals",
+        "paintings"
+      ]
+    },
+    {
+      "landmark_name": "Jiuzhaigou Valley",
+      "question": "What is Jiuzhaigou famous for?",
+      "keywords": [
+        "lakes",
+        "waterfalls",
+        "colorful"
+      ]
+    },
+    {
+      "landmark_name": "Wulingyuan",
+      "question": "What movie featured Wulingyuan?",
+      "keywords": [
+        "Avatar"
+      ]
+    },
+    {
+      "landmark_name": "Historic Centre of the City of Salzburg",
+      "question": "What famous composer was born in Salzburg?",
+      "keywords": [
+        "Mozart"
+      ]
+    },
+    {
+      "landmark_name": "Ta Prohm",
+      "question": "What is Ta Prohm famous for?",
+      "keywords": [
+        "tree",
+        "roots",
+        "jungle"
+      ]
+    },
+    {
+      "landmark_name": "Angkor Thom",
+      "question": "What famous temple is in Angkor Thom?",
+      "keywords": [
+        "Bayon"
+      ]
+    },
+    {
+      "landmark_name": "Hang Son Doong",
+      "question": "What is special about Hang Son Doong?",
+      "keywords": [
+        "largest",
+        "cave",
+        "world"
+      ]
+    },
+    {
+      "landmark_name": "Chobe National Park",
+      "question": "What animal is Chobe famous for?",
+      "keywords": [
+        "elephant"
+      ]
+    },
+    {
+      "landmark_name": "Brasilia",
+      "question": "Who designed Brasilia?",
+      "keywords": [
+        "Niemeyer",
+        "Costa"
+      ]
+    },
+    {
+      "landmark_name": "Bay of Fundy",
+      "question": "What is the Bay of Fundy famous for?",
+      "keywords": [
+        "tides",
+        "highest"
+      ]
+    },
+    {
+      "landmark_name": "Dazu Rock Carvings",
+      "question": "What religions are depicted at Dazu?",
+      "keywords": [
+        "Buddhist",
+        "Taoist",
+        "Confucian"
+      ]
+    },
+    {
+      "landmark_name": "Longmen Grottoes",
+      "question": "What is the largest statue at Longmen?",
+      "keywords": [
+        "Vairocana",
+        "Buddha"
+      ]
+    },
+    {
+      "landmark_name": "Historic Centre of Florence",
+      "question": "What is the famous dome in Florence?",
+      "keywords": [
+        "Duomo",
+        "Brunelleschi"
+      ]
+    },
+    {
+      "landmark_name": "Historic Centre of Rome",
+      "question": "What famous fountain is in Rome?",
+      "keywords": [
+        "Trevi"
+      ]
+    },
+    {
+      "landmark_name": "Venice and its Lagoon",
+      "question": "What famous square is in Venice?",
+      "keywords": [
+        "St. Mark",
+        "San Marco"
+      ]
+    },
+    {
+      "landmark_name": "Geirangerfjord and N\u00e6r\u00f8yfjord",
+      "question": "What formed the Norwegian fjords?",
+      "keywords": [
+        "glacier",
+        "ice"
+      ]
+    },
+    {
+      "landmark_name": "Bergen's Bryggen Hanseatic Wharf",
+      "question": "What is Bryggen famous for?",
+      "keywords": [
+        "wooden",
+        "Hanseatic",
+        "merchant"
+      ]
+    },
+    {
+      "landmark_name": "Serengeti National Park",
+      "question": "What animal migration occurs in the Serengeti?",
+      "keywords": [
+        "wildebeest",
+        "zebra"
+      ]
+    },
+    {
+      "landmark_name": "Mount Kilimanjaro",
+      "question": "In which country is Mount Kilimanjaro?",
+      "keywords": [
+        "Tanzania"
+      ]
+    },
+    {
+      "landmark_name": "Table Mountain",
+      "question": "In which city is Table Mountain?",
+      "keywords": [
+        "Cape Town"
+      ]
+    },
+    {
+      "landmark_name": "Red Fort",
+      "question": "Who built the Red Fort?",
+      "keywords": [
+        "Shah Jahan",
+        "Mughal"
+      ]
+    },
+    {
+      "landmark_name": "Gateway of India",
+      "question": "In which city is the Gateway of India?",
+      "keywords": [
+        "Mumbai",
+        "Bombay"
+      ]
+    },
+    {
+      "landmark_name": "Ellora Caves",
+      "question": "What is the most famous temple at Ellora?",
+      "keywords": [
+        "Kailasa",
+        "Kailash"
+      ]
+    },
+    {
+      "landmark_name": "Ajanta Caves",
+      "question": "What are the Ajanta Caves famous for?",
+      "keywords": [
+        "paintings",
+        "murals",
+        "frescoes"
+      ]
+    },
+    {
+      "landmark_name": "Kyoto Temples",
+      "question": "What is the Golden Pavilion called in Japanese?",
+      "keywords": [
+        "Kinkaku-ji"
+      ]
+    },
+    {
+      "landmark_name": "Hiroshima Peace Memorial",
+      "question": "What is the dome building also called?",
+      "keywords": [
+        "Genbaku Dome",
+        "A-bomb"
+      ]
+    },
+    {
+      "landmark_name": "Bagan",
+      "question": "How many temples are in Bagan?",
+      "keywords": [
+        "2000",
+        "thousand"
+      ]
+    },
+    {
+      "landmark_name": "Gyeongbokgung Palace",
+      "question": "Which dynasty built Gyeongbokgung?",
+      "keywords": [
+        "Joseon"
+      ]
+    },
+    {
+      "landmark_name": "Palenque",
+      "question": "What famous tomb was found at Palenque?",
+      "keywords": [
+        "Pakal"
+      ]
+    },
+    {
+      "landmark_name": "Tikal National Park",
+      "question": "In which country is Tikal?",
+      "keywords": [
+        "Guatemala"
+      ]
+    },
+    {
+      "landmark_name": "Salar de Uyuni",
+      "question": "What type of landscape is Salar de Uyuni?",
+      "keywords": [
+        "salt flat",
+        "salt"
+      ]
+    },
+    {
+      "landmark_name": "Yosemite National Park",
+      "question": "What famous rock formation is in Yosemite?",
+      "keywords": [
+        "Half Dome",
+        "El Capitan"
+      ]
+    },
+    {
+      "landmark_name": "Banff National Park",
+      "question": "What mountain range is Banff in?",
+      "keywords": [
+        "Rocky",
+        "Rockies"
+      ]
+    },
+    {
+      "landmark_name": "St. Petersburg",
+      "question": "What famous museum is in St. Petersburg?",
+      "keywords": [
+        "Hermitage"
+      ]
+    },
+    {
+      "landmark_name": "Sheikh Zayed Mosque",
+      "question": "In which city is the Sheikh Zayed Mosque?",
+      "keywords": [
+        "Abu Dhabi"
+      ]
+    },
+    {
+      "landmark_name": "Plitvice Lakes National Park",
+      "question": "How many lakes are at Plitvice?",
+      "keywords": [
+        "16"
+      ]
+    },
+    {
+      "landmark_name": "Hallstatt",
+      "question": "What is Hallstatt known for historically?",
+      "keywords": [
+        "salt",
+        "mining"
+      ]
+    },
+    {
+      "landmark_name": "Brugge",
+      "question": "What is Bruges sometimes called?",
+      "keywords": [
+        "Venice of the North"
+      ]
+    },
+    {
+      "landmark_name": "Masada",
+      "question": "What sea is Masada near?",
+      "keywords": [
+        "Dead Sea"
+      ]
+    },
+    {
+      "landmark_name": "Persepolis",
+      "question": "Who destroyed Persepolis?",
+      "keywords": [
+        "Alexander"
+      ]
+    },
+    {
+      "landmark_name": "Tiwanaku",
+      "question": "What famous gateway is at Tiwanaku?",
+      "keywords": [
+        "Sun",
+        "Gate"
+      ]
+    },
+    {
+      "landmark_name": "Rila Monastery",
+      "question": "What religion is Rila Monastery associated with?",
+      "keywords": [
+        "Orthodox",
+        "Christian"
+      ]
+    },
+    {
+      "landmark_name": "Okavango Delta and Moremi Wildlife Reserve",
+      "question": "What type of ecosystem is the Okavango?",
+      "keywords": [
+        "delta",
+        "wetland"
+      ]
+    },
+    {
+      "landmark_name": "Meroe Pyramids",
+      "question": "What civilization built the Meroe Pyramids?",
+      "keywords": [
+        "Kush",
+        "Nubian"
+      ]
+    },
+    {
+      "landmark_name": "Old Havana",
+      "question": "What architectural style is Old Havana known for?",
+      "keywords": [
+        "colonial",
+        "Baroque"
+      ]
+    },
+    {
+      "landmark_name": "Antigua Guatemala",
+      "question": "What natural disaster damaged Antigua?",
+      "keywords": [
+        "earthquake"
+      ]
+    },
+    {
+      "landmark_name": "Historic Centre of Macau",
+      "question": "What famous ruins are in Macau?",
+      "keywords": [
+        "St. Paul",
+        "Ruins"
+      ]
+    },
+    {
+      "landmark_name": "Old Town of Lijiang",
+      "question": "What ethnic group lives in Lijiang?",
+      "keywords": [
+        "Naxi"
+      ]
+    },
+    {
+      "landmark_name": "Danube Cruise",
+      "question": "What sea does the Danube flow into?",
+      "keywords": [
+        "Black Sea"
+      ]
+    },
+    {
+      "landmark_name": "Grand Place",
+      "question": "In which city is the Grand Place?",
+      "keywords": [
+        "Brussels"
+      ]
+    },
+    {
+      "landmark_name": "Hofburg Palace",
+      "question": "Who lived in the Hofburg Palace?",
+      "keywords": [
+        "Habsburg",
+        "Emperor"
+      ]
+    },
+    {
+      "landmark_name": "Palace and Gardens of Sch\u00f6nbrunn",
+      "question": "What architectural style is Sch\u00f6nbrunn?",
+      "keywords": [
+        "Baroque",
+        "Rococo"
+      ]
+    },
+    {
+      "landmark_name": "Fernando de Noronha",
+      "question": "What is Fernando de Noronha famous for?",
+      "keywords": [
+        "diving",
+        "marine",
+        "beach"
+      ]
+    },
+    {
+      "landmark_name": "Amazon Rainforest",
+      "question": "What is the Amazon Rainforest sometimes called?",
+      "keywords": [
+        "lungs"
+      ]
+    },
+    {
+      "landmark_name": "Sugarloaf Mountain",
+      "question": "How do you get to the top of Sugarloaf?",
+      "keywords": [
+        "cable car",
+        "gondola"
+      ]
+    },
+    {
+      "landmark_name": "Angel Falls",
+      "question": "Who was Angel Falls named after?",
+      "keywords": [
+        "Jimmie Angel",
+        "pilot"
+      ]
+    },
+    {
+      "landmark_name": "Galapagos Islands",
+      "question": "Who studied the Galapagos Islands?",
+      "keywords": [
+        "Darwin"
+      ]
+    },
+    {
+      "landmark_name": "Old Qu\u00e9bec",
+      "question": "What famous hotel is in Old Quebec?",
+      "keywords": [
+        "Ch\u00e2teau Frontenac"
+      ]
+    },
+    {
+      "landmark_name": "Alcatraz Island",
+      "question": "What was Alcatraz used for?",
+      "keywords": [
+        "prison"
+      ]
+    },
+    {
+      "landmark_name": "San Francisco",
+      "question": "What famous bridge is in San Francisco?",
+      "keywords": [
+        "Golden Gate"
+      ]
+    },
+    {
+      "landmark_name": "Las Vegas Strip at Night",
+      "question": "What is Las Vegas known for?",
+      "keywords": [
+        "casino",
+        "gambling"
+      ]
+    },
+    {
+      "landmark_name": "Mt Rushmore",
+      "question": "In which state is Mount Rushmore?",
+      "keywords": [
+        "South Dakota"
+      ]
+    },
+    {
+      "landmark_name": "Monument Valley",
+      "question": "What tribe manages Monument Valley?",
+      "keywords": [
+        "Navajo"
+      ]
+    },
+    {
+      "landmark_name": "Bryce Canyon",
+      "question": "What are the rock formations at Bryce Canyon called?",
+      "keywords": [
+        "hoodoo"
+      ]
+    },
+    {
+      "landmark_name": "Zion National Park",
+      "question": "What is the famous hike at Zion?",
+      "keywords": [
+        "Angel's Landing",
+        "Narrows"
+      ]
+    },
+    {
+      "landmark_name": "Hoi An Ancient Town",
+      "question": "What is Hoi An famous for?",
+      "keywords": [
+        "lantern",
+        "tailor"
+      ]
+    },
+    {
+      "landmark_name": "Cu Chi Tunnels",
+      "question": "What were the Cu Chi Tunnels used for?",
+      "keywords": [
+        "war",
+        "Viet Cong"
+      ]
+    },
+    {
+      "landmark_name": "Imperial City, Hue",
+      "question": "What dynasty ruled from Hue?",
+      "keywords": [
+        "Nguyen"
+      ]
+    },
+    {
+      "landmark_name": "Belize Barrier Reef Reserve",
+      "question": "What is the Belize Barrier Reef made of?",
+      "keywords": [
+        "coral"
+      ]
+    },
+    {
+      "landmark_name": "Great Blue Hole",
+      "question": "What type of formation is the Great Blue Hole?",
+      "keywords": [
+        "sinkhole"
+      ]
+    },
+    {
+      "landmark_name": "Los Glaciares National Park",
+      "question": "What famous glacier is in Los Glaciares?",
+      "keywords": [
+        "Perito Moreno"
+      ]
+    },
+    {
+      "landmark_name": "Ngorongoro Crater",
+      "question": "What type of formation is Ngorongoro?",
+      "keywords": [
+        "caldera",
+        "volcanic"
+      ]
+    },
+    {
+      "landmark_name": "Komodo National Park",
+      "question": "What famous animal lives in Komodo?",
+      "keywords": [
+        "dragon",
+        "Komodo"
+      ]
+    },
+    {
+      "landmark_name": "Murchison Falls",
+      "question": "What river flows through Murchison Falls?",
+      "keywords": [
+        "Nile"
+      ]
+    },
+    {
+      "landmark_name": "Rwenzori Mountains National Park",
+      "question": "What are the Rwenzori Mountains also called?",
+      "keywords": [
+        "Mountains of the Moon"
+      ]
+    },
+    {
+      "landmark_name": "Ksar of Ait-Ben-Haddou",
+      "question": "What is Ait-Ben-Haddou made of?",
+      "keywords": [
+        "mud",
+        "clay",
+        "earth"
+      ]
+    },
+    {
+      "landmark_name": "Medina of Fes",
+      "question": "What is Fes famous for?",
+      "keywords": [
+        "tanneries",
+        "leather",
+        "medina"
+      ]
+    },
+    {
+      "landmark_name": "Hassan II Mosque",
+      "question": "In which city is the Hassan II Mosque?",
+      "keywords": [
+        "Casablanca"
+      ]
+    },
+    {
+      "landmark_name": "Loire Valley Castles",
+      "question": "What is the most famous castle in the Loire Valley?",
+      "keywords": [
+        "Chambord",
+        "Chenonceau"
+      ]
+    },
+    {
+      "landmark_name": "Notre Dame de Paris",
+      "question": "What event damaged Notre Dame in 2019?",
+      "keywords": [
+        "fire"
+      ]
+    },
+    {
+      "landmark_name": "Pont du Gard",
+      "question": "What was the Pont du Gard built for?",
+      "keywords": [
+        "aqueduct",
+        "water"
+      ]
+    },
+    {
+      "landmark_name": "Pamukkale",
+      "question": "What is Pamukkale famous for?",
+      "keywords": [
+        "travertine",
+        "thermal",
+        "white",
+        "pools"
+      ]
+    },
+    {
+      "landmark_name": "Sumela Monastery",
+      "question": "Where is Sumela Monastery built?",
+      "keywords": [
+        "cliff",
+        "rock"
+      ]
+    },
+    {
+      "landmark_name": "Volubilis",
+      "question": "What civilization built Volubilis?",
+      "keywords": [
+        "Roman"
+      ]
+    },
+    {
+      "landmark_name": "Simien Mountains National Park",
+      "question": "What endangered animal lives in the Simien Mountains?",
+      "keywords": [
+        "gelada",
+        "baboon",
+        "wolf"
+      ]
+    },
+    {
+      "landmark_name": "Stone Town of Zanzibar",
+      "question": "What was Stone Town historically known for?",
+      "keywords": [
+        "trade",
+        "spice",
+        "slave"
+      ]
+    },
+    {
+      "landmark_name": "Golden Circle",
+      "question": "What famous geyser is on the Golden Circle?",
+      "keywords": [
+        "Geysir",
+        "Strokkur"
+      ]
+    },
+    {
+      "landmark_name": "Summer Palace, an Imperial Garden",
+      "question": "What dynasty built the Summer Palace?",
+      "keywords": [
+        "Qing"
+      ]
+    },
+    {
+      "landmark_name": "Classical Gardens of Suzhou",
+      "question": "What style are the Suzhou gardens?",
+      "keywords": [
+        "Chinese",
+        "classical"
+      ]
+    },
+    {
+      "landmark_name": "Mount Huangshan",
+      "question": "What is Mount Huangshan famous for?",
+      "keywords": [
+        "pine",
+        "granite",
+        "sea of clouds"
+      ]
+    },
+    {
+      "landmark_name": "Belvedere Palace",
+      "question": "What architectural style is the Belvedere?",
+      "keywords": [
+        "Baroque"
+      ]
+    },
+    {
+      "landmark_name": "Melk Abbey Church",
+      "question": "What architectural style is Melk Abbey?",
+      "keywords": [
+        "Baroque"
+      ]
+    },
+    {
+      "landmark_name": "Phong Nha-Ke Bang National Park",
+      "question": "What is Phong Nha famous for?",
+      "keywords": [
+        "caves",
+        "karst"
+      ]
+    },
+    {
+      "landmark_name": "Punakha Dzong",
+      "question": "Where is Punakha Dzong located?",
+      "keywords": [
+        "river",
+        "confluence"
+      ]
+    },
+    {
+      "landmark_name": "Dj\u00e9mila",
+      "question": "What civilization built Dj\u00e9mila?",
+      "keywords": [
+        "Roman"
+      ]
+    },
+    {
+      "landmark_name": "M'Zab Valley",
+      "question": "What is M'Zab Valley known for?",
+      "keywords": [
+        "fortified",
+        "cities",
+        "Ibadi"
+      ]
+    },
+    {
+      "landmark_name": "Tassili n'Ajjer",
+      "question": "What is Tassili n'Ajjer famous for?",
+      "keywords": [
+        "rock art",
+        "prehistoric",
+        "paintings"
+      ]
+    },
+    {
+      "landmark_name": "Gobustan Rock Art Cultural Landscape",
+      "question": "What is Gobustan famous for?",
+      "keywords": [
+        "rock art",
+        "petroglyphs"
+      ]
+    },
+    {
+      "landmark_name": "Palace of the Shirvanshahs",
+      "question": "In which city is the Palace of the Shirvanshahs?",
+      "keywords": [
+        "Baku"
+      ]
+    },
+    {
+      "landmark_name": "Rock-Hewn Churches of Ivanovo",
+      "question": "What is special about the Ivanovo churches?",
+      "keywords": [
+        "frescoes",
+        "murals",
+        "carved"
+      ]
+    },
+    {
+      "landmark_name": "Ghent",
+      "question": "What famous painting is in Ghent?",
+      "keywords": [
+        "Ghent Altarpiece",
+        "Lamb"
+      ]
+    },
+    {
+      "landmark_name": "Caracol",
+      "question": "Who built Caracol?",
+      "keywords": [
+        "Maya",
+        "Mayan"
+      ]
+    },
+    {
+      "landmark_name": "Xunantunich",
+      "question": "Who built Xunantunich?",
+      "keywords": [
+        "Maya",
+        "Mayan"
+      ]
+    },
+    {
+      "landmark_name": "Salvador de Bahia",
+      "question": "What is Salvador famous for?",
+      "keywords": [
+        "colonial",
+        "Afro-Brazilian"
+      ]
+    },
+    {
+      "landmark_name": "Canadian Rocky Mountain Parks",
+      "question": "What famous lake is in the Canadian Rockies?",
+      "keywords": [
+        "Lake Louise",
+        "Moraine"
+      ]
+    },
+    {
+      "landmark_name": "Osorno Volcano",
+      "question": "What shape is Osorno Volcano?",
+      "keywords": [
+        "cone",
+        "symmetrical"
+      ]
+    },
+    {
+      "landmark_name": "Yungang Grottoes",
+      "question": "What religion are the Yungang Grottoes associated with?",
+      "keywords": [
+        "Buddhist",
+        "Buddhism"
+      ]
+    },
+    {
+      "landmark_name": "Ancient City of Pingyao",
+      "question": "What is Pingyao famous for?",
+      "keywords": [
+        "walls",
+        "banking",
+        "Ming"
+      ]
+    },
+    {
+      "landmark_name": "Honghe Hani Rice Terraces",
+      "question": "What ethnic group created the terraces?",
+      "keywords": [
+        "Hani"
+      ]
+    },
+    {
+      "landmark_name": "Piazza dei Miracoli, Pisa",
+      "question": "What buildings are in the Piazza dei Miracoli?",
+      "keywords": [
+        "tower",
+        "cathedral",
+        "baptistery"
+      ]
+    },
+    {
+      "landmark_name": "Whitehaven Beach / Island",
+      "question": "In which country is Whitehaven Beach?",
+      "keywords": [
+        "Australia"
+      ]
+    },
+    {
+      "landmark_name": "Whitehaven Beach / Island",
+      "question": "What color is the sand at Whitehaven?",
+      "keywords": [
+        "white"
+      ]
+    },
+    {
+      "landmark_name": "Lord Howe Island Group",
+      "question": "In which country is Lord Howe Island?",
+      "keywords": [
+        "Australia"
+      ]
+    },
+    {
+      "landmark_name": "Great Ocean Road",
+      "question": "What rock formations are on the Great Ocean Road?",
+      "keywords": [
+        "Twelve Apostles",
+        "Apostles"
+      ]
+    },
+    {
+      "landmark_name": "Kakadu National Park",
+      "question": "In which country is Kakadu?",
+      "keywords": [
+        "Australia"
+      ]
+    },
+    {
+      "landmark_name": "Kakadu National Park",
+      "question": "What is Kakadu famous for?",
+      "keywords": [
+        "rock art",
+        "Aboriginal",
+        "wildlife"
+      ]
+    },
+    {
+      "landmark_name": "Bungle Bungle Range",
+      "question": "What is special about the Bungle Bungle Range?",
+      "keywords": [
+        "beehive",
+        "striped",
+        "sandstone"
+      ]
+    },
+    {
+      "landmark_name": "Luang Prabang",
+      "question": "In which country is Luang Prabang?",
+      "keywords": [
+        "Laos"
+      ]
+    },
+    {
+      "landmark_name": "Luang Prabang",
+      "question": "What religion is Luang Prabang associated with?",
+      "keywords": [
+        "Buddhist",
+        "Buddhism"
+      ]
+    },
+    {
+      "landmark_name": "Prambanan Temple Compounds",
+      "question": "In which country is Prambanan?",
+      "keywords": [
+        "Indonesia",
+        "Java"
+      ]
+    },
+    {
+      "landmark_name": "Prambanan Temple Compounds",
+      "question": "What religion is Prambanan associated with?",
+      "keywords": [
+        "Hindu"
+      ]
+    },
+    {
+      "landmark_name": "Shwedagon Pagoda",
+      "question": "In which country is Shwedagon Pagoda?",
+      "keywords": [
+        "Myanmar",
+        "Burma"
+      ]
+    },
+    {
+      "landmark_name": "Shwedagon Pagoda",
+      "question": "What is the Shwedagon Pagoda covered with?",
+      "keywords": [
+        "gold"
+      ]
+    },
+    {
+      "landmark_name": "Forbidden City",
+      "question": "In which city is the Forbidden City?",
+      "keywords": [
+        "Beijing"
+      ]
+    },
+    {
+      "landmark_name": "Sigiriya",
+      "question": "In which country is Sigiriya?",
+      "keywords": [
+        "Sri Lanka"
+      ]
+    },
+    {
+      "landmark_name": "Sigiriya",
+      "question": "What is Sigiriya built on?",
+      "keywords": [
+        "rock",
+        "fortress"
+      ]
+    },
+    {
+      "landmark_name": "Nara Park",
+      "question": "In which country is Nara Park?",
+      "keywords": [
+        "Japan"
+      ]
+    },
+    {
+      "landmark_name": "Nara Park",
+      "question": "What animals roam freely in Nara Park?",
+      "keywords": [
+        "deer"
+      ]
+    },
+    {
+      "landmark_name": "Fushimi Inari Shrine",
+      "question": "In which country is Fushimi Inari?",
+      "keywords": [
+        "Japan"
+      ]
+    },
+    {
+      "landmark_name": "Fushimi Inari Shrine",
+      "question": "What is Fushimi Inari famous for?",
+      "keywords": [
+        "torii",
+        "gates",
+        "red"
+      ]
+    },
+    {
+      "landmark_name": "Arashiyama Bamboo Forest",
+      "question": "In which country is Arashiyama?",
+      "keywords": [
+        "Japan"
+      ]
+    },
+    {
+      "landmark_name": "Arashiyama Bamboo Forest",
+      "question": "What plant is Arashiyama famous for?",
+      "keywords": [
+        "bamboo"
+      ]
+    },
+    {
+      "landmark_name": "Itsukushima Shrine",
+      "question": "In which country is Itsukushima Shrine?",
+      "keywords": [
+        "Japan"
+      ]
+    },
+    {
+      "landmark_name": "Itsukushima Shrine",
+      "question": "What is special about the torii gate at Itsukushima?",
+      "keywords": [
+        "floating",
+        "water",
+        "sea"
+      ]
+    },
+    {
+      "landmark_name": "Banaue Rice Terraces",
+      "question": "In which country are the Banaue Rice Terraces?",
+      "keywords": [
+        "Philippines"
+      ]
+    },
+    {
+      "landmark_name": "Banaue Rice Terraces",
+      "question": "What are the terraces sometimes called?",
+      "keywords": [
+        "Eighth Wonder",
+        "stairway"
+      ]
+    },
+    {
+      "landmark_name": "Puerto Princesa Underground River",
+      "question": "In which country is the Puerto Princesa Underground River?",
+      "keywords": [
+        "Philippines"
+      ]
+    },
+    {
+      "landmark_name": "Puerto Princesa Underground River",
+      "question": "What is special about this underground river?",
+      "keywords": [
+        "longest",
+        "navigable"
+      ]
+    },
+    {
+      "landmark_name": "Luzon's Chocolate Hills",
+      "question": "In which country are the Chocolate Hills?",
+      "keywords": [
+        "Philippines"
+      ]
+    },
+    {
+      "landmark_name": "Luzon's Chocolate Hills",
+      "question": "Why are they called Chocolate Hills?",
+      "keywords": [
+        "brown",
+        "dry season"
+      ]
+    },
+    {
+      "landmark_name": "Jeju Island",
+      "question": "In which country is Jeju Island?",
+      "keywords": [
+        "South Korea",
+        "Korea"
+      ]
+    },
+    {
+      "landmark_name": "Jeju Island",
+      "question": "What type of landscape is Jeju known for?",
+      "keywords": [
+        "volcanic",
+        "lava tubes"
+      ]
+    },
+    {
+      "landmark_name": "Demilitarized Zone (DMZ)",
+      "question": "What countries does the DMZ separate?",
+      "keywords": [
+        "North Korea",
+        "South Korea"
+      ]
+    },
+    {
+      "landmark_name": "Demilitarized Zone (DMZ)",
+      "question": "What is the DMZ?",
+      "keywords": [
+        "border",
+        "buffer"
+      ]
+    },
+    {
+      "landmark_name": "Giant Buddha of Kamakura",
+      "question": "In which country is the Kamakura Buddha?",
+      "keywords": [
+        "Japan"
+      ]
+    },
+    {
+      "landmark_name": "Giant Buddha of Kamakura",
+      "question": "What material is the Kamakura Buddha made of?",
+      "keywords": [
+        "bronze"
+      ]
+    },
+    {
+      "landmark_name": "Varanasi / Benares",
+      "question": "What river is Varanasi on?",
+      "keywords": [
+        "Ganges",
+        "Ganga"
+      ]
+    },
+    {
+      "landmark_name": "Varanasi / Benares",
+      "question": "What are the steps leading to the river called?",
+      "keywords": [
+        "ghats"
+      ]
+    },
+    {
+      "landmark_name": "Luxor and Karnak Temples",
+      "question": "Which god was Karnak Temple dedicated to?",
+      "keywords": [
+        "Amun"
+      ]
+    },
+    {
+      "landmark_name": "Abu Simbel",
+      "question": "Why was Abu Simbel moved?",
+      "keywords": [
+        "Aswan Dam",
+        "dam",
+        "flooding"
+      ]
+    },
+    {
+      "landmark_name": "Serengeti National Park",
+      "question": "In which countries is the Serengeti?",
+      "keywords": [
+        "Tanzania",
+        "Kenya"
+      ]
+    },
+    {
+      "landmark_name": "Mount Kilimanjaro",
+      "question": "How tall is Mount Kilimanjaro?",
+      "keywords": [
+        "5895",
+        "meters"
+      ]
+    },
+    {
+      "landmark_name": "Victoria Falls",
+      "question": "What is the local name for Victoria Falls?",
+      "keywords": [
+        "Mosi-oa-Tunya",
+        "Smoke"
+      ]
+    },
+    {
+      "landmark_name": "Table Mountain",
+      "question": "What often covers Table Mountain?",
+      "keywords": [
+        "cloud",
+        "tablecloth"
+      ]
+    },
+    {
+      "landmark_name": "Taj Mahal",
+      "question": "Who is buried in the Taj Mahal?",
+      "keywords": [
+        "Mumtaz Mahal",
+        "wife"
+      ]
+    },
+    {
+      "landmark_name": "Gateway of India",
+      "question": "When was the Gateway of India completed?",
+      "keywords": [
+        "1924"
+      ]
+    },
+    {
+      "landmark_name": "Ellora Caves",
+      "question": "What religions are represented at Ellora?",
+      "keywords": [
+        "Hindu",
+        "Buddhist",
+        "Jain"
+      ]
+    },
+    {
+      "landmark_name": "Ajanta Caves",
+      "question": "When were the Ajanta Caves rediscovered?",
+      "keywords": [
+        "1819"
+      ]
+    },
+    {
+      "landmark_name": "Hampi",
+      "question": "In which year was Hampi destroyed?",
+      "keywords": [
+        "1565"
+      ]
+    },
+    {
+      "landmark_name": "Mount Fuji",
+      "question": "How tall is Mount Fuji?",
+      "keywords": [
+        "3776",
+        "meters"
+      ]
+    },
+    {
+      "landmark_name": "Kyoto Temples",
+      "question": "What is the famous rock garden temple in Kyoto?",
+      "keywords": [
+        "Ryoan-ji"
+      ]
+    },
+    {
+      "landmark_name": "Himeji Castle",
+      "question": "What color is Himeji Castle?",
+      "keywords": [
+        "white"
+      ]
+    },
+    {
+      "landmark_name": "Hiroshima Peace Memorial",
+      "question": "What event is the Hiroshima Peace Memorial about?",
+      "keywords": [
+        "atomic bomb",
+        "nuclear",
+        "1945"
+      ]
+    },
+    {
+      "landmark_name": "Borobudur Temple Compounds",
+      "question": "In which country is Borobudur?",
+      "keywords": [
+        "Indonesia",
+        "Java"
+      ]
+    },
+    {
+      "landmark_name": "Ha Long Bay",
+      "question": "In which country is Ha Long Bay?",
+      "keywords": [
+        "Vietnam"
+      ]
+    },
+    {
+      "landmark_name": "Bagan",
+      "question": "In which country is Bagan?",
+      "keywords": [
+        "Myanmar",
+        "Burma"
+      ]
+    },
+    {
+      "landmark_name": "Gyeongbokgung Palace",
+      "question": "In which city is Gyeongbokgung Palace?",
+      "keywords": [
+        "Seoul"
+      ]
+    },
+    {
+      "landmark_name": "Chichen Itza",
+      "question": "Who built Chichen Itza?",
+      "keywords": [
+        "Maya",
+        "Mayan"
+      ]
+    },
+    {
+      "landmark_name": "Chichen Itza",
+      "question": "What happens during the equinox?",
+      "keywords": [
+        "serpent",
+        "shadow",
+        "snake"
+      ]
+    },
+    {
+      "landmark_name": "Teotihuacan",
+      "question": "In which country is Teotihuacan?",
+      "keywords": [
+        "Mexico"
+      ]
+    },
+    {
+      "landmark_name": "Palenque",
+      "question": "Who built Palenque?",
+      "keywords": [
+        "Maya",
+        "Mayan"
+      ]
+    },
+    {
+      "landmark_name": "Tikal National Park",
+      "question": "Who built Tikal?",
+      "keywords": [
+        "Maya",
+        "Mayan"
+      ]
+    },
+    {
+      "landmark_name": "Iguazu Falls",
+      "question": "What countries border Iguazu Falls?",
+      "keywords": [
+        "Argentina",
+        "Brazil"
+      ]
+    },
+    {
+      "landmark_name": "Christ the Redeemer Statue",
+      "question": "When was Christ the Redeemer completed?",
+      "keywords": [
+        "1931"
+      ]
+    },
+    {
+      "landmark_name": "Salar de Uyuni",
+      "question": "In which country is Salar de Uyuni?",
+      "keywords": [
+        "Bolivia"
+      ]
+    },
+    {
+      "landmark_name": "Grand Canyon",
+      "question": "In which state is the Grand Canyon?",
+      "keywords": [
+        "Arizona"
+      ]
+    },
+    {
+      "landmark_name": "Yellowstone National Park",
+      "question": "When was Yellowstone established?",
+      "keywords": [
+        "1872"
+      ]
+    },
+    {
+      "landmark_name": "Yosemite National Park",
+      "question": "In which state is Yosemite?",
+      "keywords": [
+        "California"
+      ]
+    },
+    {
+      "landmark_name": "Statue of Liberty",
+      "question": "Who designed the Statue of Liberty?",
+      "keywords": [
+        "Bartholdi"
+      ]
+    },
+    {
+      "landmark_name": "Statue of Liberty",
+      "question": "When was the Statue of Liberty dedicated?",
+      "keywords": [
+        "1886"
+      ]
+    },
+    {
+      "landmark_name": "Niagara Falls",
+      "question": "What are the three waterfalls at Niagara called?",
+      "keywords": [
+        "Horseshoe",
+        "American",
+        "Bridal"
+      ]
+    },
+    {
+      "landmark_name": "Banff National Park",
+      "question": "In which country is Banff National Park?",
+      "keywords": [
+        "Canada"
+      ]
+    },
+    {
+      "landmark_name": "CN Tower",
+      "question": "When was the CN Tower completed?",
+      "keywords": [
+        "1976"
+      ]
+    },
+    {
+      "landmark_name": "Kremlin and Red Square",
+      "question": "In which city is the Kremlin?",
+      "keywords": [
+        "Moscow"
+      ]
+    },
+    {
+      "landmark_name": "St. Petersburg",
+      "question": "Who founded St. Petersburg?",
+      "keywords": [
+        "Peter",
+        "Great"
+      ]
+    },
+    {
+      "landmark_name": "Burj Khalifa",
+      "question": "How tall is the Burj Khalifa?",
+      "keywords": [
+        "828",
+        "meters"
+      ]
+    },
+    {
+      "landmark_name": "Sheikh Zayed Mosque",
+      "question": "What material is the Sheikh Zayed Mosque made of?",
+      "keywords": [
+        "marble",
+        "white"
+      ]
+    },
+    {
+      "landmark_name": "Old City of Dubrovnik",
+      "question": "In which country is Dubrovnik?",
+      "keywords": [
+        "Croatia"
+      ]
+    },
+    {
+      "landmark_name": "Plitvice Lakes National Park",
+      "question": "In which country is Plitvice Lakes?",
+      "keywords": [
+        "Croatia"
+      ]
+    },
+    {
+      "landmark_name": "Hallstatt",
+      "question": "In which country is Hallstatt?",
+      "keywords": [
+        "Austria"
+      ]
+    },
+    {
+      "landmark_name": "Brugge",
+      "question": "In which country is Bruges?",
+      "keywords": [
+        "Belgium"
+      ]
+    },
+    {
+      "landmark_name": "Samarkand",
+      "question": "In which country is Samarkand?",
+      "keywords": [
+        "Uzbekistan"
+      ]
+    },
+    {
+      "landmark_name": "Old City of Jerusalem",
+      "question": "What religions consider Jerusalem sacred?",
+      "keywords": [
+        "Jewish",
+        "Christian",
+        "Muslim"
+      ]
+    },
+    {
+      "landmark_name": "Masada",
+      "question": "Who built Masada?",
+      "keywords": [
+        "Herod"
+      ]
+    },
+    {
+      "landmark_name": "Dead Sea",
+      "question": "Which countries border the Dead Sea?",
+      "keywords": [
+        "Israel",
+        "Jordan"
+      ]
+    },
+    {
+      "landmark_name": "Persepolis",
+      "question": "Who built Persepolis?",
+      "keywords": [
+        "Darius",
+        "Persian"
+      ]
+    },
+    {
+      "landmark_name": "Alberobello's Trulli",
+      "question": "What are trulli houses made of?",
+      "keywords": [
+        "stone",
+        "limestone"
+      ]
+    },
+    {
+      "landmark_name": "17-Mile-Drive",
+      "question": "What golf course is on 17-Mile Drive?",
+      "keywords": [
+        "Pebble Beach"
+      ]
+    },
+    {
+      "landmark_name": "Tiwanaku",
+      "question": "In which country is Tiwanaku?",
+      "keywords": [
+        "Bolivia"
+      ]
+    },
+    {
+      "landmark_name": "Lake Titicaca",
+      "question": "Which countries share Lake Titicaca?",
+      "keywords": [
+        "Peru",
+        "Bolivia"
+      ]
+    },
+    {
+      "landmark_name": "Rila Monastery",
+      "question": "In which country is Rila Monastery?",
+      "keywords": [
+        "Bulgaria"
+      ]
+    },
+    {
+      "landmark_name": "Taktsang Monastery / Tiger's Nest",
+      "question": "What religion is Tiger's Nest associated with?",
+      "keywords": [
+        "Buddhist",
+        "Buddhism"
+      ]
+    },
+    {
+      "landmark_name": "Minaret of Jam",
+      "question": "When was the Minaret of Jam built?",
+      "keywords": [
+        "12th century",
+        "1194"
+      ]
+    },
+    {
+      "landmark_name": "Okavango Delta and Moremi Wildlife Reserve",
+      "question": "In which country is the Okavango Delta?",
+      "keywords": [
+        "Botswana"
+      ]
+    },
+    {
+      "landmark_name": "Bwindi Impenetrable National Park",
+      "question": "In which country is Bwindi?",
+      "keywords": [
+        "Uganda"
+      ]
+    },
+    {
+      "landmark_name": "Great Zimbabwe",
+      "question": "In which country is Great Zimbabwe?",
+      "keywords": [
+        "Zimbabwe"
+      ]
+    },
+    {
+      "landmark_name": "Timbuktu",
+      "question": "In which country is Timbuktu?",
+      "keywords": [
+        "Mali"
+      ]
+    },
+    {
+      "landmark_name": "Meroe Pyramids",
+      "question": "In which country are the Meroe Pyramids?",
+      "keywords": [
+        "Sudan"
+      ]
+    },
+    {
+      "landmark_name": "Old Havana",
+      "question": "In which country is Old Havana?",
+      "keywords": [
+        "Cuba"
+      ]
+    },
+    {
+      "landmark_name": "Antigua Guatemala",
+      "question": "In which country is Antigua Guatemala?",
+      "keywords": [
+        "Guatemala"
+      ]
+    },
+    {
+      "landmark_name": "Historic Centre of Macau",
+      "question": "Which countries influenced Macau's architecture?",
+      "keywords": [
+        "Portuguese",
+        "Chinese"
+      ]
+    },
+    {
+      "landmark_name": "Old Town of Lijiang",
+      "question": "In which country is Lijiang?",
+      "keywords": [
+        "China"
+      ]
+    },
+    {
+      "landmark_name": "Danube Cruise",
+      "question": "What cities can you see on a Danube Cruise?",
+      "keywords": [
+        "Vienna",
+        "Budapest"
+      ]
+    },
+    {
+      "landmark_name": "Grand Place",
+      "question": "What architectural style is the Grand Place?",
+      "keywords": [
+        "Baroque",
+        "Gothic"
+      ]
+    },
+    {
+      "landmark_name": "Hofburg Palace",
+      "question": "In which city is the Hofburg Palace?",
+      "keywords": [
+        "Vienna"
+      ]
+    },
+    {
+      "landmark_name": "Palace and Gardens of Sch\u00f6nbrunn",
+      "question": "In which city is Sch\u00f6nbrunn Palace?",
+      "keywords": [
+        "Vienna"
+      ]
+    },
+    {
+      "landmark_name": "Fernando de Noronha",
+      "question": "In which country is Fernando de Noronha?",
+      "keywords": [
+        "Brazil"
+      ]
+    },
+    {
+      "landmark_name": "Amazon Rainforest",
+      "question": "Which countries contain the Amazon Rainforest?",
+      "keywords": [
+        "Brazil",
+        "Peru"
+      ]
+    },
+    {
+      "landmark_name": "Sugarloaf Mountain",
+      "question": "In which city is Sugarloaf Mountain?",
+      "keywords": [
+        "Rio de Janeiro",
+        "Rio"
+      ]
+    },
+    {
+      "landmark_name": "Angel Falls",
+      "question": "In which country is Angel Falls?",
+      "keywords": [
+        "Venezuela"
+      ]
+    },
+    {
+      "landmark_name": "Galapagos Islands",
+      "question": "In which country are the Galapagos Islands?",
+      "keywords": [
+        "Ecuador"
+      ]
+    },
+    {
+      "landmark_name": "Old Qu\u00e9bec",
+      "question": "In which country is Old Quebec?",
+      "keywords": [
+        "Canada"
+      ]
+    },
+    {
+      "landmark_name": "Alcatraz Island",
+      "question": "When did Alcatraz close as a prison?",
+      "keywords": [
+        "1963"
+      ]
+    },
+    {
+      "landmark_name": "San Francisco",
+      "question": "What transportation is San Francisco famous for?",
+      "keywords": [
+        "cable car"
+      ]
+    },
+    {
+      "landmark_name": "Las Vegas Strip at Night",
+      "question": "In which state is Las Vegas?",
+      "keywords": [
+        "Nevada"
+      ]
+    },
+    {
+      "landmark_name": "Mt Rushmore",
+      "question": "Which presidents are on Mount Rushmore?",
+      "keywords": [
+        "Washington",
+        "Jefferson",
+        "Roosevelt",
+        "Lincoln"
+      ]
+    },
+    {
+      "landmark_name": "Monument Valley",
+      "question": "In which states is Monument Valley?",
+      "keywords": [
+        "Arizona",
+        "Utah"
+      ]
+    },
+    {
+      "landmark_name": "Bryce Canyon",
+      "question": "In which state is Bryce Canyon?",
+      "keywords": [
+        "Utah"
+      ]
+    },
+    {
+      "landmark_name": "Zion National Park",
+      "question": "In which state is Zion National Park?",
+      "keywords": [
+        "Utah"
+      ]
+    },
+    {
+      "landmark_name": "Hoi An Ancient Town",
+      "question": "In which country is Hoi An?",
+      "keywords": [
+        "Vietnam"
+      ]
+    },
+    {
+      "landmark_name": "Cu Chi Tunnels",
+      "question": "In which country are the Cu Chi Tunnels?",
+      "keywords": [
+        "Vietnam"
+      ]
+    },
+    {
+      "landmark_name": "Imperial City, Hue",
+      "question": "In which country is Hue?",
+      "keywords": [
+        "Vietnam"
+      ]
+    },
+    {
+      "landmark_name": "Belize Barrier Reef Reserve",
+      "question": "In which country is the Belize Barrier Reef?",
+      "keywords": [
+        "Belize"
+      ]
+    },
+    {
+      "landmark_name": "Great Blue Hole",
+      "question": "In which country is the Great Blue Hole?",
+      "keywords": [
+        "Belize"
+      ]
+    },
+    {
+      "landmark_name": "Los Glaciares National Park",
+      "question": "In which country is Los Glaciares?",
+      "keywords": [
+        "Argentina"
+      ]
+    },
+    {
+      "landmark_name": "Ngorongoro Crater",
+      "question": "In which country is Ngorongoro Crater?",
+      "keywords": [
+        "Tanzania"
+      ]
+    },
+    {
+      "landmark_name": "Komodo National Park",
+      "question": "In which country is Komodo?",
+      "keywords": [
+        "Indonesia"
+      ]
+    },
+    {
+      "landmark_name": "Murchison Falls",
+      "question": "In which country is Murchison Falls?",
+      "keywords": [
+        "Uganda"
+      ]
+    },
+    {
+      "landmark_name": "Rwenzori Mountains National Park",
+      "question": "In which country are the Rwenzori Mountains?",
+      "keywords": [
+        "Uganda"
+      ]
+    },
+    {
+      "landmark_name": "Ksar of Ait-Ben-Haddou",
+      "question": "In which country is Ait-Ben-Haddou?",
+      "keywords": [
+        "Morocco"
+      ]
+    },
+    {
+      "landmark_name": "Medina of Fes",
+      "question": "In which country is Fes?",
+      "keywords": [
+        "Morocco"
+      ]
+    },
+    {
+      "landmark_name": "Hassan II Mosque",
+      "question": "What is special about the Hassan II Mosque?",
+      "keywords": [
+        "ocean",
+        "sea",
+        "water"
+      ]
+    },
+    {
+      "landmark_name": "Loire Valley Castles",
+      "question": "In which country are the Loire Valley Castles?",
+      "keywords": [
+        "France"
+      ]
+    },
+    {
+      "landmark_name": "Notre Dame de Paris",
+      "question": "What architectural style is Notre Dame?",
+      "keywords": [
+        "Gothic"
+      ]
+    },
+    {
+      "landmark_name": "Pont du Gard",
+      "question": "In which country is the Pont du Gard?",
+      "keywords": [
+        "France"
+      ]
+    },
+    {
+      "landmark_name": "Pamukkale",
+      "question": "In which country is Pamukkale?",
+      "keywords": [
+        "Turkey"
+      ]
+    },
+    {
+      "landmark_name": "Sumela Monastery",
+      "question": "In which country is Sumela Monastery?",
+      "keywords": [
+        "Turkey"
+      ]
+    },
+    {
+      "landmark_name": "Volubilis",
+      "question": "In which country is Volubilis?",
+      "keywords": [
+        "Morocco"
+      ]
+    },
+    {
+      "landmark_name": "Lalibela",
+      "question": "In which country is Lalibela?",
+      "keywords": [
+        "Ethiopia"
+      ]
+    },
+    {
+      "landmark_name": "Simien Mountains National Park",
+      "question": "In which country are the Simien Mountains?",
+      "keywords": [
+        "Ethiopia"
+      ]
+    },
+    {
+      "landmark_name": "Stone Town of Zanzibar",
+      "question": "In which country is Stone Town?",
+      "keywords": [
+        "Tanzania"
+      ]
+    },
+    {
+      "landmark_name": "Blue Lagoon",
+      "question": "What type of attraction is the Blue Lagoon?",
+      "keywords": [
+        "geothermal",
+        "spa",
+        "hot spring"
+      ]
+    },
+    {
+      "landmark_name": "Thingvellir",
+      "question": "In which country is Thingvellir?",
+      "keywords": [
+        "Iceland"
+      ]
+    },
+    {
+      "landmark_name": "Golden Circle",
+      "question": "In which country is the Golden Circle?",
+      "keywords": [
+        "Iceland"
+      ]
+    },
+    {
+      "landmark_name": "Summer Palace, an Imperial Garden",
+      "question": "In which city is the Summer Palace?",
+      "keywords": [
+        "Beijing"
+      ]
+    },
+    {
+      "landmark_name": "Classical Gardens of Suzhou",
+      "question": "In which country are the Gardens of Suzhou?",
+      "keywords": [
+        "China"
+      ]
+    },
+    {
+      "landmark_name": "Leshan Giant Buddha",
+      "question": "In which country is the Leshan Giant Buddha?",
+      "keywords": [
+        "China"
+      ]
+    },
+    {
+      "landmark_name": "Mogao Caves",
+      "question": "In which country are the Mogao Caves?",
+      "keywords": [
+        "China"
+      ]
+    },
+    {
+      "landmark_name": "Mount Huangshan",
+      "question": "In which country is Mount Huangshan?",
+      "keywords": [
+        "China"
+      ]
+    },
+    {
+      "landmark_name": "Jiuzhaigou Valley",
+      "question": "In which country is Jiuzhaigou Valley?",
+      "keywords": [
+        "China"
+      ]
+    },
+    {
+      "landmark_name": "Wulingyuan",
+      "question": "In which country is Wulingyuan?",
+      "keywords": [
+        "China"
+      ]
+    },
+    {
+      "landmark_name": "Historic Centre of the City of Salzburg",
+      "question": "In which country is Salzburg?",
+      "keywords": [
+        "Austria"
+      ]
+    },
+    {
+      "landmark_name": "Belvedere Palace",
+      "question": "In which city is the Belvedere Palace?",
+      "keywords": [
+        "Vienna"
+      ]
+    },
+    {
+      "landmark_name": "Melk Abbey Church",
+      "question": "In which country is Melk Abbey?",
+      "keywords": [
+        "Austria"
+      ]
+    },
+    {
+      "landmark_name": "Ta Prohm",
+      "question": "In which country is Ta Prohm?",
+      "keywords": [
+        "Cambodia"
+      ]
+    },
+    {
+      "landmark_name": "Angkor Thom",
+      "question": "In which country is Angkor Thom?",
+      "keywords": [
+        "Cambodia"
+      ]
+    },
+    {
+      "landmark_name": "Phong Nha-Ke Bang National Park",
+      "question": "In which country is Phong Nha?",
+      "keywords": [
+        "Vietnam"
+      ]
+    },
+    {
+      "landmark_name": "Hang Son Doong",
+      "question": "In which country is Hang Son Doong?",
+      "keywords": [
+        "Vietnam"
+      ]
+    },
+    {
+      "landmark_name": "Punakha Dzong",
+      "question": "In which country is Punakha Dzong?",
+      "keywords": [
+        "Bhutan"
+      ]
+    },
+    {
+      "landmark_name": "Dj\u00e9mila",
+      "question": "In which country is Dj\u00e9mila?",
+      "keywords": [
+        "Algeria"
+      ]
+    },
+    {
+      "landmark_name": "M'Zab Valley",
+      "question": "In which country is M'Zab Valley?",
+      "keywords": [
+        "Algeria"
+      ]
+    },
+    {
+      "landmark_name": "Tassili n'Ajjer",
+      "question": "In which country is Tassili n'Ajjer?",
+      "keywords": [
+        "Algeria"
+      ]
+    },
+    {
+      "landmark_name": "Gobustan Rock Art Cultural Landscape",
+      "question": "In which country is Gobustan?",
+      "keywords": [
+        "Azerbaijan"
+      ]
+    },
+    {
+      "landmark_name": "Palace of the Shirvanshahs",
+      "question": "In which country is the Palace of the Shirvanshahs?",
+      "keywords": [
+        "Azerbaijan"
+      ]
+    },
+    {
+      "landmark_name": "Rock-Hewn Churches of Ivanovo",
+      "question": "In which country are the Rock-Hewn Churches of Ivanovo?",
+      "keywords": [
+        "Bulgaria"
+      ]
+    },
+    {
+      "landmark_name": "Ghent",
+      "question": "In which country is Ghent?",
+      "keywords": [
+        "Belgium"
+      ]
+    },
+    {
+      "landmark_name": "Caracol",
+      "question": "In which country is Caracol?",
+      "keywords": [
+        "Belize"
+      ]
+    },
+    {
+      "landmark_name": "Xunantunich",
+      "question": "In which country is Xunantunich?",
+      "keywords": [
+        "Belize"
+      ]
+    },
+    {
+      "landmark_name": "Chobe National Park",
+      "question": "In which country is Chobe National Park?",
+      "keywords": [
+        "Botswana"
+      ]
+    },
+    {
+      "landmark_name": "Salvador de Bahia",
+      "question": "In which country is Salvador de Bahia?",
+      "keywords": [
+        "Brazil"
+      ]
+    },
+    {
+      "landmark_name": "Brasilia",
+      "question": "In which country is Brasilia?",
+      "keywords": [
+        "Brazil"
+      ]
+    },
+    {
+      "landmark_name": "Canadian Rocky Mountain Parks",
+      "question": "In which country are the Canadian Rockies?",
+      "keywords": [
+        "Canada"
+      ]
+    },
+    {
+      "landmark_name": "Bay of Fundy",
+      "question": "In which country is the Bay of Fundy?",
+      "keywords": [
+        "Canada"
+      ]
+    },
+    {
+      "landmark_name": "Osorno Volcano",
+      "question": "In which country is Osorno Volcano?",
+      "keywords": [
+        "Chile"
+      ]
+    },
+    {
+      "landmark_name": "Dazu Rock Carvings",
+      "question": "In which country are the Dazu Rock Carvings?",
+      "keywords": [
+        "China"
+      ]
+    },
+    {
+      "landmark_name": "Longmen Grottoes",
+      "question": "In which country are the Longmen Grottoes?",
+      "keywords": [
+        "China"
+      ]
+    },
+    {
+      "landmark_name": "Yungang Grottoes",
+      "question": "In which country are the Yungang Grottoes?",
+      "keywords": [
+        "China"
+      ]
+    },
+    {
+      "landmark_name": "Ancient City of Pingyao",
+      "question": "In which country is Pingyao?",
+      "keywords": [
+        "China"
+      ]
+    },
+    {
+      "landmark_name": "Honghe Hani Rice Terraces",
+      "question": "In which country are the Honghe Rice Terraces?",
+      "keywords": [
+        "China"
+      ]
+    },
+    {
+      "landmark_name": "Historic Centre of Florence",
+      "question": "In which country is Florence?",
+      "keywords": [
+        "Italy"
+      ]
+    },
+    {
+      "landmark_name": "Historic Centre of Rome",
+      "question": "In which country is Rome?",
+      "keywords": [
+        "Italy"
+      ]
+    },
+    {
+      "landmark_name": "Venice and its Lagoon",
+      "question": "In which country is Venice?",
+      "keywords": [
+        "Italy"
+      ]
+    },
+    {
+      "landmark_name": "Piazza dei Miracoli, Pisa",
+      "question": "In which country is Pisa?",
+      "keywords": [
+        "Italy"
+      ]
+    },
+    {
+      "landmark_name": "Geirangerfjord and N\u00e6r\u00f8yfjord",
+      "question": "In which country are the Norwegian fjords?",
+      "keywords": [
+        "Norway"
+      ]
+    },
+    {
+      "landmark_name": "Bergen's Bryggen Hanseatic Wharf",
+      "question": "In which country is Bryggen?",
+      "keywords": [
+        "Norway"
+      ]
+    },
+    {
+      "landmark_name": "Whitehaven Beach / Island",
+      "question": "What is special about the sand at Whitehaven?",
+      "keywords": [
+        "white",
+        "silica"
+      ]
+    },
+    {
+      "landmark_name": "Lord Howe Island Group",
+      "question": "What is Lord Howe Island famous for?",
+      "keywords": [
+        "wildlife",
+        "endemic"
+      ]
+    },
+    {
+      "landmark_name": "Great Ocean Road",
+      "question": "In which country is the Great Ocean Road?",
+      "keywords": [
+        "Australia"
+      ]
+    },
+    {
+      "landmark_name": "Kakadu National Park",
+      "question": "What is special about the rock art at Kakadu?",
+      "keywords": [
+        "Aboriginal",
+        "ancient"
+      ]
+    },
+    {
+      "landmark_name": "Bungle Bungle Range",
+      "question": "In which country is the Bungle Bungle Range?",
+      "keywords": [
+        "Australia"
+      ]
+    },
+    {
+      "landmark_name": "Prambanan Temple Compounds",
+      "question": "What god is the largest temple at Prambanan dedicated to?",
+      "keywords": [
+        "Shiva"
+      ]
+    },
+    {
+      "landmark_name": "Shwedagon Pagoda",
+      "question": "In which city is the Shwedagon Pagoda?",
+      "keywords": [
+        "Yangon",
+        "Rangoon"
+      ]
+    },
+    {
+      "landmark_name": "Sigiriya",
+      "question": "What is painted on the walls at Sigiriya?",
+      "keywords": [
+        "frescoes",
+        "women",
+        "maidens"
+      ]
+    },
+    {
+      "landmark_name": "Nara Park",
+      "question": "Why are the deer at Nara considered special?",
+      "keywords": [
+        "sacred",
+        "messengers",
+        "gods"
+      ]
+    },
+    {
+      "landmark_name": "Fushimi Inari Shrine",
+      "question": "What god is Fushimi Inari dedicated to?",
+      "keywords": [
+        "Inari",
+        "fox"
+      ]
+    },
+    {
+      "landmark_name": "Arashiyama Bamboo Forest",
+      "question": "In which city is Arashiyama?",
+      "keywords": [
+        "Kyoto"
+      ]
+    },
+    {
+      "landmark_name": "Itsukushima Shrine",
+      "question": "What island is Itsukushima Shrine on?",
+      "keywords": [
+        "Miyajima"
+      ]
+    },
+    {
+      "landmark_name": "Banaue Rice Terraces",
+      "question": "How old are the Banaue Rice Terraces?",
+      "keywords": [
+        "2000",
+        "years"
+      ]
+    },
+    {
+      "landmark_name": "Puerto Princesa Underground River",
+      "question": "How long is the underground river?",
+      "keywords": [
+        "8",
+        "kilometers"
+      ]
+    },
+    {
+      "landmark_name": "Luzon's Chocolate Hills",
+      "question": "How many hills are there?",
+      "keywords": [
+        "1200",
+        "1700",
+        "thousand"
+      ]
+    },
+    {
+      "landmark_name": "Jeju Island",
+      "question": "What is the highest peak on Jeju?",
+      "keywords": [
+        "Hallasan"
+      ]
+    },
+    {
+      "landmark_name": "Giant Buddha of Kamakura",
+      "question": "When was the Kamakura Buddha built?",
+      "keywords": [
+        "13th century",
+        "1252"
+      ]
+    },
+    {
+      "landmark_name": "Amalfi Coast",
+      "question": "In which country is the Amalfi Coast?",
+      "keywords": [
+        "Italy"
+      ]
+    },
+    {
+      "landmark_name": "Cinque Terre",
+      "question": "How many villages make up Cinque Terre?",
+      "keywords": [
+        "five",
+        "5"
+      ]
+    },
+    {
+      "landmark_name": "Acropolis of Athens",
+      "question": "Which goddess was the Parthenon dedicated to?",
+      "keywords": [
+        "Athena"
+      ]
+    },
+    {
+      "landmark_name": "Delphi",
+      "question": "Which god was Delphi dedicated to?",
+      "keywords": [
+        "Apollo"
+      ]
+    },
+    {
+      "landmark_name": "Meteora",
+      "question": "How many monasteries are in Meteora today?",
+      "keywords": [
+        "six",
+        "6"
+      ]
+    },
+    {
+      "landmark_name": "Santorini",
+      "question": "What color are the buildings in Santorini?",
+      "keywords": [
+        "white",
+        "blue"
+      ]
+    },
+    {
+      "landmark_name": "Petra",
+      "question": "What is Petra carved from?",
+      "keywords": [
+        "sandstone",
+        "rock"
+      ]
+    },
+    {
+      "landmark_name": "Pyramids of Giza",
+      "question": "What material were the pyramids built from?",
+      "keywords": [
+        "limestone",
+        "granite"
+      ]
+    },
+    {
+      "landmark_name": "Great Sphinx of Giza",
+      "question": "What is the Great Sphinx missing?",
+      "keywords": [
+        "nose"
+      ]
+    },
+    {
+      "landmark_name": "Luxor and Karnak Temples",
+      "question": "What is the largest structure at Karnak?",
+      "keywords": [
+        "Hypostyle Hall",
+        "columns"
+      ]
+    },
+    {
+      "landmark_name": "Valley of the Kings",
+      "question": "What was the Valley of the Kings used for?",
+      "keywords": [
+        "tomb",
+        "burial",
+        "pharaoh"
+      ]
+    },
+    {
+      "landmark_name": "Red Fort",
+      "question": "In which city is the Red Fort?",
+      "keywords": [
+        "Delhi"
+      ]
+    },
+    {
+      "landmark_name": "Cologne Cathedral",
+      "question": "What relics are kept in Cologne Cathedral?",
+      "keywords": [
+        "Three Kings",
+        "Magi"
+      ]
+    },
+    {
+      "landmark_name": "Cologne Cathedral",
+      "question": "What architectural style is Cologne Cathedral?",
+      "keywords": [
+        "Gothic"
+      ]
+    },
+    {
+      "landmark_name": "Wieliczka Salt Mine",
+      "question": "What is the Wieliczka Salt Mine famous for?",
+      "keywords": [
+        "salt",
+        "chapel",
+        "carved"
+      ]
+    },
+    {
+      "landmark_name": "Wieliczka Salt Mine",
+      "question": "What is carved underground at Wieliczka?",
+      "keywords": [
+        "chapel",
+        "statues"
+      ]
+    },
+    {
+      "landmark_name": "Chartres Cathedral",
+      "question": "What is Chartres Cathedral famous for?",
+      "keywords": [
+        "stained glass",
+        "windows"
+      ]
+    },
+    {
+      "landmark_name": "Chartres Cathedral",
+      "question": "What architectural style is Chartres Cathedral?",
+      "keywords": [
+        "Gothic"
+      ]
+    },
+    {
+      "landmark_name": "Carcassonne",
+      "question": "What is Carcassonne known for?",
+      "keywords": [
+        "walls",
+        "fortress",
+        "fortified"
+      ]
+    },
+    {
+      "landmark_name": "Westminster Palace & Abbey",
+      "question": "What architectural style is Westminster Abbey?",
+      "keywords": [
+        "Gothic"
+      ]
+    },
+    {
+      "landmark_name": "Edinburgh Castle",
+      "question": "What jewels are kept in Edinburgh Castle?",
+      "keywords": [
+        "Crown Jewels",
+        "Honours"
+      ]
+    },
+    {
+      "landmark_name": "Canterbury Cathedral",
+      "question": "In which year was Thomas Becket killed?",
+      "keywords": [
+        "1170"
+      ]
+    },
+    {
+      "landmark_name": "British Museum",
+      "question": "When was the British Museum founded?",
+      "keywords": [
+        "1753"
+      ]
+    },
+    {
+      "landmark_name": "Giant's Causeway",
+      "question": "How were the Giant's Causeway columns formed?",
+      "keywords": [
+        "volcanic",
+        "basalt",
+        "lava"
+      ]
+    },
+    {
+      "landmark_name": "Eiffel Tower",
+      "question": "What was the Eiffel Tower built for?",
+      "keywords": [
+        "World's Fair",
+        "Exposition"
+      ]
+    },
+    {
+      "landmark_name": "Mont Saint Michel",
+      "question": "What surrounds Mont Saint-Michel?",
+      "keywords": [
+        "bay",
+        "sea",
+        "tidal"
+      ]
+    },
+    {
+      "landmark_name": "Louvre",
+      "question": "What shape is the Louvre entrance?",
+      "keywords": [
+        "pyramid",
+        "glass"
+      ]
+    },
+    {
+      "landmark_name": "Hagia Sophia",
+      "question": "When was the Hagia Sophia built?",
+      "keywords": [
+        "537",
+        "6th century"
+      ]
+    },
+    {
+      "landmark_name": "Hagia Sophia",
+      "question": "What was the Hagia Sophia originally?",
+      "keywords": [
+        "church",
+        "cathedral",
+        "Christian"
+      ]
+    },
+    {
+      "landmark_name": "Blue Mosque",
+      "question": "What is the Blue Mosque also called?",
+      "keywords": [
+        "Sultan Ahmed",
+        "Sultanahmet"
+      ]
+    },
+    {
+      "landmark_name": "Blue Mosque",
+      "question": "Why is it called the Blue Mosque?",
+      "keywords": [
+        "tiles",
+        "blue"
+      ]
+    },
+    {
+      "landmark_name": "Cappadocia",
+      "question": "What are the rock formations in Cappadocia called?",
+      "keywords": [
+        "fairy chimney",
+        "hoodoo"
+      ]
+    },
+    {
+      "landmark_name": "Ephesus",
+      "question": "What famous temple was in Ephesus?",
+      "keywords": [
+        "Artemis",
+        "Diana"
+      ]
+    },
+    {
+      "landmark_name": "Alhambra",
+      "question": "Who built the Alhambra?",
+      "keywords": [
+        "Nasrid",
+        "Moorish",
+        "Muslim"
+      ]
+    },
+    {
+      "landmark_name": "Sagrada Familia",
+      "question": "When did construction begin?",
+      "keywords": [
+        "1882"
+      ]
+    },
+    {
+      "landmark_name": "Neuschwanstein Castle",
+      "question": "When was Neuschwanstein Castle built?",
+      "keywords": [
+        "1869",
+        "19th century"
+      ]
+    },
+    {
+      "landmark_name": "Prague Old Town",
+      "question": "What bridge is in Prague Old Town?",
+      "keywords": [
+        "Charles Bridge"
+      ]
+    },
+    {
+      "landmark_name": "Auschwitz Concentration Camp",
+      "question": "When was Auschwitz established?",
+      "keywords": [
+        "1940"
+      ]
+    },
+    {
+      "landmark_name": "Grand Canal of Venice",
+      "question": "What famous bridge crosses the Grand Canal?",
+      "keywords": [
+        "Rialto"
+      ]
+    },
+    {
+      "landmark_name": "Vatican Museums",
+      "question": "What famous chapel is in the Vatican Museums?",
+      "keywords": [
+        "Sistine"
+      ]
+    },
+    {
+      "landmark_name": "St Peter's Basilica",
+      "question": "Who is buried beneath St. Peter's Basilica?",
+      "keywords": [
+        "St. Peter",
+        "Peter"
+      ]
+    },
+    {
+      "landmark_name": "Sistine Chapel",
+      "question": "What is the Sistine Chapel used for?",
+      "keywords": [
+        "conclave",
+        "papal",
+        "election"
+      ]
+    },
+    {
+      "landmark_name": "Amalfi Coast",
+      "question": "What type of landscape is the Amalfi Coast?",
+      "keywords": [
+        "cliff",
+        "coastal",
+        "terraced"
+      ]
+    },
+    {
+      "landmark_name": "Cinque Terre",
+      "question": "What are the villages of Cinque Terre known for?",
+      "keywords": [
+        "colorful",
+        "fishing",
+        "houses"
+      ]
+    },
+    {
+      "landmark_name": "Moai National Park",
+      "question": "What do the moai represent?",
+      "keywords": [
+        "ancestors",
+        "chiefs"
+      ]
+    },
+    {
+      "landmark_name": "Moai National Park",
+      "question": "On which island are the moai?",
+      "keywords": [
+        "Easter Island",
+        "Rapa Nui"
+      ]
+    },
+    {
+      "landmark_name": "Hong Kong City",
+      "question": "What is Hong Kong famous for?",
+      "keywords": [
+        "skyline",
+        "harbor",
+        "shopping"
+      ]
+    },
+    {
+      "landmark_name": "Hong Kong (Victoria) Harbour",
+      "question": "What light show takes place at Victoria Harbour?",
+      "keywords": [
+        "Symphony of Lights"
+      ]
+    },
+    {
+      "landmark_name": "Pudong Skylines",
+      "question": "In which city is Pudong?",
+      "keywords": [
+        "Shanghai"
+      ]
+    },
+    {
+      "landmark_name": "The Bund",
+      "question": "In which city is the Bund?",
+      "keywords": [
+        "Shanghai"
+      ]
+    },
+    {
+      "landmark_name": "The Bund",
+      "question": "What architectural style is the Bund famous for?",
+      "keywords": [
+        "colonial",
+        "European"
+      ]
+    },
+    {
+      "landmark_name": "Three Gorges Dam",
+      "question": "In which country is the Three Gorges Dam?",
+      "keywords": [
+        "China"
+      ]
+    },
+    {
+      "landmark_name": "Three Gorges Dam",
+      "question": "What river is the Three Gorges Dam on?",
+      "keywords": [
+        "Yangtze"
+      ]
+    },
+    {
+      "landmark_name": "Tiananmen Square",
+      "question": "In which city is Tiananmen Square?",
+      "keywords": [
+        "Beijing"
+      ]
+    },
+    {
+      "landmark_name": "Tiananmen Square",
+      "question": "What famous building faces Tiananmen Square?",
+      "keywords": [
+        "Forbidden City",
+        "Gate"
+      ]
+    },
+    {
+      "landmark_name": "Fortifications of Xi'an",
+      "question": "What is special about Xi'an's walls?",
+      "keywords": [
+        "ancient",
+        "Ming",
+        "preserved"
+      ]
+    },
+    {
+      "landmark_name": "Fortifications of Xi'an",
+      "question": "In which country are the Xi'an fortifications?",
+      "keywords": [
+        "China"
+      ]
+    },
+    {
+      "landmark_name": "Copacabana Beach",
+      "question": "In which city is Copacabana Beach?",
+      "keywords": [
+        "Rio de Janeiro",
+        "Rio"
+      ]
+    },
+    {
+      "landmark_name": "Ipanema Beach",
+      "question": "In which city is Ipanema Beach?",
+      "keywords": [
+        "Rio de Janeiro",
+        "Rio"
+      ]
+    },
+    {
+      "landmark_name": "Rio de Janeiro",
+      "question": "What famous statue overlooks Rio?",
+      "keywords": [
+        "Christ the Redeemer"
+      ]
+    },
+    {
+      "landmark_name": "Rio Carnival",
+      "question": "When does Rio Carnival take place?",
+      "keywords": [
+        "February",
+        "before Lent"
+      ]
+    },
+    {
+      "landmark_name": "Golden Gate Bridge",
+      "question": "What color is the Golden Gate Bridge?",
+      "keywords": [
+        "red",
+        "orange"
+      ]
+    },
+    {
+      "landmark_name": "Golden Gate Bridge",
+      "question": "When was the Golden Gate Bridge completed?",
+      "keywords": [
+        "1937"
+      ]
+    },
+    {
+      "landmark_name": "Empire State Building",
+      "question": "In which city is the Empire State Building?",
+      "keywords": [
+        "New York"
+      ]
+    },
+    {
+      "landmark_name": "Empire State Building",
+      "question": "How many floors does the Empire State Building have?",
+      "keywords": [
+        "102"
+      ]
+    },
+    {
+      "landmark_name": "Central Park",
+      "question": "In which city is Central Park?",
+      "keywords": [
+        "New York"
+      ]
+    },
+    {
+      "landmark_name": "Central Park",
+      "question": "Who designed Central Park?",
+      "keywords": [
+        "Olmsted",
+        "Vaux"
+      ]
+    },
+    {
+      "landmark_name": "Times Square",
+      "question": "In which city is Times Square?",
+      "keywords": [
+        "New York"
+      ]
+    },
+    {
+      "landmark_name": "Times Square",
+      "question": "What happens at Times Square on New Year's Eve?",
+      "keywords": [
+        "ball drop"
+      ]
+    },
+    {
+      "landmark_name": "Brooklyn Bridge",
+      "question": "What river does the Brooklyn Bridge cross?",
+      "keywords": [
+        "East River"
+      ]
+    },
+    {
+      "landmark_name": "Brooklyn Bridge",
+      "question": "When was the Brooklyn Bridge completed?",
+      "keywords": [
+        "1883"
+      ]
+    },
+    {
+      "landmark_name": "Walt Disney World",
+      "question": "In which state is Walt Disney World?",
+      "keywords": [
+        "Florida"
+      ]
+    },
+    {
+      "landmark_name": "Walt Disney World",
+      "question": "When did Walt Disney World open?",
+      "keywords": [
+        "1971"
+      ]
+    },
+    {
+      "landmark_name": "Hollywood Sign",
+      "question": "In which city is the Hollywood Sign?",
+      "keywords": [
+        "Los Angeles"
+      ]
+    },
+    {
+      "landmark_name": "Hollywood Sign",
+      "question": "What did the sign originally say?",
+      "keywords": [
+        "Hollywoodland"
+      ]
+    },
+    {
+      "landmark_name": "Space Needle",
+      "question": "In which city is the Space Needle?",
+      "keywords": [
+        "Seattle"
+      ]
+    },
+    {
+      "landmark_name": "Space Needle",
+      "question": "What event was the Space Needle built for?",
+      "keywords": [
+        "World's Fair",
+        "1962"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1109 @@
+{
+  "seed": 42,
+  "sample_n": 100,
+  "data": [
+    {
+      "id": 0,
+      "question": "In which country is Fernando de Noronha?",
+      "reference": "Brazil",
+      "candidate": "Fernando de Noronha is an archipelago in the Atlantic Ocean, part of the state of Pernambuco, Brazil.",
+      "landmark": "Fernando de Noronha"
+    },
+    {
+      "id": 1,
+      "question": "Who designed the Sagrada Familia?",
+      "reference": "Gaud\u00ed; Antoni",
+      "candidate": "The Sagrada Familia was designed by Antoni Gaud\u00ed, a Catalan architect known for his innovative and intricate style.",
+      "landmark": "Sagrada Familia"
+    },
+    {
+      "id": 2,
+      "question": "Who lived in the Potala Palace?",
+      "reference": "Dalai Lama",
+      "candidate": "From 1649 until 1959 it served as the Dalai Lamas' residence, after which it became chiefly a museum following the annexation of Tibet by the People's Republic of China.",
+      "landmark": "Potala Palace, Lhasa"
+    },
+    {
+      "id": 3,
+      "question": "In which country is Punakha Dzong?",
+      "reference": "Bhutan",
+      "candidate": "Bhutan",
+      "landmark": "Punakha Dzong"
+    },
+    {
+      "id": 4,
+      "question": "In which country is Tikal?",
+      "reference": "Guatemala",
+      "candidate": "Tikal is located in Guatemala.",
+      "landmark": "Tikal National Park"
+    },
+    {
+      "id": 5,
+      "question": "What famous square is in Venice?",
+      "reference": "St. Mark; San Marco",
+      "candidate": "The famous square in Venice, Italy, is St. Mark's Square (Piazza San Marco).",
+      "landmark": "Venice and its Lagoon"
+    },
+    {
+      "id": 6,
+      "question": "What famous composer was born in Salzburg?",
+      "reference": "Mozart",
+      "candidate": "Wolfgang Amadeus Mozart was born in Salzburg.",
+      "landmark": "Historic Centre of the City of Salzburg"
+    },
+    {
+      "id": 7,
+      "question": "Who built the Great Pyramid of Giza?",
+      "reference": "Khufu; Cheops",
+      "candidate": "The Great Pyramid of Giza was built by Pharaoh Khufu around 2560 BC.",
+      "landmark": "Pyramids of Giza"
+    },
+    {
+      "id": 8,
+      "question": "In which country is Phong Nha?",
+      "reference": "Vietnam",
+      "candidate": "Phong Nha is located in the North Central Coast region of Vietnam.",
+      "landmark": "Phong Nha-Ke Bang National Park"
+    },
+    {
+      "id": 9,
+      "question": "Who built the Hagia Sophia?",
+      "reference": "Justinian; Byzantine",
+      "candidate": "Constantine the Great built the Hagia Sophia, according to the provided text.",
+      "landmark": "Hagia Sophia"
+    },
+    {
+      "id": 10,
+      "question": "In which country is Ngorongoro Crater?",
+      "reference": "Tanzania",
+      "candidate": "Ngorongoro Crater is located in Tanzania, East Africa.",
+      "landmark": "Ngorongoro Crater"
+    },
+    {
+      "id": 11,
+      "question": "In which city is the Hollywood Sign?",
+      "reference": "Los Angeles",
+      "candidate": "The Hollywood Sign is located in Los Angeles, California.",
+      "landmark": "Hollywood Sign"
+    },
+    {
+      "id": 12,
+      "question": "Who built the Alhambra?",
+      "reference": "Nasrid; Moorish; Muslim",
+      "candidate": "Muhammad I Ibn al-Ahmar, the first Nasrid emir and founder of the Emirate of Granada, began building the Alhambra in 1238.",
+      "landmark": "Alhambra"
+    },
+    {
+      "id": 13,
+      "question": "What happens during the equinox?",
+      "reference": "serpent; shadow; snake",
+      "candidate": "During the equinox, a light-and-shadow effect is observed on the Temple of Kukulc\u00e1n, where the feathered serpent appears to crawl down the side of the pyramid. Tourists gather to witness this natural phenomenon, and local legends suggest it dates back to pre-Columbian times.",
+      "landmark": "Chichen Itza"
+    },
+    {
+      "id": 14,
+      "question": "What famous stone is in the British Museum?",
+      "reference": "Rosetta",
+      "candidate": "The Rosetta Stone is in the British Museum.",
+      "landmark": "British Museum"
+    },
+    {
+      "id": 15,
+      "question": "In which country is Samarkand?",
+      "reference": "Uzbekistan",
+      "candidate": "Samarkand is located in southeastern Uzbekistan.",
+      "landmark": "Samarkand"
+    },
+    {
+      "id": 16,
+      "question": "What shape is Osorno Volcano?",
+      "reference": "cone; symmetrical",
+      "candidate": "Osorno Volcano is a conical stratovolcano with a height of 2,652 meters (8,701 feet).",
+      "landmark": "Osorno Volcano"
+    },
+    {
+      "id": 17,
+      "question": "In which city is the Temple of Heaven?",
+      "reference": "Beijing",
+      "candidate": "The Temple of Heaven is located in Beijing, China.",
+      "landmark": "Temple of Heaven"
+    },
+    {
+      "id": 18,
+      "question": "How many soldiers are in the Terracotta Army?",
+      "reference": "8000; thousand",
+      "candidate": "There are approximately 7,000 statues of terracotta warriors and horses in the Terracotta Army.",
+      "landmark": "Mausoleum of the First Qin Emperor & Terra Cotta Warriors"
+    },
+    {
+      "id": 19,
+      "question": "When was the Eiffel Tower built?",
+      "reference": "1889",
+      "candidate": "The Eiffel Tower was built from 1887 to 1889.",
+      "landmark": "Eiffel Tower"
+    },
+    {
+      "id": 20,
+      "question": "What are the Mogao Caves famous for?",
+      "reference": "Buddhist; murals; paintings",
+      "candidate": "The Mogao Caves are famous for containing over 400,000 square feet of frescoes and sculptures, making them one of the largest repositories of Buddhist art in the world.",
+      "landmark": "Mogao Caves"
+    },
+    {
+      "id": 21,
+      "question": "Who designed Brasilia?",
+      "reference": "Niemeyer; Costa",
+      "candidate": "Oscar Niemeyer, Joaquim Cardozo, and Roberto Burle Marx designed Bras\u00edlia.",
+      "landmark": "Brasilia"
+    },
+    {
+      "id": 22,
+      "question": "What are the steps leading to the river called?",
+      "reference": "ghats",
+      "candidate": "The steps leading to a river are banks, which separate the riverbed and floodplain.",
+      "landmark": "Varanasi / Benares"
+    },
+    {
+      "id": 23,
+      "question": "What golf course is on 17-Mile Drive?",
+      "reference": "Pebble Beach",
+      "candidate": "The Del Monte Golf Course is on 17-Mile Drive.",
+      "landmark": "17-Mile-Drive"
+    },
+    {
+      "id": 24,
+      "question": "What religion is associated with the Potala Palace?",
+      "reference": "Buddhist; Buddhism",
+      "candidate": "The Potala Palace is associated with Buddhism.",
+      "landmark": "Potala Palace, Lhasa"
+    },
+    {
+      "id": 25,
+      "question": "When was Yellowstone established?",
+      "reference": "1872",
+      "candidate": "Yellowstone National Park was established on March 1, 1872.",
+      "landmark": "Yellowstone National Park"
+    },
+    {
+      "id": 26,
+      "question": "What floating islands are on Lake Titicaca?",
+      "reference": "Uros; reed",
+      "candidate": "Below are the average temperatures of the town of Juliaca, in the northern part of the lake. Islands. Uros.",
+      "landmark": "Lake Titicaca"
+    },
+    {
+      "id": 27,
+      "question": "In which country are the Gardens of Suzhou?",
+      "reference": "China",
+      "candidate": "The Gardens of Suzhou are in China.",
+      "landmark": "Classical Gardens of Suzhou"
+    },
+    {
+      "id": 28,
+      "question": "In which country is Old Quebec?",
+      "reference": "Canada",
+      "candidate": "Old Quebec is located in Quebec, Quebec, Canada.",
+      "landmark": "Old Qu\u00e9bec"
+    },
+    {
+      "id": 29,
+      "question": "In which country is Lalibela?",
+      "reference": "Ethiopia",
+      "candidate": "Lalibela is located in Ethiopia.",
+      "landmark": "Lalibela"
+    },
+    {
+      "id": 30,
+      "question": "In which city is the Empire State Building?",
+      "reference": "New York",
+      "candidate": "The Empire State Building is located in New York City, United States.",
+      "landmark": "Empire State Building"
+    },
+    {
+      "id": 31,
+      "question": "What is Salvador famous for?",
+      "reference": "colonial; Afro-Brazilian",
+      "candidate": "Salvador is famous for its cuisine, music, and architecture, particularly for its role as the former capital of Colonial Brazil and its significant contributions to Afro-Brazilian culture.",
+      "landmark": "Salvador de Bahia"
+    },
+    {
+      "id": 32,
+      "question": "What is Jiuzhaigou famous for?",
+      "reference": "lakes; waterfalls; colorful",
+      "candidate": "Jiuzhaigou is famous for its many multi-level waterfalls, colorful lakes, and snow-capped peaks.",
+      "landmark": "Jiuzhaigou Valley"
+    },
+    {
+      "id": 33,
+      "question": "What religion is Luang Prabang associated with?",
+      "reference": "Buddhist; Buddhism",
+      "candidate": "Luang Prabang is associated with Buddhism, specifically Theravada Buddhism, due to the Phra Bang, a statue representing Lao sovereignty that serves as a focal point for religious ceremonies and practices.",
+      "landmark": "Luang Prabang"
+    },
+    {
+      "id": 34,
+      "question": "In which country is Bruges?",
+      "reference": "Belgium",
+      "candidate": "Bruges is in the Flemish Region of Belgium.",
+      "landmark": "Brugge"
+    },
+    {
+      "id": 35,
+      "question": "What famous rock formation is in Yosemite?",
+      "reference": "Half Dome; El Capitan",
+      "candidate": "Half Dome is a famous rock formation in Yosemite.",
+      "landmark": "Yosemite National Park"
+    },
+    {
+      "id": 36,
+      "question": "Why are the deer at Nara considered special?",
+      "reference": "sacred; messengers; gods",
+      "candidate": "The deer at Nara are considered special because they have a long history, are protected by law, and play an important role in Japanese culture.",
+      "landmark": "Nara Park"
+    },
+    {
+      "id": 37,
+      "question": "When was the British Museum founded?",
+      "reference": "1753",
+      "candidate": "The British Museum was founded in 1753 after receiving 160 Egyptian objects from Sir Hans Sloane.",
+      "landmark": "British Museum"
+    },
+    {
+      "id": 38,
+      "question": "When was the Sydney Opera House opened?",
+      "reference": "1973",
+      "candidate": "The Sydney Opera House was formally opened by Queen Elizabeth II on 20 October 1973.",
+      "landmark": "Sydney Opera House"
+    },
+    {
+      "id": 39,
+      "question": "In which country is Xunantunich?",
+      "reference": "Belize",
+      "candidate": "Xunantunich is in western Belize.",
+      "landmark": "Xunantunich"
+    },
+    {
+      "id": 40,
+      "question": "In which city is the Shwedagon Pagoda?",
+      "reference": "Yangon; Rangoon",
+      "candidate": "The Shwedagon Pagoda is located in Yangon, Myanmar.",
+      "landmark": "Shwedagon Pagoda"
+    },
+    {
+      "id": 41,
+      "question": "What is Himeji Castle also called?",
+      "reference": "White Heron; Shirasagi",
+      "candidate": "Himeji Castle is also known as the \"White Heron Castle.\"",
+      "landmark": "Himeji Castle"
+    },
+    {
+      "id": 42,
+      "question": "In which country is Sumela Monastery?",
+      "reference": "Turkey",
+      "candidate": "Sumela Monastery is located in Turkey.",
+      "landmark": "Sumela Monastery"
+    },
+    {
+      "id": 43,
+      "question": "When does Rio Carnival take place?",
+      "reference": "February; before Lent",
+      "candidate": "Rio Carnival takes place from February 12 to 17, 2021 and again from February 17 to 22, 2029.",
+      "landmark": "Rio Carnival"
+    },
+    {
+      "id": 44,
+      "question": "What are the rock formations at Bryce Canyon called?",
+      "reference": "hoodoo",
+      "candidate": "At Bryce Canyon, the rock formations are called hoodoos.",
+      "landmark": "Bryce Canyon"
+    },
+    {
+      "id": 45,
+      "question": "What is the Sistine Chapel used for?",
+      "reference": "conclave; papal; election",
+      "candidate": "The Sistine Chapel is primarily used as the site for the papal conclave, the process by which a new pope is elected.",
+      "landmark": "Sistine Chapel"
+    },
+    {
+      "id": 46,
+      "question": "Which Italian merchant visited Hampi in 1420?",
+      "reference": "Niccol\u00f2; Conti",
+      "candidate": "Niccol\u00f2 de' Conti was an Italian merchant and traveler who visited Hampi around 1420.",
+      "landmark": "Hampi"
+    },
+    {
+      "id": 47,
+      "question": "How tall is the Leshan Giant Buddha?",
+      "reference": "71; meters",
+      "candidate": "The Leshan Giant Buddha is 71 meters (233 ft) tall.",
+      "landmark": "Leshan Giant Buddha"
+    },
+    {
+      "id": 48,
+      "question": "In which country is Salvador de Bahia?",
+      "reference": "Brazil",
+      "candidate": "In Brazil.",
+      "landmark": "Salvador de Bahia"
+    },
+    {
+      "id": 49,
+      "question": "In which state is Mount Rushmore?",
+      "reference": "South Dakota",
+      "candidate": "South Dakota",
+      "landmark": "Mt Rushmore"
+    },
+    {
+      "id": 50,
+      "question": "In which city is Times Square?",
+      "reference": "New York",
+      "candidate": "Times Square is in New York City.",
+      "landmark": "Times Square"
+    },
+    {
+      "id": 51,
+      "question": "In which city is Copacabana Beach?",
+      "reference": "Rio de Janeiro; Rio",
+      "candidate": "Copacabana Beach is located in Rio de Janeiro, Brazil.",
+      "landmark": "Copacabana Beach"
+    },
+    {
+      "id": 52,
+      "question": "What civilization built Volubilis?",
+      "reference": "Roman",
+      "candidate": "The Roman Empire built Volubilis.",
+      "landmark": "Volubilis"
+    },
+    {
+      "id": 53,
+      "question": "What is the famous room in Versailles?",
+      "reference": "Hall of Mirrors",
+      "candidate": "The Hall of Mirrors, a famous room in Versailles, features over six hundred large mirrors hanging on walls and ceilings.",
+      "landmark": "Palace of Versailles"
+    },
+    {
+      "id": 54,
+      "question": "What famous animal lives in Komodo?",
+      "reference": "dragon; Komodo",
+      "candidate": "Komodo Dragons.",
+      "landmark": "Komodo National Park"
+    },
+    {
+      "id": 55,
+      "question": "What was the Valley of the Kings used for?",
+      "reference": "tomb; burial; pharaoh",
+      "candidate": "The Valley of the Kings was primarily used as a burial ground for pharaohs and other high-ranking officials during ancient Egyptian times.",
+      "landmark": "Valley of the Kings"
+    },
+    {
+      "id": 56,
+      "question": "What is Hoi An famous for?",
+      "reference": "lantern; tailor",
+      "candidate": "Hoi An is famous for its ancient town, UNESCO World Heritage Site registration, and rich cultural heritage.",
+      "landmark": "Hoi An Ancient Town"
+    },
+    {
+      "id": 57,
+      "question": "In which country is Tiwanaku?",
+      "reference": "Bolivia",
+      "candidate": "Tiwanaku is located in western Bolivia.",
+      "landmark": "Tiwanaku"
+    },
+    {
+      "id": 58,
+      "question": "What is the Golden Pavilion called in Japanese?",
+      "reference": "Kinkaku-ji",
+      "candidate": "The Golden Pavilion is called Kinkaku-ji in Japanese.",
+      "landmark": "Kyoto Temples"
+    },
+    {
+      "id": 59,
+      "question": "What is painted on the walls at Sigiriya?",
+      "reference": "frescoes; women; maidens",
+      "candidate": "On the walls of Sigiriya, frescoes depicting scenes from the lives of the Buddha, as well as depictions of celestial beings and mythical creatures, are painted.",
+      "landmark": "Sigiriya"
+    },
+    {
+      "id": 60,
+      "question": "Who built Machu Picchu?",
+      "reference": "Inca; Pachacuti",
+      "candidate": "According to the text, Machu Picchu was built by the Inca civilization.",
+      "landmark": "Machu Picchu"
+    },
+    {
+      "id": 61,
+      "question": "In which city is the Belvedere Palace?",
+      "reference": "Vienna",
+      "candidate": "The Belvedere Palace is located in Vienna, Austria.",
+      "landmark": "Belvedere Palace"
+    },
+    {
+      "id": 62,
+      "question": "In which country is Sigiriya?",
+      "reference": "Sri Lanka",
+      "candidate": "Sigiriya is located in Sri Lanka.",
+      "landmark": "Sigiriya"
+    },
+    {
+      "id": 63,
+      "question": "In which country is Borobudur?",
+      "reference": "Indonesia; Java",
+      "candidate": "Borobudur is located in Indonesia.",
+      "landmark": "Borobudur Temple Compounds"
+    },
+    {
+      "id": 64,
+      "question": "Who designed the dome of St. Peter's?",
+      "reference": "Michelangelo",
+      "candidate": "Michelangelo designed the dome of St. Peter's.",
+      "landmark": "St Peter's Basilica"
+    },
+    {
+      "id": 65,
+      "question": "Where is Sumela Monastery built?",
+      "reference": "cliff; rock",
+      "candidate": "Sumela Monastery is located on a cliff near Mount Ararat, Turkey.",
+      "landmark": "Sumela Monastery"
+    },
+    {
+      "id": 66,
+      "question": "Who lives in Buckingham Palace?",
+      "reference": "monarch; King; Queen; Royal",
+      "candidate": "Charles III and Queen Camilla live at Clarence House while restoration work continues, although they conduct official business at Buckingham Palace, the monarch's administrative headquarters, including audiences and receptions.",
+      "landmark": "Buckingham Palace"
+    },
+    {
+      "id": 67,
+      "question": "Who built Tikal?",
+      "reference": "Maya; Mayan",
+      "candidate": "The ancient Mayans built Tikal.",
+      "landmark": "Tikal National Park"
+    },
+    {
+      "id": 68,
+      "question": "Who destroyed Persepolis?",
+      "reference": "Alexander",
+      "candidate": "Alexander the Great and his forces destroyed Persepolis after taking it in 330 BC.",
+      "landmark": "Persepolis"
+    },
+    {
+      "id": 69,
+      "question": "How many villages make up Cinque Terre?",
+      "reference": "five; 5",
+      "candidate": "Cinque Terre consists of five villages: Monterosso al Mare, Vernazza, Corniglia, Manarola, and Riomaggiore.",
+      "landmark": "Cinque Terre"
+    },
+    {
+      "id": 70,
+      "question": "Which countries influenced Macau's architecture?",
+      "reference": "Portuguese; Chinese",
+      "candidate": "Macau's architecture was significantly influenced by Portuguese and Chinese architectural styles, reflecting its history as a colonial outpost under Portuguese rule for nearly four centuries before becoming part of China in 1999.",
+      "landmark": "Historic Centre of Macau"
+    },
+    {
+      "id": 71,
+      "question": "In which country is Great Zimbabwe?",
+      "reference": "Zimbabwe",
+      "candidate": "Great Zimbabwe is located in the south-eastern hills of the modern country of Zimbabwe, near Masvingo.",
+      "landmark": "Great Zimbabwe"
+    },
+    {
+      "id": 72,
+      "question": "What are the Rwenzori Mountains also called?",
+      "reference": "Mountains of the Moon",
+      "candidate": "The Rwenzori Mountains are also known as the Rwenzori Range or the Rwenzori Mountains Range.",
+      "landmark": "Rwenzori Mountains National Park"
+    },
+    {
+      "id": 73,
+      "question": "Who founded St. Petersburg?",
+      "reference": "Peter; Great",
+      "candidate": "Peter the Great founded St. Petersburg in 1703 as his new capital.",
+      "landmark": "St. Petersburg"
+    },
+    {
+      "id": 74,
+      "question": "Why is the Dead Sea called dead?",
+      "reference": "salt; salty",
+      "candidate": "Because its high salinity prevents macroscopic aquatic organisms from living in it.",
+      "landmark": "Dead Sea"
+    },
+    {
+      "id": 75,
+      "question": "In which country are the Simien Mountains?",
+      "reference": "Ethiopia",
+      "candidate": "The Simien Mountains are located in Ethiopia, a country in East Africa.",
+      "landmark": "Simien Mountains National Park"
+    },
+    {
+      "id": 76,
+      "question": "What birds are kept at the Tower of London?",
+      "reference": "ravens",
+      "candidate": "King John (1166\u20131216) first started keeping wild animals at the Tower. Records of 1210\u20131212 show payments to lion keepers. The Royal Menagerie is frequently referenced during the reign of Henry III. Holy Roman Emperor Frederick II presented Henry with three leopards, c.\u20091235, which were kept in the Tower.",
+      "landmark": "Tower of London"
+    },
+    {
+      "id": 77,
+      "question": "When was Machu Picchu built?",
+      "reference": "15th century; 1450",
+      "candidate": "According to modern radiocarbon dating, Machu Picchu was likely inhabited from approximately 1420 to 1530 AD.",
+      "landmark": "Machu Picchu"
+    },
+    {
+      "id": 78,
+      "question": "In which state is Bryce Canyon?",
+      "reference": "Utah",
+      "candidate": "Bryce Canyon is located in southwestern Utah.",
+      "landmark": "Bryce Canyon"
+    },
+    {
+      "id": 79,
+      "question": "What famous temple is in Angkor Thom?",
+      "reference": "Bayon",
+      "candidate": "The Bayon is the famous temple in Angkor Thom.",
+      "landmark": "Angkor Thom"
+    },
+    {
+      "id": 80,
+      "question": "In which country are the Dazu Rock Carvings?",
+      "reference": "China",
+      "candidate": "The Dazu Rock Carvings are located in Chongqing, China.",
+      "landmark": "Dazu Rock Carvings"
+    },
+    {
+      "id": 81,
+      "question": "What is Bruges sometimes called?",
+      "reference": "Venice of the North",
+      "candidate": "Bruges is sometimes called the Venice of the North due to its canal-based layout and waterways.",
+      "landmark": "Brugge"
+    },
+    {
+      "id": 82,
+      "question": "In which year was Thomas Becket killed?",
+      "reference": "1170",
+      "candidate": "Thomas Becket was killed in the year 1170.",
+      "landmark": "Canterbury Cathedral"
+    },
+    {
+      "id": 83,
+      "question": "What is special about Xi'an's walls?",
+      "reference": "ancient; Ming; preserved",
+      "candidate": "Xi'an's walls are among the oldest, largest, and best-preserved Chinese city walls. They were built under the rule of the Hongwu Emperor of the Ming dynasty to protect the city from the Northern Yuan and potential unrest.",
+      "landmark": "Fortifications of Xi'an"
+    },
+    {
+      "id": 84,
+      "question": "What famous painting is in the Louvre?",
+      "reference": "Mona Lisa",
+      "candidate": "The Mona Lisa is one of the most famous paintings in the Louvre.",
+      "landmark": "Louvre"
+    },
+    {
+      "id": 85,
+      "question": "What was the Eiffel Tower built for?",
+      "reference": "World's Fair; Exposition",
+      "candidate": "The Eiffel Tower was built for the 1889 World's Fair to celebrate the centennial of the French Revolution.",
+      "landmark": "Eiffel Tower"
+    },
+    {
+      "id": 86,
+      "question": "What are the rock formations in Cappadocia called?",
+      "reference": "fairy chimney; hoodoo",
+      "candidate": "Cappadocia contains several underground cities (see Kaymakl\u0131 Underground City), many of which were dug by Christians to provide protection during the Arab raids and periods of persecution.",
+      "landmark": "Cappadocia"
+    },
+    {
+      "id": 87,
+      "question": "In which country is Shwedagon Pagoda?",
+      "reference": "Myanmar; Burma",
+      "candidate": "Shwedagon Pagoda is located in Yangon, Myanmar.",
+      "landmark": "Shwedagon Pagoda"
+    },
+    {
+      "id": 88,
+      "question": "In which city is the Hofburg Palace?",
+      "reference": "Vienna",
+      "candidate": "The Hofburg Palace is located in Vienna, Austria.",
+      "landmark": "Hofburg Palace"
+    },
+    {
+      "id": 89,
+      "question": "What is Ait-Ben-Haddou made of?",
+      "reference": "mud; clay; earth",
+      "candidate": "Ait-Ben-Haddou is a fortified city in Morocco made primarily of adobe and stone, with some brickwork.",
+      "landmark": "Ksar of Ait-Ben-Haddou"
+    },
+    {
+      "id": 90,
+      "question": "What does Ha Long mean?",
+      "reference": "descending dragon; dragon",
+      "candidate": "The term \"H\u1ea1 Long\" means \"descending dragon.\"",
+      "landmark": "Ha Long Bay"
+    },
+    {
+      "id": 91,
+      "question": "What is the most famous castle in the Loire Valley?",
+      "reference": "Chambord; Chenonceau",
+      "candidate": "The Ch\u00e2teau de Versailles, located in the heart of the Loire Valley, is the most famous castle there.",
+      "landmark": "Loire Valley Castles"
+    },
+    {
+      "id": 92,
+      "question": "What famous glacier is in Los Glaciares?",
+      "reference": "Perito Moreno",
+      "candidate": "Perito Moreno Glacier is a famous glacier in Los Glaciares.",
+      "landmark": "Los Glaciares National Park"
+    },
+    {
+      "id": 93,
+      "question": "What is Lalibela famous for?",
+      "reference": "rock-hewn; churches; carved",
+      "candidate": "Lalibela is famous for its rock-hewn churches, which are UNESCO World Heritage Sites and date back to the 7th century.",
+      "landmark": "Lalibela"
+    },
+    {
+      "id": 94,
+      "question": "In which country is the Belize Barrier Reef?",
+      "reference": "Belize",
+      "candidate": "The Belize Barrier Reef is located in Belize.",
+      "landmark": "Belize Barrier Reef Reserve"
+    },
+    {
+      "id": 95,
+      "question": "What is the dome building also called?",
+      "reference": "Genbaku Dome; A-bomb",
+      "candidate": "The dome building is also known as St. Paul's Cathedral.",
+      "landmark": "Hiroshima Peace Memorial"
+    },
+    {
+      "id": 96,
+      "question": "What light show takes place at Victoria Harbour?",
+      "reference": "Symphony of Lights",
+      "candidate": "A Symphony of Lights.",
+      "landmark": "Hong Kong (Victoria) Harbour"
+    },
+    {
+      "id": 97,
+      "question": "In which country are the Rwenzori Mountains?",
+      "reference": "Uganda",
+      "candidate": "The Rwenzori Mountains are located in Uganda.",
+      "landmark": "Rwenzori Mountains National Park"
+    },
+    {
+      "id": 98,
+      "question": "In which country are the Galapagos Islands?",
+      "reference": "Ecuador",
+      "candidate": "The Galapagos Islands are located in Ecuador.",
+      "landmark": "Galapagos Islands"
+    },
+    {
+      "id": 99,
+      "question": "What is housed in the Tower of London?",
+      "reference": "Crown Jewels",
+      "candidate": "The Crown Jewels are housed in the Tower of London.",
+      "landmark": "Tower of London"
+    }
+  ],
+  "grades": [
+    {
+      "explanation": "The student answer correctly identifies Fernando de Noronha as part of Brazil, providing additional context about its location.",
+      "correct": true
+    },
+    {
+      "explanation": "The student answer correctly names Antoni Gaud\u00ed as the designer of the Sagrada Familia, including relevant details about his architectural style.",
+      "correct": true
+    },
+    {
+      "explanation": "The student answer accurately states that the Potala Palace served as the residence of the Dalai Lamas, which aligns with the ground truth.",
+      "correct": true
+    },
+    {
+      "explanation": "The student answer correctly identifies Bhutan as the country where Punakha Dzong is located.",
+      "correct": true
+    },
+    {
+      "explanation": "The student answer correctly states that Tikal is located in Guatemala.",
+      "correct": true
+    },
+    {
+      "explanation": "The student answer correctly identifies St. Mark's Square (Piazza San Marco) as the famous square in Venice.",
+      "correct": true
+    },
+    {
+      "explanation": "The student answer correctly states that Wolfgang Amadeus Mozart was born in Salzburg.",
+      "correct": true
+    },
+    {
+      "explanation": "The student answer correctly identifies Pharaoh Khufu as the builder of the Great Pyramid of Giza.",
+      "correct": true
+    },
+    {
+      "explanation": "The student answer correctly states that Phong Nha is located in Vietnam.",
+      "correct": true
+    },
+    {
+      "explanation": "The student answer incorrectly attributes the construction of the Hagia Sophia to Constantine the Great, while the ground truth states it was built by Justinian.",
+      "correct": false
+    },
+    {
+      "explanation": "The student correctly identifies that Ngorongoro Crater is located in Tanzania, providing additional context about its location in East Africa.",
+      "correct": true
+    },
+    {
+      "explanation": "The student accurately states that the Hollywood Sign is located in Los Angeles, California.",
+      "correct": true
+    },
+    {
+      "explanation": "While the student provides a detailed answer about Muhammad I Ibn al-Ahmar, the ground truth answer requires a broader identification of the builders, which includes the Nasrid, Moorish, and Muslim influences.",
+      "correct": false
+    },
+    {
+      "explanation": "The student describes the phenomenon during the equinox accurately, mentioning the light-and-shadow effect and the feathered serpent, which aligns with the ground truth answer.",
+      "correct": true
+    },
+    {
+      "explanation": "The student correctly identifies the Rosetta Stone as being in the British Museum.",
+      "correct": true
+    },
+    {
+      "explanation": "The student accurately states that Samarkand is located in southeastern Uzbekistan.",
+      "correct": true
+    },
+    {
+      "explanation": "The student describes Osorno Volcano as a conical stratovolcano, which aligns with the ground truth answer of it being cone-shaped and symmetrical.",
+      "correct": true
+    },
+    {
+      "explanation": "The student correctly identifies that the Temple of Heaven is located in Beijing, China.",
+      "correct": true
+    },
+    {
+      "explanation": "The student states there are approximately 7,000 statues, which is less than the ground truth answer of 8,000. The answer is incorrect as it does not match the expected number.",
+      "correct": false
+    },
+    {
+      "explanation": "The student correctly states that the Eiffel Tower was built from 1887 to 1889, which includes the correct year of completion, 1889.",
+      "correct": true
+    },
+    {
+      "explanation": "The student answer accurately describes the Mogao Caves as a significant repository of Buddhist art, which aligns with the ground truth answer.",
+      "correct": true
+    },
+    {
+      "explanation": "The student answer includes additional names (Joaquim Cardozo and Roberto Burle Marx) that are not part of the ground truth answer, which only mentions Niemeyer and Costa.",
+      "correct": false
+    },
+    {
+      "explanation": "The student answer incorrectly identifies the steps leading to a river as 'banks' instead of the correct term 'ghats' as stated in the ground truth answer.",
+      "correct": false
+    },
+    {
+      "explanation": "The student answer incorrectly identifies the Del Monte Golf Course as being on 17-Mile Drive, while the ground truth answer specifies Pebble Beach.",
+      "correct": false
+    },
+    {
+      "explanation": "The student answer correctly associates the Potala Palace with Buddhism, matching the ground truth answer.",
+      "correct": true
+    },
+    {
+      "explanation": "The student answer provides the correct establishment date of Yellowstone National Park, which is March 1, 1872, consistent with the ground truth answer.",
+      "correct": true
+    },
+    {
+      "explanation": "The student answer mentions 'Uros' but does not clearly state that the floating islands are made of reeds, which is part of the ground truth answer.",
+      "correct": false
+    },
+    {
+      "explanation": "The student answer correctly identifies that the Gardens of Suzhou are in China, matching the ground truth answer.",
+      "correct": true
+    },
+    {
+      "explanation": "The student answer accurately states that Old Quebec is located in Quebec, Canada, which aligns with the ground truth answer.",
+      "correct": true
+    },
+    {
+      "explanation": "The student answer correctly identifies Lalibela as being located in Ethiopia, consistent with the ground truth answer.",
+      "correct": true
+    },
+    {
+      "explanation": "The student answer correctly identifies the location of the Empire State Building as New York City, which is accurate.",
+      "correct": true
+    },
+    {
+      "explanation": "The student answer provides a comprehensive description of what Salvador is famous for, including its colonial history and Afro-Brazilian culture, which aligns with the ground truth.",
+      "correct": true
+    },
+    {
+      "explanation": "The student answer accurately describes Jiuzhaigou's fame for its waterfalls and colorful lakes, which matches the ground truth.",
+      "correct": true
+    },
+    {
+      "explanation": "The student answer correctly associates Luang Prabang with Buddhism, specifically mentioning Theravada Buddhism, which is relevant and accurate.",
+      "correct": true
+    },
+    {
+      "explanation": "The student answer correctly identifies Bruges as being in Belgium, which is accurate.",
+      "correct": true
+    },
+    {
+      "explanation": "The student answer correctly identifies Half Dome as a famous rock formation in Yosemite, which is accurate.",
+      "correct": true
+    },
+    {
+      "explanation": "While the student answer mentions the cultural significance of the deer at Nara, it does not include the key aspects of them being considered sacred and messengers of the gods, which are part of the ground truth.",
+      "correct": false
+    },
+    {
+      "explanation": "The student answer correctly states that the British Museum was founded in 1753, which matches the ground truth.",
+      "correct": true
+    },
+    {
+      "explanation": "The student answer accurately states that the Sydney Opera House was opened in 1973, providing additional context about the opening ceremony.",
+      "correct": true
+    },
+    {
+      "explanation": "The student answer correctly identifies Xunantunich as being in western Belize, which is accurate.",
+      "correct": true
+    },
+    {
+      "explanation": "The student correctly identified that the Shwedagon Pagoda is located in Yangon, Myanmar, which matches the ground truth answer.",
+      "correct": true
+    },
+    {
+      "explanation": "The student correctly stated that Himeji Castle is also known as the 'White Heron Castle,' which aligns with the ground truth answer.",
+      "correct": true
+    },
+    {
+      "explanation": "The student accurately stated that Sumela Monastery is located in Turkey, matching the ground truth answer.",
+      "correct": true
+    },
+    {
+      "explanation": "The student provided specific dates for the Rio Carnival, which is not required by the question. The ground truth answer only specifies the month of February and the timing relative to Lent.",
+      "correct": false
+    },
+    {
+      "explanation": "The student correctly identified the rock formations at Bryce Canyon as hoodoos, which matches the ground truth answer.",
+      "correct": true
+    },
+    {
+      "explanation": "The student accurately described the primary use of the Sistine Chapel for the papal conclave, which aligns with the ground truth answer.",
+      "correct": true
+    },
+    {
+      "explanation": "The student correctly identified Niccol\u00f2 de' Conti as the Italian merchant who visited Hampi in 1420, matching the ground truth answer.",
+      "correct": true
+    },
+    {
+      "explanation": "The student correctly stated that the Leshan Giant Buddha is 71 meters tall, which matches the ground truth answer.",
+      "correct": true
+    },
+    {
+      "explanation": "The student correctly identified that Salvador de Bahia is in Brazil, which matches the ground truth answer.",
+      "correct": true
+    },
+    {
+      "explanation": "The student correctly stated that Mount Rushmore is in South Dakota, which matches the ground truth answer.",
+      "correct": true
+    },
+    {
+      "explanation": "The student answer correctly identifies that Times Square is in New York City, which is synonymous with New York.",
+      "correct": true
+    },
+    {
+      "explanation": "The student answer accurately states that Copacabana Beach is located in Rio de Janeiro, Brazil, which aligns with the ground truth.",
+      "correct": true
+    },
+    {
+      "explanation": "The student answer correctly identifies that the Roman Empire built Volubilis, which is consistent with the ground truth answer.",
+      "correct": true
+    },
+    {
+      "explanation": "The student answer correctly names the Hall of Mirrors as the famous room in Versailles, providing additional context that does not detract from the correctness.",
+      "correct": true
+    },
+    {
+      "explanation": "The student answer correctly identifies Komodo Dragons as the famous animal that lives in Komodo, which matches the ground truth.",
+      "correct": true
+    },
+    {
+      "explanation": "The student answer accurately describes the Valley of the Kings as a burial ground for pharaohs, which aligns with the ground truth.",
+      "correct": true
+    },
+    {
+      "explanation": "The student answer does not mention the key terms 'lantern' or 'tailor' that are part of what Hoi An is famous for, making it incomplete.",
+      "correct": false
+    },
+    {
+      "explanation": "The student answer correctly states that Tiwanaku is located in western Bolivia, which is consistent with the ground truth.",
+      "correct": true
+    },
+    {
+      "explanation": "The student answer correctly identifies Kinkaku-ji as the Japanese name for the Golden Pavilion, matching the ground truth.",
+      "correct": true
+    },
+    {
+      "explanation": "The student answer does not mention the key terms 'frescoes', 'women', or 'maidens' that are part of what is painted on the walls at Sigiriya, making it incomplete.",
+      "correct": false
+    },
+    {
+      "explanation": "The student correctly identifies that Machu Picchu was built by the Inca civilization, which aligns with the ground truth answer.",
+      "correct": true
+    },
+    {
+      "explanation": "The student accurately states that the Belvedere Palace is located in Vienna, which matches the ground truth answer.",
+      "correct": true
+    },
+    {
+      "explanation": "The student correctly identifies that Sigiriya is located in Sri Lanka, consistent with the ground truth answer.",
+      "correct": true
+    },
+    {
+      "explanation": "The student correctly states that Borobudur is located in Indonesia, which aligns with the ground truth answer.",
+      "correct": true
+    },
+    {
+      "explanation": "The student accurately states that Michelangelo designed the dome of St. Peter's, matching the ground truth answer.",
+      "correct": true
+    },
+    {
+      "explanation": "The student answer correctly identifies that Sumela Monastery is located on a cliff, which aligns with the ground truth answer.",
+      "correct": true
+    },
+    {
+      "explanation": "The student answer provides specific names (Charles III and Queen Camilla) and details about their residence, but it does not directly answer who lives in Buckingham Palace, which is the monarch or royal family in general.",
+      "correct": false
+    },
+    {
+      "explanation": "The student answer correctly states that the ancient Mayans built Tikal, which matches the ground truth answer.",
+      "correct": true
+    },
+    {
+      "explanation": "The student answer accurately states that Alexander the Great and his forces destroyed Persepolis, which is consistent with the ground truth answer.",
+      "correct": true
+    },
+    {
+      "explanation": "The student answer correctly identifies that Cinque Terre consists of five villages, which matches the ground truth answer.",
+      "correct": true
+    },
+    {
+      "explanation": "The student answer correctly identifies the influences on Macau's architecture as Portuguese and Chinese, which aligns with the ground truth answer.",
+      "correct": true
+    },
+    {
+      "explanation": "The student answer accurately states that Great Zimbabwe is located in Zimbabwe, which matches the ground truth answer.",
+      "correct": true
+    },
+    {
+      "explanation": "The student answer does not provide the alternative name 'Mountains of the Moon' as required by the question, thus failing to match the ground truth answer.",
+      "correct": false
+    },
+    {
+      "explanation": "The student answer correctly identifies Peter the Great as the founder of St. Petersburg, which is consistent with the ground truth answer.",
+      "correct": true
+    },
+    {
+      "explanation": "The student answer explains that the high salinity of the Dead Sea prevents aquatic life, which is a correct interpretation of why it is called 'dead', aligning with the ground truth answer.",
+      "correct": true
+    },
+    {
+      "explanation": "The student answer correctly identifies Ethiopia as the location of the Simien Mountains and provides additional context.",
+      "correct": true
+    },
+    {
+      "explanation": "The student answer does not address the specific question about the birds kept at the Tower of London, instead providing historical context about animals kept there.",
+      "correct": false
+    },
+    {
+      "explanation": "The student answer provides a range of dates for habitation but does not specifically answer when Machu Picchu was built, which is the focus of the question.",
+      "correct": false
+    },
+    {
+      "explanation": "The student answer correctly states that Bryce Canyon is located in southwestern Utah.",
+      "correct": true
+    },
+    {
+      "explanation": "The student answer correctly identifies the Bayon as the famous temple in Angkor Thom.",
+      "correct": true
+    },
+    {
+      "explanation": "The student answer correctly identifies the location of the Dazu Rock Carvings as Chongqing, China, which is accurate.",
+      "correct": true
+    },
+    {
+      "explanation": "The student answer correctly states that Bruges is sometimes called the Venice of the North, providing a valid reason related to its canal-based layout.",
+      "correct": true
+    },
+    {
+      "explanation": "The student answer correctly states that Thomas Becket was killed in the year 1170, matching the ground truth.",
+      "correct": true
+    },
+    {
+      "explanation": "The student answer accurately describes Xi'an's walls as ancient, preserved, and built during the Ming dynasty, aligning with the ground truth.",
+      "correct": true
+    },
+    {
+      "explanation": "The student answer correctly identifies the Mona Lisa as one of the most famous paintings in the Louvre, which is accurate.",
+      "correct": true
+    },
+    {
+      "explanation": "The student answer correctly identifies that the Eiffel Tower was built for the 1889 World's Fair, which aligns with the ground truth answer.",
+      "correct": true
+    },
+    {
+      "explanation": "The student answer does not address the rock formations in Cappadocia, instead discussing underground cities. The correct terms 'fairy chimney' and 'hoodoo' are not mentioned.",
+      "correct": false
+    },
+    {
+      "explanation": "The student answer correctly states that Shwedagon Pagoda is located in Yangon, Myanmar, which matches the ground truth.",
+      "correct": true
+    },
+    {
+      "explanation": "The student answer correctly identifies that the Hofburg Palace is located in Vienna, Austria, which is consistent with the ground truth.",
+      "correct": true
+    },
+    {
+      "explanation": "The student answer mentions adobe and stone, which are not part of the ground truth terms 'mud', 'clay', or 'earth'. The answer does not fully align with the expected response.",
+      "correct": false
+    },
+    {
+      "explanation": "The student answer correctly states that 'H\u1ea1 Long' means 'descending dragon,' which matches the ground truth answer.",
+      "correct": true
+    },
+    {
+      "explanation": "The student answer incorrectly identifies the Ch\u00e2teau de Versailles as the most famous castle in the Loire Valley, while the ground truth answer includes Chambord and Chenonceau.",
+      "correct": false
+    },
+    {
+      "explanation": "The student answer correctly identifies Perito Moreno Glacier as a famous glacier in Los Glaciares, matching the ground truth.",
+      "correct": true
+    },
+    {
+      "explanation": "The student answer accurately describes Lalibela as famous for its rock-hewn churches, which aligns with the ground truth.",
+      "correct": true
+    },
+    {
+      "explanation": "The student answer correctly states that the Belize Barrier Reef is located in Belize, matching the ground truth.",
+      "correct": true
+    },
+    {
+      "explanation": "The student answer incorrectly identifies the dome building as St. Paul's Cathedral, while the ground truth refers to the Genbaku Dome or A-bomb.",
+      "correct": false
+    },
+    {
+      "explanation": "The student answer correctly identifies the light show at Victoria Harbour as 'A Symphony of Lights,' which is consistent with the ground truth.",
+      "correct": true
+    },
+    {
+      "explanation": "The student answer correctly states that the Rwenzori Mountains are located in Uganda, matching the ground truth.",
+      "correct": true
+    },
+    {
+      "explanation": "The student answer accurately states that the Galapagos Islands are located in Ecuador, which aligns with the ground truth.",
+      "correct": true
+    },
+    {
+      "explanation": "The student answer correctly states that the Crown Jewels are housed in the Tower of London, matching the ground truth.",
+      "correct": true
+    }
+  ],
+  "grader_model": "gpt-4o-mini"
+}

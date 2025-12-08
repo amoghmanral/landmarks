@@ -1,0 +1,475 @@
+{
+  "failed": [
+    {
+      "name": "Bungle Bungle Range",
+      "country": "Australia",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Great Ocean Road",
+      "country": "Australia",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Indian Pacific Railroad",
+      "country": "Australia",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Kings Canyon",
+      "country": "Australia",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Sydney Harbour",
+      "country": "Australia",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Olgas / Kata Tjuta",
+      "country": "Australia",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Red crabs migration",
+      "country": "Australia",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Norfolk Island",
+      "country": "Australia",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Palace and Gardens of Sch\u00f6nbrunn",
+      "country": "Austria",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Historic Centre of the City of Salzburg",
+      "country": "Austria",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Lunenburg",
+      "country": "Canada",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Canadian Rocky Mountain Parks",
+      "country": "Canada",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Baffin Island",
+      "country": "Canada",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Bay of Fundy",
+      "country": "Canada",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Cabot Trail",
+      "country": "Canada",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Louisbourg Fortress",
+      "country": "Canada",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Perce Rock",
+      "country": "Canada",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Niagara Falls",
+      "country": "Canada,United States of America",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Stingray City",
+      "country": "Cayman Islands",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Easter Island",
+      "country": "Chile",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Torres del Paine National Park",
+      "country": "Chile",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Osorno Volcano",
+      "country": "Chile",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Portillo",
+      "country": "Chile",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Great Wall of China",
+      "country": "China",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Mausoleum of the First Qin Emperor & Terra Cotta Warriors",
+      "country": "China",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Potala Palace, Lhasa",
+      "country": "China",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Old Town of Lijiang",
+      "country": "China",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Hong Kong (Victoria) Harbour",
+      "country": "China",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Hong Kong City",
+      "country": "China",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Yangtze River Cruise",
+      "country": "China",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Jokhang Tample",
+      "country": "China",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Mount Huangshan",
+      "country": "China",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Jiuzhaigou Valley",
+      "country": "China",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Huanglong Valley",
+      "country": "China",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Wulingyuan",
+      "country": "China",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Chengde Mountain Resort",
+      "country": "China",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Wudang Ancient Complex",
+      "country": "China",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Ancient City of Pingyao",
+      "country": "China",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Longmen Grottoes",
+      "country": "China",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Yungang Grottoes",
+      "country": "China",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "South China Karst (Stone Forest)",
+      "country": "China",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Three Pagodas of Chongsheng Temple (Dali)",
+      "country": "China",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Lourdes",
+      "country": "France",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Bora Bora",
+      "country": "French Polynesia",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Moorea",
+      "country": "French Polynesia",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Fatu Hiva",
+      "country": "French Polynesia",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Upper Svaneti",
+      "country": "Georgia",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Gelati Monastery",
+      "country": "Georgia",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Neuschwanstein Castle",
+      "country": "Germany",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Cologne Cathedral",
+      "country": "Germany",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Upper Middle Rhine Valley",
+      "country": "Germany",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Kunstareal",
+      "country": "Germany",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Sikkim",
+      "country": "India",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Venkateswara Temple, Tirumala",
+      "country": "India",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Hill Forts of Rajasthan",
+      "country": "India",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Mahabalipuram",
+      "country": "India",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Borobudur",
+      "country": "Indonesia",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Bali",
+      "country": "Indonesia",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Prambanan Temple",
+      "country": "Indonesia",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Komodo National Park",
+      "country": "Indonesia",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Raja Ampat Islands",
+      "country": "Indonesia",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Krakatau Island",
+      "country": "Indonesia",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Lombok",
+      "country": "Indonesia",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Manado Marine Park, Sulawesi",
+      "country": "Indonesia",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Samosir Island",
+      "country": "Indonesia",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Taman Mini Indonesia Indah",
+      "country": "Indonesia",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Tanah Lot Temple",
+      "country": "Indonesia",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Pura Ulun Danu Bratan",
+      "country": "Indonesia",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Uluwatu Temple",
+      "country": "Indonesia",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Toraja villages",
+      "country": "Indonesia",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Jameh Mosque and Square of Isfahan",
+      "country": "Iran",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Persepolis",
+      "country": "Iran",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Alberobello's Trulli",
+      "country": "Italy",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Herculaneum",
+      "country": "Italy",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Valle dei Templi",
+      "country": "Italy",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Paestum",
+      "country": "Italy",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Assisi",
+      "country": "Italy",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Villa d'Este",
+      "country": "Italy",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Ancient Syracuse",
+      "country": "Italy",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Mount Etna",
+      "country": "Italy",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Gallery of the Academy of Florence",
+      "country": "Italy",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Luxembourg  Old Town",
+      "country": "Luxembourg",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Puerto Princesa Undeground River",
+      "country": "Philippines",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Apamea",
+      "country": "Syrian Arab Republic",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Norias of Hama",
+      "country": "Syrian Arab Republic",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Ma'loula",
+      "country": "Syrian Arab Republic",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Qanawat Roman Ruins",
+      "country": "Syrian Arab Republic",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Serengeti National Park",
+      "country": "Tanzania",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Ngorongoro Conservation Area",
+      "country": "Tanzania",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Stone Town",
+      "country": "Tanzania",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Kilimanjaro National Park",
+      "country": "Tanzania",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Selous Game Reserve",
+      "country": "Tanzania",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Arusha National Park",
+      "country": "Tanzania",
+      "reason": "invalid or missing data"
+    },
+    {
+      "name": "Canaima National Park (Gran Sabana)",
+      "country": "Venezuela",
+      "reason": "invalid or missing data"
+    }
+  ],
+  "count": 94
+}
