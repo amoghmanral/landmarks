@@ -217,12 +217,12 @@ def load_rag_data():
         chunks = json.load(f)
     chunk_embeddings = torch.from_numpy(np.load(rag_dir / "chunk_embeddings.npy"))
     
-    embedding_tokenizer = AutoTokenizer.from_pretrained("sentence-transformers/all-MiniLM-L6-v2")
-    embedding_model = AutoModel.from_pretrained("sentence-transformers/all-MiniLM-L6-v2").to(DEVICE).eval()
+    embedding_tokenizer = AutoTokenizer.from_pretrained("BAAI/bge-base-en-v1.5")
+    embedding_model = AutoModel.from_pretrained("BAAI/bge-base-en-v1.5").to(DEVICE).eval()
     
-    gen_tokenizer = AutoTokenizer.from_pretrained("Qwen/Qwen2.5-3B-Instruct")
+    gen_tokenizer = AutoTokenizer.from_pretrained("Qwen/Qwen2.5-1.5B-Instruct")
     gen_model = AutoModelForCausalLM.from_pretrained(
-        "Qwen/Qwen2.5-3B-Instruct",
+        "Qwen/Qwen2.5-1.5B-Instruct",
         torch_dtype=torch.float16,
         device_map=DEVICE
     )
@@ -261,7 +261,7 @@ def generate_answer(question, landmark_name, top_k=3):
     context = "\n\n".join(c['text'] for c, _ in results)
     
     messages = [
-        {"role": "system", "content": "Answer in 1-2 sentences using only the provided context."},
+        {"role": "system", "content": "Answer in 1-2 sentences using ONLY facts from the provided context."},
         {"role": "user", "content": f"Context: {context}\n\nQuestion: {question}"}
     ]
     
