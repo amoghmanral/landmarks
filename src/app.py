@@ -211,10 +211,11 @@ def load_wiki_context():
 
 def load_rag_data():
     global chunks, chunk_embeddings, embedding_model, embedding_tokenizer, gen_model, gen_tokenizer
-    
-    with open("../rag/landmark_chunks.json") as f:
+
+    rag_dir = Path(__file__).parent / "rag"
+    with open(rag_dir / "landmark_chunks.json") as f:
         chunks = json.load(f)
-    chunk_embeddings = torch.from_numpy(np.load("../rag/chunk_embeddings.npy"))
+    chunk_embeddings = torch.from_numpy(np.load(rag_dir / "chunk_embeddings.npy"))
     
     embedding_tokenizer = AutoTokenizer.from_pretrained("sentence-transformers/all-MiniLM-L6-v2")
     embedding_model = AutoModel.from_pretrained("sentence-transformers/all-MiniLM-L6-v2").to(DEVICE).eval()
@@ -278,6 +279,7 @@ async def lifespan(app: FastAPI):
     load_models()
     load_or_compute_embeddings()
     load_wiki_context()
+    load_rag_data()
     yield
 
 
