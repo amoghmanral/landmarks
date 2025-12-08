@@ -65,9 +65,19 @@ The application will automatically:
 
 ### Contrastively Fine-Tuned CLIP Performance
 
+**Task:** Given a text description, retrieve the correct landmark from a pool of 938 landmarks.
 
-### Qualitative Results
+**Approach:** LoRA fine-tuning on CLIP attention layers with contrastive loss.
 
+| Metric | Base CLIP | LoRA Fine-tuned | Improvement |
+|--------|-----------|-----------------|-------------|
+| Top-1  | 29.9%     | 32.0%           | +2.1%       |
+| Top-5  | 53.3%     | 57.2%           | +3.9%       |
+| Top-10 | 65.2%     | 67.9%           | +2.7%       |
+
+*Top-K accuracy: correct landmark appears in the top K results ranked by similarity*
+
+### RAG
 
 
 ## Individual Contributions
