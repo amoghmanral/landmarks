@@ -101,7 +101,7 @@ def scan_image_folders():
     image_landmarks = []
     landmark_to_images = {}
 
-    image_dir = DATA_DIR / "landmark_images"
+    image_dir = DATA_DIR / "images" / "landmark_images"
     for folder in sorted(image_dir.iterdir()):
         if not folder.is_dir():
             continue
@@ -202,7 +202,7 @@ def load_or_compute_embeddings():
 def load_wiki_context():
     """Load Wikipedia context for landmarks."""
     global wiki_context
-    wiki_path = DATA_DIR / "wikipedia_context" / "wiki-context.csv"
+    wiki_path = DATA_DIR / "rag" / "wiki-context.csv"
     if wiki_path.exists():
         df = pd.read_csv(wiki_path)
         wiki_context = dict(zip(df["landmark_name"], df["page_content"]))

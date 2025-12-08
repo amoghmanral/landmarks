@@ -1,6 +1,5 @@
-# Data
-data/landmark_images/
-data/wikipedia_context/
+# Large image dataset
+data/images/landmark_images
 
 # Cache
 cache/
