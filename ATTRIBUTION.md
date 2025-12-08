@@ -8,6 +8,19 @@
 - AI-assisted, particularly `download_images_for_landmark` function
 - DuckDuckGo Images scraping syntax and stock image filtering logic generated with AI
 
+**`data/clip/fetch_descriptions.py`** - Description generation script
+- Assisted in prompt engineering
+- Code for pairing images to descriptions
+
+**`data/clip/split.py`** - Train/Val/Test splitting script
+- Code for generating file path to image in the landmark's folder
+
+**`data/rag/fetch_wiki_url.py`** - Fetching Wikipedia url script
+- API call syntax
+
+**`data/rag/fetch_content.py`** - Fetching Wikipedia content script
+- API call syntax
+
 ### Training Notebooks (`notebooks/`)
 
 **`notebooks/clip_classifier.ipynb`** - Classifier training notebook
@@ -23,6 +36,10 @@
 - Evaluation function (`evaluate_lora`) and final base vs LoRA comparison AI-generated
 - DataLoader with custom `collate_fn` AI-assisted
 
+**`notebooks/rag.ipynb`** - RAG + transformer notebook
+- chunking text AI-generated
+- evaluation AI-assisted
+
 ### Web Application (`src/`)
 
 **`src/index.html`** - Frontend interface
@@ -37,7 +54,7 @@
 
 **Libraries:** Transformers, PEFT, sentence-transformers
 
-**Pre-trained Models:** CLIP ViT-B/32 (OpenAI), Qwen2.5-3B-Instruct, all-MiniLM-L6-v2 (sentence-transformers)
+**Pre-trained Models:** CLIP ViT-B/32 (OpenAI), Qwen2.5-1.5B-Instruct, bge-base-en-v1.5 (BAAI)
 
 ## Datasets
 
