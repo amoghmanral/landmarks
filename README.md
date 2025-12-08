@@ -77,8 +77,16 @@ The application will automatically:
 
 *Top-K accuracy: correct landmark appears in the top K results ranked by similarity*
 
-### RAG
+### RAG-based Transformer
 
+**Task:** Given a landmark and query, provide users with a relevant, factually correct answer.
+
+**Approach:** Retrieve the most relevant Wikipedia chunks as context and generate answer using BAAI/bge-base-en-v1.5 transformer. These answers are then graded by OpenAI on a set of objective keywords that should appear in the answer.
+
+| Model | Test Accuracy |
+|-------|---------------|
+| Baseline (no context) | 74.0% |
+| **With RAG context** | **81.0%** |
 
 ## Individual Contributions
 
