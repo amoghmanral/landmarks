@@ -1,9 +1,6 @@
 # Large image dataset
 data/images/landmark_images
 
-# Cache
-cache/
-
 # Python
 __pycache__/
 *.pyc
