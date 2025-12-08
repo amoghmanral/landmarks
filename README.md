@@ -4,14 +4,16 @@ A comprehensive landmark recognition and exploration platform that allows users 
 
 ## What it Does
 
-Landmark Explorer is an intelligent landmark recognition and information retrieval system built on 938 of the world's most popular landmarks. For users who want to discover new landmarks or have heard about some destination but can't exactly recall what it is, we allow putting in custom text descriptions and our contrasively fine-tuned CLIP will find the top 5 landmarks matching the query. Users can then explore these landmarks through a gallery of images as well as a Q&A interface that gets responses from our RAG-based transformer with Wikepedia-informed context. Users can also upload images to get instant landmark identification with confidence scores. Landmark Explorer is a multi-modal system that will enhance users' understanding of the world's most iconic places in a fun, seamless way.
+Landmark Explorer is an intelligent landmark recognition and information retrieval system built on 938 of the world's most popular landmarks. For users who want to discover new landmarks or have heard about some destination but can't exactly recall what it is, we allow putting in custom text descriptions and our contrastively fine-tuned CLIP will find the top 5 landmarks matching the query. Users can then explore these landmarks through a gallery of images as well as a Q&A interface that gets responses from our RAG-based transformer with Wikipedia-informed context. Users can also upload images to get instant landmark identification with confidence scores. Landmark Explorer is a multi-modal system that will enhance users' understanding of the world's most iconic places in a fun, seamless way.
 
 ## Quick Start
 
 ### Prerequisites
 
+- Python 3.10+
+- ~8GB RAM (for transformer model)
 
-#### Setup
+### Setup
 
 ```bash
 git clone https://github.com/amoghmanral/landmarks.git
@@ -21,11 +23,12 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-You'll also need (get from Amogh):
-- `data/landmark_images/` - the landmark images dataset
-- `data/wikipedia_context/wiki-context.csv` - Wikipedia content for RAG
+Then get the landmark images zip from (insert box link here later), unzip and place contents into:
+```
+data/images/landmark_images/
+```
 
-## Run
+### Run
 
 ```bash
 python src/app.py
@@ -35,11 +38,10 @@ Navigate to http://localhost:8000
 
 The application will automatically:
 - Load the CLIP + LoRA model and classifier
-- Compute or load cached image embeddings
+- Load cached image embeddings (included in repo)
 - Load Wikipedia context and RAG data
+- Download the Qwen transformer model (~3GB, first run only)
 - Start the FastAPI server with the web interface
-
-**Note:** On first run, image embeddings will be computed and cached for faster subsequent startups.
 
 ## Video Links
 
@@ -50,8 +52,18 @@ The application will automatically:
 
 ### Classification Performance
 
+**Task:** Given an image, classify it as one of 938 landmark classes.
 
-### Contrasively Fine-Tuned CLIP Performance
+**Approach:** MLP classifier head trained on frozen CLIP ViT-B/32 embeddings with data augmentation.
+
+| Model | Test Accuracy |
+|-------|---------------|
+| Zero-shot CLIP | 64.69% |
+| **Our Classifier** | **82.69%** |
+
+*+18% improvement over zero-shot baseline*
+
+### Contrastively Fine-Tuned CLIP Performance
 
 
 ### Qualitative Results
@@ -61,4 +73,4 @@ The application will automatically:
 ## Individual Contributions
 
 - **Aarsh Roongta:**
-- **Amogh Manral:**
+- **Amogh Manral:** Image dataset collection and curation, CLIP classifier training, contrastive CLIP fine-tuning (LoRA), web application frontend and backend
