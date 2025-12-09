@@ -29,7 +29,7 @@
 
 The landmark images are not included in the repository due to size. To set up the data:
 
-1. Download the landmark images zip from the provided Box link (see submission)
+1. Download the landmark images zip from the provided Box link: https://duke.box.com/s/w72a997xljs1haztpb3c9fzjr523fmb7
 2. Unzip the file
 3. Place the contents into:
    ```
