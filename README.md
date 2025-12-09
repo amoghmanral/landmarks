@@ -91,4 +91,4 @@ The application will automatically:
 ## Individual Contributions
 
 - **Aarsh Roongta:** Wikipedia descriptions collection, combining images + descriptions into one dataset with train/val/test split, Wikipedia pages and content collection for RAG, chunking + embeddings for retrieval, output generation using transformer
-- **Amogh Manral:** Image dataset collection and curation, CLIP classifier training, contrastive CLIP fine-tuning (LoRA), web application frontend and backend
+- **Amogh Manral:** Image dataset collection and curation (938 landmarks, 40 images each), MLP classifier training on frozen CLIP embeddings with data augmentation, contrastive fine-tuning of CLIP using LoRA on attention layers, app frontend and backend setup
