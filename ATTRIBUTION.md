@@ -5,48 +5,56 @@
 ### Data Collection (`data/`)
 
 **`data/images/image_scraper.py`** - Image scraping script
+
 - DuckDuckGo Images scraping syntax and stock image filtering logic generated with AI
 
 **`data/clip/fetch_descriptions.py`** - Description generation script
+
 - Assisted in prompt engineering
 - Code for pairing images to descriptions
 
 **`data/clip/split.py`** - Train/Val/Test splitting script
+
 - Code for generating file path to image in the landmark's folder
 
 **`data/rag/fetch_wiki_url.py`** - Fetching Wikipedia url script
+
 - API call syntax
 
 **`data/rag/fetch_content.py`** - Fetching Wikipedia content script
+
 - API call syntax
 
 ### Training Notebooks (`notebooks/`)
 
 **`notebooks/clip_classifier.ipynb`** - Classifier training notebook
+
 - Data augmentation pipeline (`train_augment` transforms composition) AI-assisted
 - Training loop boilerplate functions AI-assisted
 - Plotting code and results formatting AI-assisted
 
-
 **`notebooks/clip_lora.ipynb`** - LoRA fine-tuning notebook
+
 - LoRA configuration and setup (`LoraConfig`, `get_peft_model`, attention layer targeting) AI-generated
 - Contrastive loss function (`contrastive_loss`) AI-assisted
 - Training loop (`train_epoch_lora`) AI-assisted
 - DataLoader with custom `collate_fn` AI-assisted
 
-**`notebooks/rag_transformer.ipynb`** - RAG + transformer notebook
+**`notebooks/rag.ipynb`** - RAG + transformer notebook
+
 - chunking text AI-generated
 - test question generation + grading + evaluation code AI-assisted
 
 ### Web Application (`src/`)
 
 **`src/index.html`** - Frontend interface
+
 - Almost entirely AI-generated through iterative prompting
 
 **`src/app.py`** - FastAPI backend
+
 - Largely AI-generated, adapted from patterns in training notebooks
 - Model loading, API endpoints, and caching logic AI-assisted
-
 
 ## External Resources
 
