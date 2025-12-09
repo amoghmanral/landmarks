@@ -25,15 +25,6 @@ data/images/landmark_images/
 python src/app.py
 ```
 
-Navigate to http://localhost:8000
-
-The application will automatically:
-- Load the CLIP + LoRA model and classifier
-- Load cached image embeddings (included in repo)
-- Load Wikipedia context and RAG data
-- Download the Qwen transformer model (~3GB, first run only)
-- Start the FastAPI server with the web interface
-
 ## Video Links
 
 - **Demo Video:** [[Link to demo video](https://youtu.be/n7J3Orb0Avo)]
