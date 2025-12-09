@@ -32,7 +32,6 @@
 - LoRA configuration and setup (`LoraConfig`, `get_peft_model`, attention layer targeting) AI-generated
 - Contrastive loss function (`contrastive_loss`) AI-assisted
 - Training loop (`train_epoch_lora`) AI-assisted
-- Evaluation function (`evaluate_lora`) and final base vs LoRA comparison AI-generated
 - DataLoader with custom `collate_fn` AI-assisted
 
 **`notebooks/rag_transformer.ipynb`** - RAG + transformer notebook
