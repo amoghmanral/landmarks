@@ -5,7 +5,6 @@
 ### Data Collection (`data/`)
 
 **`data/images/image_scraper.py`** - Image scraping script
-- AI-assisted, particularly `download_images_for_landmark` function
 - DuckDuckGo Images scraping syntax and stock image filtering logic generated with AI
 
 **`data/clip/fetch_descriptions.py`** - Description generation script
