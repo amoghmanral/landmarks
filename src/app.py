@@ -306,13 +306,19 @@ async def search_landmarks(req: SearchRequest):
 
     similarities = (text_embed.cpu() @ image_embeds.T).squeeze()
 
-    # Aggregate by landmark (max score)
-    landmark_scores = {}
+    # Aggregate by landmark (top-k mean score)
+    landmark_all_scores = {}
     for idx, score in enumerate(similarities):
         landmark = image_landmarks[idx]
-        score_val = score.item()
-        if landmark not in landmark_scores or score_val > landmark_scores[landmark]:
-            landmark_scores[landmark] = score_val
+        if landmark not in landmark_all_scores:
+            landmark_all_scores[landmark] = []
+        landmark_all_scores[landmark].append(score.item())
+
+    # Average top 30 scores per landmark
+    landmark_scores = {}
+    for landmark, scores in landmark_all_scores.items():
+        top_scores = sorted(scores, reverse=True)[:30]
+        landmark_scores[landmark] = sum(top_scores) / len(top_scores)
 
     top = sorted(landmark_scores.items(), key=lambda x: x[1], reverse=True)[:req.top_k]
     return {"results": [{"landmark": name, "score": round(score, 4)} for name, score in top]}
