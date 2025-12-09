@@ -35,9 +35,9 @@
 - Evaluation function (`evaluate_lora`) and final base vs LoRA comparison AI-generated
 - DataLoader with custom `collate_fn` AI-assisted
 
-**`notebooks/rag.ipynb`** - RAG + transformer notebook
+**`notebooks/rag_transformer.ipynb`** - RAG + transformer notebook
 - chunking text AI-generated
-- evaluation AI-assisted
+- test question generation + grading + evaluation code AI-assisted
 
 ### Web Application (`src/`)
 
