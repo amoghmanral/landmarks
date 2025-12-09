@@ -203,8 +203,8 @@ def main():
         return pd.DataFrame(rows)
     
     pair(train_df, "train").to_csv("/final_data/train.csv", index=False)
-    pair(val_df, "validation").to_csv("/final_data/train.csv", index=False)
-    pair(test_df, "test").to_csv("/final_data/train.csv", index=False)
+    pair(val_df, "validation").to_csv("/final_data/val.csv", index=False)
+    pair(test_df, "test").to_csv("/final_data/test.csv", index=False)
     
 
 if __name__ == "__main__":
