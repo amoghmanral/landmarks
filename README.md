@@ -8,22 +8,13 @@ Landmark Explorer is an intelligent landmark recognition and information retriev
 
 ## Quick Start
 
-### Prerequisites
-
-- Python 3.10+
-- ~8GB RAM (for transformer model)
-
-### Setup
-
 ```bash
 git clone https://github.com/amoghmanral/landmarks.git
 cd landmarks
-python -m venv .venv
-source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Then get the landmark images zip from (insert box link here later), unzip and place contents into:
+Then get the landmark images zip from ([this Box link](https://duke.box.com/s/w72a997xljs1haztpb3c9fzjr523fmb7)), unzip and place contents into:
 ```
 data/images/landmark_images/
 ```
