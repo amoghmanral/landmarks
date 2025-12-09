@@ -90,5 +90,5 @@ The application will automatically:
 
 ## Individual Contributions
 
-- **Aarsh Roongta:**
+- **Aarsh Roongta:** Wikipedia descriptions collection, combining images + descriptions into one dataset with train/val/test split, Wikipedia pages and content collection for RAG, chunking + embeddings for retrieval, output generation using transformer
 - **Amogh Manral:** Image dataset collection and curation, CLIP classifier training, contrastive CLIP fine-tuning (LoRA), web application frontend and backend
