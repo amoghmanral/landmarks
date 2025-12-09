@@ -28,7 +28,7 @@ python src/app.py
 ## Video Links
 
 - **Demo Video:** [[Link to demo video](https://youtu.be/n7J3Orb0Avo)]
-- **Technical Walkthrough:** [Link to technical walkthrough video]
+- **Technical Walkthrough:** [[Link to technical walkthrough video](https://youtu.be/uo4qSVsYI0A)]
 
 ## Evaluation
 
