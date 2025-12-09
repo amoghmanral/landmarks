@@ -71,9 +71,9 @@ The application will automatically:
 
 | Metric | Base CLIP | LoRA Fine-tuned | Improvement |
 |--------|-----------|-----------------|-------------|
-| Top-1  | 29.9%     | 32.0%           | +2.1%       |
-| Top-5  | 53.3%     | 57.2%           | +3.9%       |
-| Top-10 | 65.2%     | 67.9%           | +2.7%       |
+| Top-1  | 30.8%     | 33.2%           | +2.4%       |
+| Top-5  | 57.0%     | 61.2%           | +4.2%       |
+| Top-10 | 69.0%     | 70.6%           | +1.6%       |
 
 *Top-K accuracy: correct landmark appears in the top K results ranked by similarity*
 
