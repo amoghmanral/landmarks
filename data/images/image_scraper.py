@@ -113,7 +113,7 @@ def download_images_for_landmark(idx, name, country, target_count):
 
 # Main
 print("Loading landmarks...")
-with open('wonders_clean.csv', 'r') as f:
+with open('../clip/landmark_list.csv', 'r') as f:
     reader = csv.DictReader(f)
     landmarks = list(reader)
 
