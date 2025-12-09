@@ -8,9 +8,9 @@ Landmark Explorer is an intelligent landmark recognition and information retriev
 
 ## Quick Start
 
+After cloning the repo,
+
 ```bash
-git clone https://github.com/amoghmanral/landmarks.git
-cd landmarks
 pip install -r requirements.txt
 ```
 
@@ -24,6 +24,8 @@ data/images/landmark_images/
 ```bash
 python src/app.py
 ```
+
+More detailed instructions can be found in `SETUP.md` if needed.
 
 ## Video Links
 
